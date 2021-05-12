@@ -10,22 +10,23 @@
     CONTENT="Biblioteca acessibilidade conhecimento literatura audiovisual audiossonoriza&ccedil;&atilde;o compartilhamento exibi&ccedil;&atilde;o educa&ccedil;&atilde;otodo o globo internet acess&iacute;vel leitura web">
   <META charset="utf-8" />
   <TITLE>ACESSIBILIDADEMUNDIAL16MB | Levando A Acessibilidade At&eacute; Voc&ecirc;.</TITLE>
-  <script src="js/widgets.js" id="twitter-wjs"></script>
-  <script gapi_processed="true" src="js/platform.js" async="" type="text/javascript"></script>
-  <script type="text/javascript" src="js/copyNote.js"></script>
-  <LINK HREF="css/index.css" REL="stylesheet" TYPE="text/css">
+  <LINK HREF="./assets/styles/index.css" REL="stylesheet" TYPE="text/css" />
 </HEAD>
 
 <BODY>
-  <DIV ID="linguagem" ALIGN="left" CONTENTEDITABLE="false" NOWRAP>
+  <div ID="linguagem" ALIGN="left" CONTENTEDITABLE="false" NOWRAP>
     <div id="google_translate_element"></div>
     <script type="text/javascript">
       function googleTranslateElementInit() {
-        new google.translate.TranslateElement({ pageLanguage: 'pt', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false }, 'google_translate_element');
+        new google.translate.TranslateElement({
+          pageLanguage: 'pt',
+          layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+          autoDisplay: false
+        }, 'google_translate_element');
       }
     </script>
-    <script type="text/javascript"
-      src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
   </DIV>
   <DIV CLASS="descricao-layout" ALIGN="center">
     <SECTION TITLE="Topo">
@@ -115,26 +116,68 @@
                 var dName = now.getDay() + 1;
                 var dayNr = now.getDate();
                 var yearNr = now.getYear();
-                if (dName == 1) { Day = "Domingo"; }
-                if (dName == 2) { Day = "Segunda-feira"; }
-                if (dName == 3) { Day = "Ter&#231;a-feira"; }
-                if (dName == 4) { Day = "Quarta-feira"; }
-                if (dName == 5) { Day = "Quinta-feira"; }
-                if (dName == 6) { Day = "Sexta-feira"; }
-                if (dName == 7) { Day = "S&aacute;bado"; }
-                if (mName == 1) { Month = "de Janeiro"; }
-                if (mName == 2) { Month = "de Fevereiro"; }
-                if (mName == 3) { Month = "de Mar&ccedil;o"; }
-                if (mName == 4) { Month = "de Abril"; }
-                if (mName == 5) { Month = "de Maio"; }
-                if (mName == 6) { Month = "de Junho"; }
-                if (mName == 7) { Month = "de Julho"; }
-                if (mName == 8) { Month = "de Agosto"; }
-                if (mName == 9) { Month = "de Setembro"; }
-                if (mName == 10) { Month = "de Outubro"; }
-                if (mName == 11) { Month = "de Novembro"; }
-                if (mName == 12) { Month = "de Dezembro"; }
-                if (yearNr < 2000) { Year = 1900 + yearNr; } else { Year = yearNr; }
+                if (dName == 1) {
+                  Day = "Domingo";
+                }
+                if (dName == 2) {
+                  Day = "Segunda-feira";
+                }
+                if (dName == 3) {
+                  Day = "Ter&#231;a-feira";
+                }
+                if (dName == 4) {
+                  Day = "Quarta-feira";
+                }
+                if (dName == 5) {
+                  Day = "Quinta-feira";
+                }
+                if (dName == 6) {
+                  Day = "Sexta-feira";
+                }
+                if (dName == 7) {
+                  Day = "S&aacute;bado";
+                }
+                if (mName == 1) {
+                  Month = "de Janeiro";
+                }
+                if (mName == 2) {
+                  Month = "de Fevereiro";
+                }
+                if (mName == 3) {
+                  Month = "de Mar&ccedil;o";
+                }
+                if (mName == 4) {
+                  Month = "de Abril";
+                }
+                if (mName == 5) {
+                  Month = "de Maio";
+                }
+                if (mName == 6) {
+                  Month = "de Junho";
+                }
+                if (mName == 7) {
+                  Month = "de Julho";
+                }
+                if (mName == 8) {
+                  Month = "de Agosto";
+                }
+                if (mName == 9) {
+                  Month = "de Setembro";
+                }
+                if (mName == 10) {
+                  Month = "de Outubro";
+                }
+                if (mName == 11) {
+                  Month = "de Novembro";
+                }
+                if (mName == 12) {
+                  Month = "de Dezembro";
+                }
+                if (yearNr < 2000) {
+                  Year = 1900 + yearNr;
+                } else {
+                  Year = yearNr;
+                }
                 var todaysDate = (" " + Day + ", " + dayNr + ", " + Month + " de " + Year);
                 document.write(' Hoje &eacute;:' + todaysDate + ',');
               </SCRIPT>
@@ -142,7 +185,6 @@
               <SPAN ID="Clock">00:00:00</SPAN>
 
               <SCRIPT LANGUAGE="JavaScript">
-
                 var Elem = document.getElementById("Clock");
 
                 function Horario() {
@@ -173,11 +215,11 @@
 
                   }
 
-                  Elem.innerHTML = "Agora s&atilde;o: " + Horas + " horas, " + Minutos + " minutos e " + Segundos + " segundos.";
+                  Elem.innerHTML = "Agora s&atilde;o: " + Horas + " horas, " + Minutos + " minutos e " + Segundos +
+                    " segundos.";
                 }
 
                 window.setInterval("Horario()", 1000);
-
               </SCRIPT>
             </H2>
             <H1>
@@ -201,13 +243,16 @@
     <SECTION TITLE="Socialize-se conosco.">
       Estamos nos esfor&ccedil;ando para enteragir cada vez mais com voc&ecirc;s nas redes. J&aacute; nos encontrou no
       Facebook? Ent&atilde;o curte a&iacute;; e ajude nos a batermos a meta de 50 likes na p&aacute;gina:
-      <script>(function (d, s, id) {
+      <script>
+        (function (d, s, id) {
           var js, fjs = d.getElementsByTagName(s)[0];
           if (d.getElementById(id)) return;
-          js = d.createElement(s); js.id = id;
+          js = d.createElement(s);
+          js.id = id;
           js.src = 'https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.11';
           fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
+        }(document, 'script', 'facebook-jssdk'));
+      </script>
       <div class="fb-like" data-href="http://facebook.com/acessibilidademundial.16mb/" data-width=" "
         data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
       Nossa p&aacute;gina no FB: <A
@@ -220,7 +265,18 @@
           data-url="acessibilidademundial.16mb.com"
           data-text="AcessibilidadeMundial, Levando a Acessibilidade At&eacute; voc&ecirc;!" data-via="pedro20161"
           data-lang="pt" data-related="pedrodias">Tweetar</a></button>
-      <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.t  witter.com/ widgets.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'twitter-wjs');</script>
+      <script>
+        ! function (d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0],
+            p = /^http:/.test(d.location) ? 'http' : 'https';
+          if (!d.getElementById(id)) {
+            js = d.createElement(s);
+            js.id = id;
+            js.src = p + '://platform.t  witter.com/ widgets.js';
+            fjs.parentNode.insertBefore(js, fjs);
+          }
+        }(document, 'script', 'twitter-wjs');
+      </script>
       <BR>
   </DIV>
   </SECTION>
@@ -239,8 +295,16 @@
       <button onclick="document.getElementById('demo').pause()">Pause</button>
       <button onclick="document.getElementById('demo').volume+=0.1">Aumentar volume</button>
       <button onclick="document.getElementById('demo').volume-=0.1">Menos volume</button>
-      <script
-        language="javascript"> <a href="http://www.reliablecounter.com" target="_blank"><img src="http://www.reliablecounter.com/count.php?page=www.acessibilidademundial.16mb.com&digit=style/scoreboards/1/&reloads=0" alt="" title="" border="0"></a><br /><a href="http://" target="_blank" style="font-family: Geneva, Arial; font-size: 9px; color: #330010; text-decoration: none;"></a></script>
+      <script language="javascript">
+        < a href = "http://www.reliablecounter.com"
+        target = "_blank" > < img src =
+          "http://www.reliablecounter.com/count.php?page=www.acessibilidademundial.16mb.com&digit=style/scoreboards/1/&reloads=0"
+        alt = ""
+        title = ""
+        border = "0" > < /a><br / > < a href = "http://"
+        target = "_blank"
+        style = "font-family: Geneva, Arial; font-size: 9px; color: #330010; text-decoration: none;" > < /a>
+      </script>
     </SECTION>
   </DIV>
   <DIV ID="siteesterno" ALIGN="right" CONTENTEDITABLE="false" NOWRAP>
@@ -249,51 +313,57 @@
         <FONT SIZE="2" FACE="Arial">
           <PRE>Por exemplo: google.com.</PRE>
         </FONT>
-      <SECTION TITLE="Formulário" CLASS="form" TYPE="form">
-        <form>
-          <p align="center">
-            <font color="#000000" size="1" face="verdana,arial">
-              <input type="text" size="35" name="url" value="http://">
-              <input type="button" value="Carregar site!" onclick="window.location.assign(form.url.value)">
-            </font>
-          </p>
-          <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
-            codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="100"
-            height="30" id="online" align="middle">
-            <param name="allowScriptAccess" value="sameDomain">
-            <param name="movie" value="online01.swf">
-            <param name="quality" value="high">
-            <param name="bgcolor" value="#000000">
-            <embed src="online01.swf" quality="high" bgcolor="#000000" width="100" height="30" name="online01"
-              align="middle" allowscriptaccess="sameDomain" type="application/x-shockwave-flash"
-              pluginspage="http://www.macromedia.com/go/getflashplayer">
-          </object>
-        </form>
-      </SECTION>
+        <SECTION TITLE="Formulário" CLASS="form" TYPE="form">
+          <form>
+            <p align="center">
+              <font color="#000000" size="1" face="verdana,arial">
+                <input type="text" size="35" name="url" value="http://">
+                <input type="button" value="Carregar site!" onclick="window.location.assign(form.url.value)">
+              </font>
+            </p>
+            <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+              codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0"
+              width="100" height="30" id="online" align="middle">
+              <param name="allowScriptAccess" value="sameDomain">
+              <param name="movie" value="online01.swf">
+              <param name="quality" value="high">
+              <param name="bgcolor" value="#000000">
+              <embed src="online01.swf" quality="high" bgcolor="#000000" width="100" height="30" name="online01"
+                align="middle" allowscriptaccess="sameDomain" type="application/x-shockwave-flash"
+                pluginspage="http://www.macromedia.com/go/getflashplayer">
+            </object>
+          </form>
+        </SECTION>
     </SECTION>
   </DIV>
   <DIV CLASS="Barra_Azul" ALIGN="boton""> 
 <UL ALIGN=" left"><A HREF="#Topo-pg" title="Volte ao topo">Topo</A> </UL>
   </DIV>
   <P ID="imprecao" ALIGN="center" CLASS="imprecao">acessibilidademundial16mb - acessibilidademundial.16mb.com
-  <footer>
-    <p align="center">Acessibilidademundial16mb&#8211; Copyright &#169; 2016|<SPAN ID="copyright">...</SPAN>
-      ACESSIBILIDADEMUNDIAL16MB &#8211; Todos os Direitos Reservados
-  </footer>
-  <h1 class="title gray">Texto original<br></h1>
-  </div>
-  <div class="middle" style="padding: 8px;">
-    <div class="original-text"> </div>
-  </div>
-  </DIV>
-  <style>
-    audio::-webkit-media-controls-timeline {
-      display: none;
-    }
-  </style>
-  <audio autoplay src="som/bemvindos.mp3">
-    <P>Opa! Ouve algum erro na hora de executar esse &aacute;udio.</p>
-  </audio>
+    <footer>
+      <p align="center">Acessibilidademundial16mb&#8211; Copyright &#169; 2016|<SPAN ID="copyright">...</SPAN>
+        ACESSIBILIDADEMUNDIAL16MB &#8211; Todos os Direitos Reservados
+    </footer>
+    <h1 class="title gray">Texto original<br></h1>
+    </div>
+    <div class="middle" style="padding: 8px;">
+      <div class="original-text"> </div>
+    </div>
+    </DIV>
+    <style>
+      audio::-webkit-media-controls-timeline {
+        display: none;
+      }
+    </style>
+    <audio autoplay src="som/bemvindos.mp3">
+      <P>Opa! Ouve algum erro na hora de executar esse &aacute;udio.</p>
+    </audio>
+
+
+    <!-- scripts -->
+    <script src="js/widgets.js" id="twitter-wjs"></script>
+    <script gapi_processed="true" src="js/platform.js" async="" type="text/javascript"></script>
+    <script src="js/copyNote.js"></script>
 </BODY>
 
 </HTML>
