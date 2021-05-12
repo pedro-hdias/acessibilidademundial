@@ -1,0 +1,18 @@
+por marciano maceió
+NVDA é uma plataforma para a leitura de telas, um programa em código aberto que possibilita a leitura do Windows para facilitar a inclusão digital de deficientes visuais.
+NVDA é um acrônimo para “NonVisual Desktop Access”, traduzido para o português, significa desktop de acesso não visual.
+Leitura sintética
+A base do programa é a leitura sintética de textos localizados abaixo do cursor do mouse. Ou seja,
+após o aplicativo ser configurado ele se torna capaz de fazer a leitura de qualquer texto,
+fazendo com que seja possível o uso do computador por deficientes visuais.
+O programa está disponível em até vinte idiomas diferentes,
+o que faz dele um aplicativo realmente inclusivo.
+Configurações
+O NVDA é bastante discreto e funciona por meio de um ícone na bandeja de relógio do Windows.
+As possibilidades de configuração são diversificadas e incluem opções de voz, de braile, de teclado, de mouse, de sintetizador, apresentação de objetos, exibidores virtuais, formatação de documentos e dicionários de fala.
+Em cada seção das configurações é possível adaptar o programa para usos específicos, algo de extrema utilidade.
+manual criado por: Marciano Maceió:
+site: www.acessibilidadeweb.net
+skype: acessibilidade.web
+facebook: acessibilidade web
+

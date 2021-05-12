@@ -1,0 +1,26 @@
+Body
+Um dos comandos mais importantes da definição da página HTML, o comando é responsável por formatar as principais características da página, como cor do texto, links,
+espaçamento ao redor, imagem de fundo, etc). Por definição, todo o conteúdo de sua página deve estar dentro do comando BODY, enquanto as definições globais de cabeçalho
+são colocadas na tag HEAD.
+
+Parâmetros:
+• LINK: cor dos links (formato RGB) da página
+• ALINK: cor do link (formato RGB) do link atualmente clicado (ativo)
+• VLINK: cor do links (formato RGB) que já foram clicados anteriormente
+• BACKGROUND: local da imagem a ser usada como papel de parede
+• BGCOLOR: cor de fundo (formato RGB) da página
+• BGPROPERTIES: somente possui o valor "fixed", fixa a imagem de fundo, ela não rola
+• BOTTOMMARGIN: distância em pixels do fim do texto até o fim da janela do navegador
+• TOPMARGIN: distância em pixels do menu do navegador até o início do corpo da página
+• RIGHTMARGIN: distância em pixels da lateral do corpo da página até o lado direito do navegador
+• LEFTMARGIN: distância em pixels da lateral esqueda do navegador até o lado do corpo da página
+• SCROLL: se deve ou não existir barras de rolagem (yes ou no)
+
+* Nota: o Netscape usa "MARGINWIDTH" e "MARGINHEIGHT" ao invés dos "margin" listados acima.
+
+Exemplos de uso:
+<BODY BACKGROUND="back.gif" BGPROPERTIES="FIXED">
+(veja o fundo desta página)
+<BODY LINK="#0000A0" VLINK="#0000A0" ALINK="#0000C0">
+<BODY LEFTMARGIN="3" RIGHTMARGIN="3" TOPMARGIN="2">
+<BODY BGPROPERTIES="FIXED" SCROLL="NO">

@@ -1,0 +1,12 @@
+por marciano maceió
+Descrição Watcher de rede sem fio é um pequeno utilitário que varre sua rede wireless e exibe a lista de todos os computadores e dispositivos que estão conectados à sua rede. Para cada computador ou dispositivo que é conectado à rede, a seguinte informação é exibida: endereço IP, endereço MAC, a empresa que fabricou a placa de rede e, opcionalmente, o nome do computador. Você também pode exportar a lista de dispositivos conectados em html / xml / csv / texto, ou copiar a lista para o clipboard e cole em Excel ou outro aplicativo de planilha. 
+Requisitos do sistema e Limitações Este utilitário funciona em Windows 2000, Windows XP, Windows Server 2003/2008, Windows Vista e Windows 7. Este utilitário só pode escanear uma rede sem fio que você está conectado no momento. Não pode digitalizar outras redes sem fio. Em casos raros, é possível que Watcher de rede sem fio não vai detectar o adaptador de rede sem fio corretas, e então você deve ir para a janela 'Opções avançadas' (F9), e escolher manualmente o adaptador de rede correta. embora este utilitário é oficialmente projetado para redes sem fio, você também pode usá-lo para digitalizar uma pequena rede com fio. 
+Usando rede sem fio Watcher Watcher de rede sem fio não requer qualquer processo de instalação ou arquivos DLL adicionais.
+Depois de executar WNetWatcher, ele localiza automaticamente o adaptador sem fio, e verifica sua rede. Após alguns segundos, você deve começar ver a lista de computadores que estão conectados à sua rede.
+Endereço IP colunas Descrição: Endereço IP do dispositivo ou computador. Nome do dispositivo: O nome do dispositivo ou computador. Este campo pode ficar vazio se o computador ou o dispositivo não fornece seu nome. Endereço MAC: o endereço MAC do adaptador de rede. Adaptador de rede da empresa: A empresa que fabricou o adaptador de rede, de acordo com o endereço MAC. Esta coluna pode ajudá-lo a detectar o tipo do dispositivo ou computador. Por exemplo, se o nome da empresa é a Apple, o dispositivo é provavelmente um computador Mac, iPhone ou iPad. se o nome da empresa é a Nokia, o dispositivo é, provavelmente, um telefone celular da Nokia. Information Device: Essa coluna exibe 'O seu computador "se o dispositivo é o computador que você usa atualmente. Essa coluna exibe 'O seu Router' se o dispositivo é o roteador wireless.
+site: www.acessibilidadeweb.net
+skype: acessibilidade.web
+facebook: acessibilidade web
+
+
+

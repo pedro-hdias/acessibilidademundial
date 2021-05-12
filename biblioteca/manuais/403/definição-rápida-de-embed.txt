@@ -1,0 +1,16 @@
+Embed
+A tag EMBED permite vincular documentos de qualquer tipo, pré registrados no sistema operacional, dentro de uma página HTML. Geralmente usado por programadores
+mais experientes para inserir objetos como Flash, documentos PDF, vídeos, etc. Você pode, por exemplo, através de um comando EMBED, inserir o Windows Media Player
+dentro de sua página, para tocar um som ou vídeo. É necessário saber como o aplicativo externo trabalha, se ele pode ou não ser vinculado e quais parâmetros é necessário
+passar para ele poder exibir o dado corretamente. Cada tipo de aplicativo exige configurações e parâmetros diferentes.
+
+Parâmetros:
+• ALIGN: alinhamento do objeto (left, middle, right, top, bottom, etc)
+• HEIGHT: altura em pixels do objeto a ser inserido
+• HIDDEN: insere o objeto sem exibí-lo visualmente na página
+• PLUGINSPAGE: se o usuário não tiver o plugin, ele é o URL de download
+• SRC/FILENAME: local (URL) onde está o objeto a ser vinculado
+• WIDTH: largura em pixels do objeto a ser inserido
+
+Exemplos de uso:
+<EMBED TYPE="audio/x-mp3" SRC="musica.mid" WIDTH="192" HEIGHT="144"></EMBED>

@@ -1,0 +1,17 @@
+
+por marciano maceió
+O 7-Zip, é um compactador gratuito que tem ganhado cada vez mais espaço quando o assunto é compactar arquivos.
+Por que ele é melhor?
+ •Os principais compactadores de arquivos são pagos, mas o 7-Zip é completamente gratuito e pode ser utilizado por quanto tempo o usuário quiser, sem ser importunado com mensagens trial.
+ •7-Zip é muito mais leve que a maioria dos programas do gênero.
+ •Sua eficiência também é superior a boa parte dos programas, capaz de comprimir mais os documentos e economizar ainda mais espaço.
+Formato 7z
+ 
+Não é coincidência que o programa leva o mesmo nome do formato, pois esta é a sua especialidade. Entre todas as vantagens do programa, certamente esta é a melhor de todas: um programa tão pequeno e leve utiliza como padrão um formato de compactação muito mais eficiente que os demais.
+Testada a compactação de três pastas diferentes (uma com imagens, outra com músicas e uma terceira com textos) nos formatos 7-ZIP, RAR e ZIP.
+ Os testes revelaram que os três formatos conseguem uma eficiência similar com arquivos de imagens. Quanto aos arquivos de áudio, o 7z se manteve entre ambos os concorrentes, mas a eficiência do 7-Zip se destaca nos arquivos de texto. Seu resultado foi nitidamente superior aos formatos RAR e ZIP.
+manual criado por: Marciano Maceió:
+site: www.acessibilidadeweb.net
+skype: acessibilidade.web
+facebook: acessibilidade web
+

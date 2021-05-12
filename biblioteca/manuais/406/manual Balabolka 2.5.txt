@@ -1,0 +1,34 @@
+por marciano maceió
+Que tal dar um descanso para a sua visão sem deixar o trabalho de lado?
+Passar muitas horas à frente do computador, em especial se dedicando à leitura, pode acabar sendo prejudicial à sua saúde.
+No entanto, muitas vezes acabamos não percebendo e deixamos nos levar por páginas da web e textos literários
+por muitas horas.
+
+Se você já percebeu que a sua visão está cansada, mas ainda assim insiste em continuar o trabalho,
+uma das soluções pode ser a de colocar o computador para ler os textos que você precisa em voz alta.
+E é justamente essa a principal função do Balabolka, um pequeno aplicativo gratuito e de fácil utilização.
+Fala que eu te ouço
+
+Há duas maneiras de inserir textos no Balabolka.
+A primeira delas é colando um bloco de textos na tela do editor.
+Em seguida, selecione a opção SAPI5 e no menu abaixo escolha a voz que fará a leitura.
+São três opções: Max, Mary e Sam.
+
+Visual do aplicativo
+
+Outras opções de controle incluem a possibilidade de aumentar ou diminuir a velocidade de leitura e a tonalidade de voz.
+Ao finalizar o processo va a guia Arquivo” e escolha a opção “Salvar como arquivo de áudio”. O resultado final pode ser exportado nas extensões WAV, MP3, OGG e WMA.
+Se você possui arquivo com um texto pronto, não é preciso copiá-lo inteiro para o aplicativo.
+Basta selecionar a opção importar para que o conteúdo de arquivos
+nas extensões DOC, RTF, PDF, ODT, FB2 e HTML seja lido imediatamente.
+O Balabolka é compatível com dezenas de idiomas e permite que o usuário faça marcações ou anotações nos textos,
+ferramenta ideal para seleção de trechos específicos para leitura.
+O programa é completamente gratuito e sua interface em português é outro ponto que facilita a utilização.
+Se você estiver com mais de um texto em andamento, é possível abrir mais de um de cada vez, deixando-os em abas distintas.
+Entre as muitas opções de configuração disponíveis, vale a pena testar aquelas relativas à locução dos textos, como ritmo de voz, entonação e pronúncia.
+O padrão disponibilizado pelo aplicativo nem sempre é o ideal para os seus ouvidos e,
+como ele será um companheiro ao seu lado, o melhor a fazer é encontrar a configuração que mais agrade a sua audição.
+manual criado por: Marciano Maceió:
+site: www.acessibilidadeweb.net
+skype: acessibilidade.web
+facebook: acessibilidade web

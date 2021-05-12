@@ -1,0 +1,10 @@
+por marciano maceió
+Portable Thunderbird é a versão portátil do famoso cliente de e-mail Mozilla Thunderbird, suportando a execução a partir de drives removíveis com o mínimo de reconfiguração.
+Para facilitar ainda mais o pacote conta com todos os recursos do original. Agora você pode checar sua conta de e-mail POP3 de qualquer lugar!
+ •Atualizações
+Para atualizar seu Portable Thunderbird, simplesmente faça o backup da pasta /thunderbird/ e os seus respectivos sub-diretórios e faça o download da última versão. Feito isso, copie o diretório de perfil da versão antiga para a versão nova.
+manual criado por: Marciano Maceió:
+site: www.acessibilidadeweb.net
+skype: acessibilidade.web
+facebook: acessibilidade web
+

@@ -1,0 +1,35 @@
+Showdown
+
+Todos os Direitos Reservados a Pb-games, 2004
+
+Bem vindo a Showdown, e obrigado por ter feito do download deste jogo!
+Showdown é um esporte de raquete similar ao ping-pong, mas não exatamente igual. Você atira a bola contra seu oponente em uma mesa, tentando marcar ponto. Seu oponente 
+(neste caso o computador) tenta defender o proprio buraco do gol, se a bola cai nesse buraco você marca 2 pontos, o mesmo acontece se a bola cair no seu buraco de 
+gol. Se você atira a bola fora da mesa, o oponente ganha 1 ponto. Se uma pessoa fizer 11 pontos ou mais, ela ganha o set atual. Você joga 3 sets, porem se o placar 
+for 2-0 para você ou o computador, não é nescesario jogar o terceiro set, por que não há chance do oponente vencer o jogo.
+Quando o jogo começa, o computador sorteia automaticamente que saca primeiro. Cada pessoa saca 5 vezes, a primeira saca suas 5 vezes, depois a vês passa para a outra 
+que também saca 5 vezes, continua sempre assim indo e vindo.
+Você move sua raquete com as setas de esquerda e direita, e preciona a barra de espaço para bater na bola. Para sacar, primeiro mova a sua raquete no local onde 
+você quer sacar, então use enter para sacar. Para sair do jogo a qualquer momento aperte esc. Para pausar o jogo aperte p, e quando você estiver no jogo “real” e 
+não em algum dos menus você pode apertar q para voltar ao menu principal. A tecla q também funciona quando o jogo estiver em pausa. Para navegar entre os menus use 
+as setas para cima e para baixo. Para selecionar uma opção pressione enter.
+Requerimentos do Sistema:
+Este jogo requer o seguinte:
+*Uma placa de som estéreo compatível.
+* Fones de ouvido ou caixinhas de som (fones de ouvido são recomentados).
+* Um computador rápido é recomendado para o jogo funcionar perfeitamente.
+* Muito Importante: Microsoff Internet Explorer 5 ou superior, com javascript habilitado.
+
+Informações de Direitos Autorais:
+Este jogo é distribuído como freeware, isso significa que você esta autorizado a distribuir este jogo da maneira que preferir, pela internet, e um CD, ou qualquer 
+outro meio. Você jamais deve alterar o jogo, por motivo nenhum, incluindo os arquivos de som, o próprio programa, ou esta documentação. Se você distribuir este jogo, 
+você deve deixar claro que não é o autor, deve informar os usuários que a Pb-games criou este jogo, eu ficaria feliz se colocasse um link para nosso website, mas 
+isso não é nescessario.
+O som de multidão neste jogo vem de ljudo.com um arquivo com mais de 1500 sons gratuitos.
+
+Se quiser entrar em contato conosco sinta-se avontade para mandar um e-mail para: philip_bennefall@hotmail.com 
+
+Ou visite nosso homepage: http://www.pb-games.com/english/ 
+No website você pode encontrar mais jogos divertidos, para fazer o download e jogar.
+
+Todos os Direitos Reservados a Pb-game, 2004

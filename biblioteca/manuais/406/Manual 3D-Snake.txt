@@ -1,0 +1,91 @@
+3d snake
+
+
+Copyright Pb-games, 2004.
+
+Documentação editada por Munawar Bijani, www.bpcprograms.com.
+
+Tradução para Português por Blind Games Brazil:
+http://www.audiogamesbrasil.com
+
+
+Conteúdo:
+* O que é 3d snake?
+* Requisitos de sistema
+* Iniciando o jogo
+* O menu Principal
+* Como jogar
+* Postando a pontuação
+* Licença
+* Informações de contato
+
+
+* O que é 3d snake?
+
+3d snake é o jogo de serpente tradicional que as pessoas que enxergam jogam o tempo todo em seu telefones celulares; Este jogo é só um pouco diferente já  que não tem uma única imagem. Você move a serpente com suas teclas de seta, e só terá chanse de conseguir uma pontuação alta se ouvir, ouça, ouça! Você move dentro de uma grade de 30 x 30, e seu objetivo é juntar tantas frutas quanto possível, mas evitando colidir com as paredes. Se você colidir com uma parede uma única vez, o jogo está terminado. As frutas aparecerão em momentos e posições aleatórios. Tente pegá-las!
+
+Eu gostaria de agradecer muito a Matt Campbell pela programação do sistema de postagem de pontuação. Muito obrigado, você tem sido uma ajuda enorme!
+
+
+* Requisitos de sistema
+
+Este jogo requer o seguinte:
+* Uma placa de som estéreo compatível.
+* Fones ou alto-falantes, claro. Mas desde que o jogo é para apenas um jogador, os fones são fortemente recomendados.
+* Um computador rápido é requerido para o jogo trabalhar corretamente.
+* Muito importante: Microsoft Internet Explorer 5 ou superior com JavaScript habilitado!
+* Você deve  ter o suporte a activex habilitado para a postagem de pontuação funcionar.
+
+
+* Iniciando o jogo
+
+Primeiro, clique no ícone quedeve ter sido criado em seu desctop, se você não desmarcou essa opção no programa de instalação. Alternativamente, você pode ir para iniciar/programas, e lá escolher o grupo de programa 3d snake. Dentro desse grupo, escolha a opção 3d snake e você estará no jogo!
+
+Quando o jogo começar, lhe será apresentada uma introdução. Aperte a barra de espaço se você quiser pular isto e prosseguir diretamente para o menu principal.
+
+
+* O menu Principal
+
+Para navegar no menu principal, use as setas acima e abaixo para circular entre as opções e enter para selecionar uma opção.
+O menu principal tem 3 opções:
+Começar novo jogo:
+Permite a você iniciar um novo jogo.
+Teste de alto-falanntes:
+Toca um teste de áudio que lhe  ajudará a ter certeza de que seus alto-falantes ou fones estão corretamente posicionados. É fortemente recomendado que você execute isto na primeira vez que você começar o jogo.
+Sair:
+Eu tenho que dizer a você o que sair faz? Sim, sai do jogo, claro.
+
+
+* Como jogar
+
+Você controla a serpente com as quatro teclas de seta. Quando você apertar uma tecla de seta, a serpente começará a mover-se naquela direção, e continuará a mover-se até que você aperte outra tecla de seta. Tome cuidado! Se você deixar a serpente mover-se em uma direção por muito tempo, você ocasionalmente acertará em cheio sua cabeça em uma das paredes, e isso machuca...
+As paredes são representadas por um som de vento. A grade é cercada por paredes de todos os lados, então tente ficar no meio da grade o quanto possível, a menos que, claro, você tenha que pegar uma fruta que está perto de uma das paredes. Oh sim, sobre as frutas. Elas são representadas por um som de bing bing bing que continua em loop até que você pegue a fruta, ou morra. Para pegar uma fruta, você tem que estar no mesmo setor onde esteja a fruta. Por exemplo, se a fruta está na posição 14 3, está perto da parede esquerda, e você só pode pegar a fruta posicionando-se em 14 3. Quando você está perto de uma fruta, o som fica mais alto, você tem que centralizar a fruta, isto é, fazer este som ser igual tanto na esquerda quanto na direita, e consiguir o volume mais alto, então você ouvirá um som especial informando que você pegou a fruta.
+Como o jogo continua, a serpente se moverá mais rápido e mais rápido, e será cada vez mais difícil para você pegar as frutas e evitar as paredes. Apenas se concentre, e eu estou certo de que você baterá seus amigos!
+
+
+* Postando a pontuação
+
+sou grato a Matt Campbell, por este jogo agora suportar postagem de pontuação online em tempo real. Quando você morrer, será perguntado se você quer postar sua pontuação para nós. Aperte y, e então preencha as suas informações que serão solicitadas. Não use quaisquer caracteres especiais quando você preencher estes campos, isso poderia resultar em um erro quando a pontuação estiver sendo postada. Note que você tem que estar conectado a internet para esta função, também, Activex tem que estar habilitado, ou você obterá um erro de script.
+
+
+* Licença
+
+Este jogo é distribuído como freeware e pode ser copiado ou transferido livremente desde que  todas as partes deste, não sejam modificadas de qualquer forma e todos os componentes do programa sejam distribuídos como eles são obtidos de Pb-games, sem modificações na documentação, sons, música, ou o funcionamento básico do programa. A venda deste jogo está estritamente proibida.
+
+Este jogo é distribuído como está, sem garantias; Pb-games não será responsável por danos causados pelo uso do programa.
+
+
+* Informações De Contato
+
+Sinta-se livre para nos contactar com quaisquer questões que você poderia ter, ou qualquer outra coisa que você gostaria de dizer. Envie um e-mail 
+Philip_bennefall@hotmail.com
+E eu tentarei responder assim que possível.
+Você também pode nos visitar na web para mais grandes jogos em:
+http://www.pbsoundscape.net/
+Eu também tenho uma conta de Skype, Se você quiser me chamar em Skype, sinta-se glivre. Meu contato Skype é:
+Fladderfille
+
+Visite também o site da Blind Games Brazil em
+http://wwww.audiogamesbrasil.com
+
+Copyright Pb-games, 2004.

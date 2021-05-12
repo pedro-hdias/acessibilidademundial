@@ -1,0 +1,17 @@
+Div
+A tag DIV atualmente está sendo muito utilizada por códigos mais avançados. DIV na verdade não causa nenhuma diferença visual no código. Ele é considerado um "container",
+ou seja, uma espécie de "caixa" não visual que você pode, através de script, alterar o conteúdo dele, alterando o código HTML dinamicamente. Ou então é usado para
+aplicar um estilo (class/style) em todo o bloco HTML contido dentro do DIV. Infelizmente são exemplos complexos demais para este mini-tutorial, porém é importante
+saber os "poderes" desta tag para HTML avançado ou DHTML. Verifique mais exemplos no site do MSDN Microsoft.
+
+Parâmetros:
+• ALIGN: alinhamento do conteúdo do DIV (center, left, right)
+• ID: nomeia o DIV para ser referenciado pelos scripts (JavaScript por exemplo)
+
+Exemplos de uso:
+<DIV ID="bloco">Este texto está dentro de um DIV</DIV><BR>
+<BUTTON onclick="bloco.innerHTML='O texto <B>interno</B> foi alterado'">Mudar Texto</BUTTON>
+Resulta:
+Este texto está dentro de um DIV
+
+Mudar Texto

@@ -1,0 +1,109 @@
+por marciano maceió
+Mozilla Firefox é um dos navegadores mais populares da web e o principal produto da Fundação Mozilla, a sua mantenedora.
+O aplicativo, além de figurar como um dos principais browsers do mundo, é costumeiramente apontado como o mais bem-sucedido projeto de software livre do planeta.
+O browser acaba de ganhar sua 12ª versão, dando sequência ao projeto de pequenas atualizações em períodos curtos de tempo, em vez de grandes novidades em grandes intervalos.
+As principais novidades dessa versão são mais técnicas do que práticas de fato.
+Atualização automática facilitada
+Quem usa o Windows passa a não ter problemas para atualizar o navegador de forma automática, pois o Firefox não exige mais o
+prompt do Controle de Conta de Usuário para baixar e instalar suas novas versões.
+Assim, é um passo a menos que você precisa tomar para manter sempre o Firefox da forma mais atual possível.
+Aprimoramentos
+Receberam melhorias a função de “Localizar na página”, que agora centraliza os resultados na tela, bem como o sistema de transferências.
+Nesta versão, quando você insere uma URL no gerenciador de download, o arquivo em questão começa a ser baixado automaticamente, dispensando a tarefa de colar o link na barra de endereços.
+Além disso, melhorias técnicas ligadas à visualização do código-fonte, que agora exibe a numeração de cada linha de código das páginas visitadas. 
+Outros novos recursos de suporte à linguagem CSS também estão presentes no novo Firefox.
+Por fim, agora o navegador da Mozilla apresenta suporte experimental ao ECMAScript.
+
+Novos controles para HTML5
+
+Pioneiro no suporte ao HTML5, o Firefox aprimora seu desempenho também em relação a este formato a cada nova versão.
+Agora, não poderia ser diferente, e o navegador da Mozilla traz consigo controles de mídia redesenhados para vídeos em HTML5,
+além de outros aprimoramentos técnicos no mesmo campo.
+
+Motor de Java Script aprimorado
+
+Um dos principais termômetros que medem o desempenho dos browsers modernos é a velocidade com que eles rodam aplicativos baseados em Java Script.
+Páginas com atualização dinâmica de conteúdo, como o Gmail e o Google Docs, dependem dessa funcionalidade para funcionar.
+Graças ao motor aprimorado do Firefox, sites com este tipo de conteúdo podem ficar até 30% mais rápidos para abrir e atualizar.
+Testes em ferramentas de benchmark, como a  SunSpider, mostram que houve um ganho de até 60 milissegundos, diminuindo o tempo total na bateria de testes de 370 para 310 ms.
+
+Gerenciamento de extensões
+
+Como uma medida de segurança, o Firefox adotou uma nova forma para o gerenciamento das extensões instaladas.
+Embora o navegador possua uma série de complementos, nem todos são conhecidos e testados pela equipe da Mozilla.
+Agora, sempre que o browser encontra uma extensão de terceiros (como uma daquelas presentes em antivírus), ele pergunta o que deve ser feito.
+Antes, esses complementos, especialmente quando vindos de aplicativos para a proteção do computador, eram simplesmente instalados e ativados.
+Da mesma forma, após atualizar para uma nova versão, o Firefox permite que você ative ou desabilite os complementos de forma independente logo na primeira execução do navegador.
+O Firefox também continua informando quais extensões podem não ter a compatibilidade adequada à nova versão.
+
+Abrindo apenas uma aba
+
+Embora essa seja uma função que já estivesse presente no navegador, ela é novidade no Firefox estável propriamente dito.
+Agora, você pode configurar o navegador para carregar apenas a aba escolhida durante a inicialização e não restaurar todas as guias abertas na última seção.
+Isso aumenta a velocidade de carregamento do browser de maneira significativa.
+
+Melhoria no uso de memória
+
+A redução da carga no uso de memória RAM durante os processos sempre foi um dos pontos que pesaram negativamente contra o browser.
+Afinal, muitas pessoas relatavam processos maiores do que 200 MB apenas para abertura de uma aba ou janela.
+Essa era uma promessa antiga da Mozilla, uma vez que o excessivo consumo de memória é a principal queixa dos adeptos do navegador.
+De acordo com os desenvolvedores, desde a versão 7 o Firefox usa uma quantidade entre 20% e 30% menor de memória do que as versões anteriores (6, 5 e 4).
+Ainda é afirmado que, por vezes, essa taxa pode atingir até 50%.
+Um detalhe importante é que, mesmo que o browser fique aberto por horas, o uso de memória será contínuo.
+
+Permaneça em sincronia
+
+Aos poucos, o Firefox vai melhorando a forma como trabalha com a sincronia de conteúdo entre máquinas diferentes.
+Na 11ª versão do navegador, foi implementada uma função que permite sincronizar as extensões instaladas em todos os computadores nos quais você usa o navegador da Mozilla.
+Para quem utiliza mais de um computador, manter o histórico de navegação e as URLs favoritas acessíveis a partir de qualquer lugar
+eram  tarefas que requeriam o uso de uma extensão ou de serviços complementares, como uma conta de usuário da Google.
+Além disso, a Mozilla aprimorou a sincronia entre as senhas do usuário e o Firefox Sync.
+Agora, modificações feitas são sincronizadas instantaneamente quando se utiliza o Firefox Sync.
+
+Panorama
+
+O sistema Panorama, que permite uma visão mais ampla das abas abertas no browser e, consequentemente, melhor organização de
+todo o conteúdo, também recebeu algumas melhorias. Agora o navegador demora menos para abrir quando essa função está em uso.
+Funciona assim: as páginas ocultadas pela função Panorama só são carregadas quando você clica sobre elas; antes, todas as abas eram carregadas juntamente com a inicialização do navegador.
+Isso consumia boa parte da banda da internet e também recursos de arranque do Firefox.
+Para visualizar as abas pelo sistema Panorama, use o atalho Ctrl + Shift + E ou então o botão presente no canto superior direito da tela do navegador.
+
+Gerenciador de permissões
+
+Você usa vários serviços que demandam senha, portanto, usar a função de memorizar dados de login pode ser uma boa saída para não ter que guardar tudo isso na sua própria memória.
+Para isso, o Firefox conta com um gerenciador de permissões, e basta executar o comando “about:permissions” (sem aspas na barra
+de endereços) para acessá-lo.
+Na aba que se abre, você define opções relacionadas às permissões, escolhendo se o navegador deve memorizar senhas, compartilhar localização, armazenar cookies, abrir janelas popup e preservar conteúdo offline.
+Além disso, é possível modificar manualmente cada uma das senhas já gravadas no Firefox.
+
+WebM, HTML5, CSS3, SVG, WebGL...
+
+Antigamente, bastava o nome de um plugin para identificar todas as tecnologias compatíveis com o navegador. Hoje, é preciso ficar atento ao suporte disponível para diversas linhas de programação.
+A ausência de uma delas pode significar a morte prematura de um browser antes mesmo do seu lançamento.
+Nesse quesito, o Mozilla Firefox está em dia com as últimas novidades. Além do  suporte completo para HTML5,
+que proporciona recursos mais dinâmicos para a criação de páginas, e CSS3, que define folhas de estilo com mais transições e efeitos 
+a web, há compatibilidade com SVG e WebM.
+O Firefox também oferece suporte para animações (e transições) em CSS. Isso pode auxiliar muito na hora de carregar esse tipo
+de arquivo de estilo, coisa que antes poderia simplesmente não funcionar ou, em casos mais extremos, até mesmo causar o travamento do navegador.
+Já a SVG é uma tecnologia para definição de componentes gráficos vetoriais, aperfeiçoando o uso de imagens dinâmicas na rede.
+Por fim, o  codec WebM funciona em parceria com o HTML, proporcionando taxas maiores de compressão em vídeos de alta qualidade.
+Para que possa exibir gráficos em 3D com melhor qualidade e velocidade, o Firefox aprimorou os recursos de WebGL.
+A tecnologia trabalha em parceria com o HTML5 e conta com gerenciamento automático de memória.
+
+Aceleração gráfica
+
+Para melhorar o carregamento das páginas, algumas operações de processamento passam a ser feitas com auxílio da placa gráfica.
+Isso acontece graças à interface Direct2D, disponível nas versões mais recentes do Windows.
+O recurso é desativado na configuração-padrão do programa, para evitar gastos maiores com energia elétrica, principalmente para pessoas que utilizam o navegador em notebooks e não podem descuidar da carga de bateria.
+
+Teste de compatibilidade
+
+Maior compatibilidade
+Outra mudança importante no Firefox é a maior compatibilidade para complementos desenvolvidos em versões anteriores do navegador.
+De acordo com a desenvolvedora, extensões que sejam compatíveis a partir da quarta geração do browser devem ser suportadas nativamente pela edição atual.
+Esse era um problema recorrente para muitos adeptos do navegador da raposa, que ficavam sem poder utilizar os aplicativos instalados no navegador quando o atualizavam.
+manual criado por: Marciano Maceió:
+site: www.acessibilidadeweb.net
+skype: acessibilidade.web
+facebook: acessibilidade web
+

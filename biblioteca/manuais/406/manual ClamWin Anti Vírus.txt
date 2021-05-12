@@ -1,0 +1,9 @@
+por marciano maceió
+Antivírus que pode ficar instalado no próprio pendrive, evitando que as pragas virtuais assumam o controle do dispositivo de mídia.
+Tem um serviço de escaneamento rápido e conta com uma boa biblioteca de vírus.
+É importante ser atualizado constantemente, o que pode ser realizado praticamente toda vez que o pendrive é espetado em um PC conectado na internet.
+manual criado por: Marciano Maceió:
+site: www.acessibilidadeweb.net
+skype: acessibilidade.web
+facebook: acessibilidade web
+

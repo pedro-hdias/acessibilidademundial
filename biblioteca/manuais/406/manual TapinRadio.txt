@@ -1,0 +1,12 @@
+por marciano maceió
+o Tapin Radio é um programa que permite acessar facilmente várias rádios online ao redor do mundo. Além de dividi-las por localização geográfica, o software também permite selecionar uma rádio baseada no gosto pessoal do usuário, seja em relação a músicas ou programas de debates.
+Ele permite acessar um grande número de rádios online. Fornece uma interface unificada que acessa o endereço online oficial de diversas emissoras, se conectando rapidamente a cada uma delas e garantindo uma experiência confortável ao usuário.
+Transfira músicas para seu computador
+O que mais se destaca no programa não é a conectividade com milhares de rádios espalhadas pelo mundo nem sua interface simples de navegar. O aspecto mais atrativo do Tapin Radio é a possibilidade de realizar a gravação em tempo real da programação de qualquer emissora. Isso significa que você pode transferir sem problemas músicas interessantes e programas de debates diretamente para o computador.
+O formato dos arquivos é determinado pelo usuário (com possibilidade de optar entre MP3, WAV, OGG e WMA), porém a qualidade depende da rádio escolhida.
+Como cada rádio utiliza uma quantidade determinada de bitrates para sua reprodução, os valores tendem a variar de 64 a 256 Kbps, o que reflete nas faixas baixadas para o computador.
+ Para facilitar a tarefa de encontrar rádios, o programa dispõe tanto de um sistema de buscas interno quanto a possibilidade de criar listas de favoritos. Assim, não é preciso encontrar manualmente suas estações favoritas toda vez que iniciar o programa, basta acessá-las rapidamente através de um menu fácil de organizar.
+manual criado por: Marciano Maceió:
+site: www.acessibilidadeweb.net
+skype: acessibilidade.web
+facebook: acessibilidade web

@@ -1,0 +1,81 @@
+BODY {
+COLOR: black;
+LINK: blue;
+ALINK: blueviolet;
+VLINK: blue;
+BACKGROUND: yellow;
+BGPROPERTIES: fixed;
+FONT-SIZE: 18pt;
+FONT-FAMILY: Times News Roman, Arial, Euvetica, Verdana;
+text-indent: 1cm;
+}
+
+H1 {
+FONT-SIZE: 26pt;
+FONT-FAMILY: Lucida Calligraphy, Verdana, Euvetica, Arial;
+COLOR: Blue;
+text-ALIGN: Center;
+}
+
+H2 {
+FONT-SIZE: 20pt;
+FONT-FAMILY: Arial, Euvetica, Times News Roman;
+COLOR: Blueviolet;
+text-ALIGN: Center;
+}
+
+A HREF {
+FONT-SIZE: 15pt;
+font-style: normal;
+FONT-FAMILY: Sans-Serif, Arial, euvetica;
+COLOR: black;
+}
+
+#menu UL {
+    padding:0px;
+    margin:0px;
+    background-color: green;
+    list-style:none;
+float:left;
+width:100%;
+text-indent: 2 cm;
+text-align: left;
+font-family: time news roman;
+font-size: 16pt;
+color: black;
+	}
+
+
+#va UL {
+    padding:0px;
+    margin:0px;
+    list-style:none;
+float:right;
+width:30%;
+}
+
+#menu UL LI A {
+    padding: 2px 10px;
+    display: inline-block;
+    background-color: green;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 3px solid: green;
+}
+
+#menu UL LI A:HOVER {
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom: 3px solid #EA0000;
+
+#va UL LI {
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom: 3px solid #EA0000;
+}
+
+OL {
+TEXT-INDENT: 5 CM;
+TEXT-ALIGN: justif;
+FONT-SIZE: 12PT;
+}

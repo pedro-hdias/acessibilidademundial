@@ -1,0 +1,776 @@
+manual criado por marciano santos.
+
+            Manual do Zararadio traduzido para o português:
+
+ O programa está traduzido para o português, mas as ajudas dele, até o
+momento, só as encontrei em espanhol (quando o programa está configurado
+para esse idioma), ou em inglês, quando ele estiver com sua interface em
+português. Então resolvi colocar aqui, uma tradução comentada (a partir
+da experiência que adquiri com o uso do Zararadio numa web radio radioacessibilidade web.
+  de maceio alagoas ) para português de partes bem elucidativas
+  desse Help, suprimidas somente as imagens, que podem ser facilmente
+               encontradas na ajuda oficial do programa.
+
+  A fim de se obter um bom resultado, aconselho que o micro onde seja
+usado o Zararadio, tenha no mínimo duas placas de som com boa qualidade,
+no que pode ser usada uma a partir de sua saída de áudio interligada na
+ outra pela entrada Line-in, o que, além de evitar que sons do Windows
+ interfiram com o que está indo ao ar ou sendo gravado, permite um bom
+              uso dos recursos de pré-escuta do Zararadio.
+
+            Manual do Zararadio traduzido para o português:
+
+
+
+                          Lista de reprodução
+
+
+
+ A lista de reprodução, é o elemento principal do Zararadio. Mostra uma
+   seqüência de arquivos de som e/ou comandos que são reproduzidos ou
+     executados um a um. Podem aparecer numa lista de reprodução no
+                     Zararadio, os seguintes ítens:
+   * arquivos WAV (formato de som que pode estar com qualquer tipo de
+            compressão, sendo reproduzido de forma normal).
+     * Arquivos mp3 (Formato de arquivo de som com qualquer tipo de
+bitrate, tanto variável, quanto constante, que será reproduzido de forma
+                                normal).
+  * Arquivos OGG (formato livre de som), e os arquivos WMA (formato de
+      som do Windows) que também são reproduzidos de forma normal.
+     * Playlists (.lst, .m3u e .pls)) que ao figurarem numa lista,
+funcionam como um comando, e quando aparecem # uma vez acionados, abrem
+ uma nova lista (que começará a ser tocada a partir da primeira música
+                  listada), fechando a lista anterior.
+  * Rotação (arquivos .rot), que nada mais são que playlists, podendo
+    conter indicações para arquivos mp3, Wav& # comandos, ou outras
+ rotações. Cada vez que for executado um arquivo de rotação, ele tocará
+  um dos sons listados, conforme a seqüência com que foi construído e,
+ quando chehgar no último ítem da lista, voltará automaticamente para o
+  primeiro. uma possível utilidade para sua aplicação, é criar-se uma
+  rotação com prefixos da emissora, pois a cada vez que seja acionado,
+    executará um prefixo diferente, sem que haja a necessidade de se
+preocupar com essa alternância. Se um dos arquivos indicados na lista da
+     rotação, não mais estiver no endereço listado, será executado
+automaticamente o próximo da lista, sem que se faça necessário uma nova
+ execução daquela rotação (deixando o ocorrido registrado no arquivo de
+ log). Aliás, tudo o que acontecer durante uma emissão, fica registrado
+    no arquivo de log, incluindo a hora e data de todos os arquivos
+  executados, inclusive os botões rápdos, menos as pré-escutas; e você
+   pode fazer as necessárias configurações, nas opções de Registro do
+Zararadio para que ele grave ou não os logs, local onde serão guardados
+ os arquivos de log, entre outras coisas. Tanto a instância principal,
+   quanto a instância secundária deixam registros no arquivo de log,
+   podendo-se alterar isso, ao se marcar a caixa registrar somente na
+   primeira instância. É possível de se fazer buscas no Explorador do
+ registro. Para ir ao explorador do registro, acesse a barra de menus e
+    vá até ferramentas e explorador do registro& Com o explorador do
+registro, você poderá saber em que horas foi transmitido um determinado
+ arquivo num tempo especificado. E ainda poderá exportar em formato de
+  texto essas informações, para repassá-las à seus clientes. Podem ser
+realizadas três tipos de buscas no Explorador de registros do Zararadio:
+ A) Arquivo: Permite buscar por um arquivo específico entre os arquivos
+de registro. Para isso Deverá ser escrito o nome do arquivo no campo com
+  o mesmo nome. Não é preciso escrever o nome inteiro do arquivo. Por
+exemplo, se quer buscar o arquivo c:\ZaraRadio\spots\spotZaraRadio.mp3,
+ bastaria escrever spotZaraRadio. B) Erros: Permite buscar pelos erros
+ que tenham ocorrido durante a transmissão, como arquivos corrompidos,
+arquivos inexistentes, etc& C) Tudo: Mostra o conteúdo total do registro
+    em datas selecionadas. Depois de escolher o tipo de busca, deve
+selecionar o entretempo dass datas em que quer fazer a busca. feito tudo
+ isso, pode começar a busca, pressionando o botão procurar. Em seguida,
+  aparecerão os resultados da busca e, após concluída a busca, poderá
+      salvá-la em um arquivo de texto, a partir do botão exportar.
+    * Seqüências (arquivos .seq), playlists que são formadas por uma
+lista de indicações que, tal qual as rotações podem conter qualquer tipo
+   de arquivo, sendo reproduzidos na seqüência a partir da qual estão
+ listados e podem ser bastante úteis por exemplo, para a programação de
+                         blocos de comerciais.
+    * Comando stop (Arquivos .stop), usados para parar a reprodução
+ (esse comando também pode ser inserido diretamente num arquivo .m3u, a
+partir do bloco de notas, o que considero bastante útil numa programação
+                do Zararadio feita para rodar 24 horas).
+   * Comando play (Arquivos .play) ) para iniciar a reprodução, sendo
+interessantes apenas quando aplicados em eventos imediatos (esse comando
+também pode ser inserido diretamente num arquivo .m3u, a partir do bloco
+ de notas, o que considero bastante útil numa programação do Zararadio
+                      feita para rodar 24 horas).
+  * Locuções de umidade (Arquivos .humidity) que servem para que seja
+   falada a umidade. Para que isso seja possível, é necessário ter os
+arquivos de áudio com as locuções correspondentes, na subpasta Humidity
+que está na pasta de instalação do Zararadio (normalmente em c:\Arquivos
+de Programas\ZaraSoft\ZaraRadio\Humidity). O formato do arquivo deve ser
+  HUMXXX.mp3, onde XXX é a umidade falada na locução. Por exemplo, um
+ arquivo com o nome HUM100.mp3, deverá conter uma locução mais ou menos
+  assim: "Neste momento, na cidade tal, estamos com a umidade em 100%"
+ (esse comando também pode ser inserido diretamente num arquivo .m3u, a
+partir do bloco de notas, o que considero bastante útil numa programação
+   do Zararadio feita para rodar 24 horas). Essas locuções de umidade
+     também podem ser programadas a partir da criação de um evento.
+    * Locuções de temperatura (Arquivos .temperature), para falar a
+   temperatura (esse comando também pode ser inserido diretamente num
+arquivo .m3u, a partir do bloco de notas, o que considero bastante útil
+  numa programação do Zararadio feita para rodar 24 horas). Para que o
+ anúncio da temperatura seja possível, é necessário ter os arquivos com
+    as locuções correspondentes na subpasta Temperature, na pasta de
+         instalação do Zararadio (normalmente em c:\Arquivos de
+Programas\ZaraSoft\ZaraRadio\Temperature). O formato do nome do arquivo
+deve ser TMPXXX.mp3, contendo a temperatura XXX. Por exemplo, o arquivo
+TMP025.mp3, falará mais ou menos assim: "Neste momento, 25 graus". Para
+regiões mais frias, há os arquivos TMPNXXX.mp3, com locuções XXX a baixo
+ de zero. Essas locuções de temperatura também podem ser programadas a
+  partir da criação de eventos. O Zararadio pode importar os dados de
+umidade e temperatura da aplicação Weather Watcher (Requer a versão 5.6
+  ou superior) ou podem ser introduzidos manualmente pelo usuário nos
+   campos temperatura e umidade. O programa Weather Watcher pode ser
+baixado gratuitamente em {22} http://www.singerscreations.com. Se deseja
+  importar os dados do programa indicado, deve marcar a opção importar
+desde um arquivo e indicar a localização do arquivo com os dados gerados
+pelo Weather Watcher. Por último, pode configurar em que unidades serão
+mostradas as temperaturas, podendo escolher entre graus Celsius e graus
+Fahrenheit. As medidas aqui definidas são independentes das configuradas
+   no Weather Watcher. Se por exemplo, você houver configurado graus
+     Celsius e o Weather Watcher tiver exportado os dados em graus
+   â€œFahrenheitâ€, o Zararadio fará a conversão automaticamente. Um
+   problema que pode acontecer, é perdermos a conexão com a internet
+durante a noite e ficarmos a transmitir dados meteorológicos incorretos.
+ Para não passar por essa situação, pode fazer com que o Zararadio não
+ transmita as locuções de umidade e temperatura se a aplicação Weather
+Watcher levar determinado período sem atualizar as informações de tempo.
+ Para isso, marque a caixa de verificação desativar as locuções depois
+de, colocando o tempo máximo de validade das informações meteorológicas.
+ Para a configuração do programa Weather Watcher, uma vez aberto este,
+vamos pressionar o último ícone da fila de ícones da esquerda, quando se
+ abrirá uma outra janela, onde devemos ir até a guia Active City, se já
+não estivermos nela, para pressionar o botão Add City, escrevendo o nome
+     da cidade para a qual queremos obter os dados meteorológicos,
+   pressionando em seguida, searge, selecionando a cidade na lista e
+ finalizando com ok. Agora vamos para a guia Export e marcamos a caixa
+   Enable Exporter. devemos também indicar o caminho do arquivo a ser
+   gerado, onde o Zararadio pegará os dados. Para terminar, na opção
+ auto-update, tem que ser selecionada uma opção, menos a que diz Never
+Auto Update. A título de informação, os aeroportos costumam atualizar as
+    informações meteorológicas que utilizam, a cada meia hora. para
+  enserrar, presssionamos o botão ok, e, se o programa não atualiza os
+dados automaticamente, fazemos manualmente esse processo, pressionando o
+ primeiro botão da esquerda.esse processo Pronto, já está configurado o
+Weather Watcher, e agora precisamos indicar para o Zararadio, o caminho
+   do documento gerado pelo Weather Watcher. Então acionamos a opção
+      importar desdee um arquivo, pressionamos o botão examinar, e
+     selecionamos o arquivo definido na opção Export file location.
+  * Locuções de Hora (arquivos .time) usados para falar as horas (esse
+comando também pode ser inserido diretamente num arquivo .m3u, a partir
+  do bloco de notas, o que considero bastante útil numa programação do
+Zararadio feita para rodar 24 horas). Para sua utilização, é necessário
+ter previamente os arquivos com as locuções correspondentes, na subpasta
+Time, na pasta de instalação do Zararadio (normalmente em c:\Arquivos de
+ Programas\ZaraSoft\ZaraRadio\Time). O nome dos arquivos de áudio deve
+obedecer o seguinte critério: MINXX.mp3, arquivo que falará as locuções
+ dos minutos XX. No exemplo MIN01.mp3, deverá ter a locução um minuto.
+   HRSXX.mp3 (Arquivo que deve ter a gravação da hora XX). No exemplo
+ HRS18.mp3, o arquivo deverá ter gravado Mais ou menos assim: "são seis
+  da tarde mais". HRSXX_O.MP3 # tratando-se da letra O e não do número
+    zero # (Arquivo que fala uma locução de hora cheia). No exemplo
+ HRS18_O.MP3, a locução será mais ou menos assim: "São exatamente seis
+ horas da tarde". Essas locuções de hora também podem ser programadas a
+     partir da criação de eventos. Vários usuários do Zararadio têm
+    colaborado sem qualquer interesse, nos enviando suas locuções de
+ umidade, temperatura e hora. se quiser baixar algumas dessas locuções,
+  pode fazê-lo indo em {23} Tú emites . Na seção de downloads de {24}
+www.casaresirratia.com/ também podem ser encontraddas locuções, ou mesmo
+   em {25} www.4shared.com . Ainda assim, você também pode contribuir
+disponibilizando suas próprias locuções para a comunidade de usuários do
+                               ZaraRadio.
+     * Pausa, ou arquivos .pause, que, quando acionados produzem um
+     silêncio num período determinado, indicado na sua criação (ou
+introdução). Para criá-lo, deve-se usar o comando lista adcionar pausa;
+ e sua duração deve estar entre 0 e 3600 segun dos (esse comando também
+  pode ser inserido diretamente num arquivo .m3u, a partir do bloco de
+notas, o que considero bastante útil numa programação do Zararadio feita
+                         para rodar 24 horas).
+   * Playlists aleatórias (arquivos .dir). Ao serem acionadas, tocam
+   uma faixa aleatória, a partir da pasta indicada, ou de uma de suas
+   subpastas. As faixas não são repetidas, até que todas tenham sido
+ executadas, ou seja, enquanto todas não houverem sido tocadas, nenhuma
+  será repetida (esse comando também pode ser inserido diretamente num
+arquivo .m3u, a partir do bloco de notas, o que considero bastante útil
+numa programação do Zararadio feita para rodar 24 horas). Para se criar
+  playlists aleatórias, tem que executar o comando adicionar playlists
+aleatórias. Ao se colocar novos arquivos nas pastas, eles serão levados
+em conta pelo controle de repetição automaticamente, por não terem sido
+  reproduzidos nenhuma vez, pelo que terão o máximo de prioridade, por
+                  nunca terem sido tocados até então.
+    * Post-it (arquivos .txt, .htm e .html). Comando que mostra uma
+             pequena janela com o texto contido no arquivo.
+                                   *
+  * Executáveis e scripts (arquivos .exe e .bat), comando que executa
+                        o arquivo .exe ou .bat.
+   * Comando para carregar eventos (arquivos .evt). Permite trocar a
+ lista de eventos atuais por outra, que tenha sido salva previamente, a
+  partir da janela de diálogo de eventos. Um evento do Zararadio é um
+arquivo que deve se reproduzir numa hora e dia determinados. Os eventos
+ são interessantes para se tocar arquivos ou executar comandos de forma
+   assíncrona com a lista de reprodução. Podem ser utilizados para se
+programar propagandas, prefixos da emissora, etc& (muito embora eu ainda
+prefira trabalhar com arquivos .m3u (ou .lst para o caso de programação
+de WeB-Rádios, programas transmitidos pela internet, via satélite, entre
+ outros do gênero, pois o Zararadio não suporta tal funcionalidade num
+arquivo .m3u) para programar blocos de apoios execução de comandos .dir,
+play, .time, .temperature, .humidity, entre outos, deixando depois, os
+arquivos .m3u ou .lst programados nos eventos do Zararadio, o que torna
+ muito mais administrável a manutenção de uma rádio automatizada por 24
+    horas.) São mostrados os eventos próximos na janela principal do
+  Zararadio, principalmente os que serão acionados nos próximos quinze
+ minutos. Em cima da lista de eventos, há quatro botões, cujas funções
+são: 1) Play # para reproduzir os eventos pendentes, isto é, eventos que
+estão atrasados e não foram tocados, por estar ativada a função stop, ou
+ por estar tocando uma música. 2) Eliminar eventos # apaga da lista os
+    eventos pendentes. tanto este botão, quanto o anterior, só ficam
+ disponíveis, quando há eventos pendentes. 3) Ativar eventos # ativa ou
+desativa a reprodução de eventos. 4) Programar eventos (relógio) # abre
+  uma janela, onde é possível estabelecer novos eventos. Para adcionar
+   eventos, pressione um botão cujo link é um relógio. A partir dessa
+ açãoabre-se uma janela onde cada evento tem na sua esquerda um tique,
+  que serve para ativar ou desativar os eventos individualmente. Para
+ ativar um novo evento, basta pressionar o botão novo, quando aparecerá
+uma janela de diálogo onde as possíveis configurações são: O dia/data de
+    início # indica o dia e hora em que o evento será executado pela
+primeira vez. Será reproduzido todos os dias, na hora escolhida, até que
+   chegue o dia e hora da expiração (momento em que o evento deixa de
+  existir). Para criar eventos não sujeitos à expiração, basta deixar
+ desmarcada a caixa expiração, o que já é por padrão. Na periodicidade,
+  apesar de havermos visto que um evento toca uma vez por dia na hora
+escolhida, é possível programá-lo para tocar a cada hora, selecionando a
+ caixa todas as horas. AInda é possível fazer a programação para apenas
+  algumas horas, selecionando a caixa outras horas, quando aparecerá a
+ opção para que marquemos as horas desejadas. Os minutos não podem ser
+   alterados, e serão os mesmos marcados na opção de início do evento
+   independente do tipo de periodicidade escolhido, restando a você a
+possiblidade de editar o campo dos minutos horas e segundos a partir do
+   modelo hora:minutos:segundos para qualquer um dos eventos a serem
+ programados no Zararaadio. Um evento pode ser utilizado para se fazer
+ tocar um arquivo, ou ainda para ativar o play ou stop automaticamente,
+ introduzir uma faixa aleatória, conectar a um satélite, etc& Um evento
+   pode estar sujeito a atrasos, ou ser imediato. quando chega a hora
+ marcada para a execução de um evento, podem acontecer duas coisas: se
+ele está sujeito a atrasos, esperará até que chegue ao fim, a faixa que
+está sendo executada. Se o Zararadio estiver em stop, ficará aguardando
+indefinidamente, até que haja uma alteração para play. Porém, quando for
+  imediato, será interrompido o arquivo em execução no momento e será
+       iniciado o evento. se o Zararadio estiver em stop, passará
+  automaticamente para play e começará a reproduzir o evento. Também é
+   possível definir a prioridade. Imagine que programou um evento com
+duração de 30 minutos, com um evento e indicativos a cada 5 minutos. Com
+  essa programação, durante o evento, teríamos 6 indicativos seguidos.
+    Para evitar isso, o Zararadio tem um mecanismo que permite sejam
+discartados eventos nesses casos. Um evento pode ter prioridade baixa ou
+  alta. Quando um evento está sendo executado e chega a hora de outro
+ evento, podem acontecer duas coisas: A) Que o evento novo tenha menor
+  prioridade que o evento que está tocando no momento e, neste caso, o
+    evento novo não tocaria, sendo discartado. B) que o evento tenha
+ prioridade maior ou igual ao evento que está sendo executado e, neste
+   caso, o evento ficaria pendente, na lista de eventos próximos, até
+   chegar ao fim o evento atual. O problema do exemplo acima, estaria
+solucionado ao se dar prioridade alta para o informativo e baixa para os
+  indicativos, com o que, os eventos seriam discartados no decorrer do
+informativo (Eu uso bastante desse recurso quando programo vários blocos
+de apoios intercalados por várias músicas aleatórias, o que faz com que
+     nenhuma das músicas seja interrompida bruscamente durante sua
+  execução.). No caso de tratar-se de um evento com possibilidades de
+atraso, é possível de se indicar em minutos, o tempo máximo que ele pode
+  esperar. POr exemplo, se um evento com possibilidades de atraso está
+    programado para as 13 horas e 15 minutos, com espera máxima de 5
+  minutos, quando chegar 13 horas e 20 minutos sem que ele tenha sido
+executado, o mesmo desaparecerá da janela de eventos próximos, não sendo
+executado nessa ocasião. É possível modificar-se um ou vários parâmetros
+ de um evento, após a seleção desse evento na lista, ou a partir de um
+ duplo clique sobre um dos eventos. Ainda é possível se eliminar um ou
+vários eventos, a partir dos comandos de seleção no Windows. Os eventos
+que caducaram, aparecem na cor gris clara, para indicar a sua situação.
+    é possível eliminá-los de uma só vez, a partir do botão eliminar
+expirados. Os botões abrir/salvar permitem que seja guardada a lista de
+eventos num arquivo, para que seja possível sua recuperação mais tarde,
+ou para levá-la para outro computador. De qualquer forma, ao ser fechado
+   o Zararadio, a lista de eventos fica armazenada automaticamente no
+    registro do Windows, sendo restaurada quando voltamos a abrir o
+    programa. Porém, eu sempre aconselho que quando você faça alguma
+  alteração nos eventos do Zararadio, feche o programa para abri-lo em
+   seguida, pois se houver algum travamento inesperado no computador
+ (inclusive por queda de energia) ou no Zararadio, essas alterações na
+ lista de eventos não são mantidas no registro (e eu já tive surpresas
+                    desagradáveis por esse detalhe).
+    * Rádios Online (Arquivos .stream) para reproduzir o som de uma
+   Webrádio # rádio que transmita pela internet. Para introduzir uma
+   conexão com uma Webrádio na lista vá até lista, adicionar rádio de
+ internet, e, na janela de diálogo que se abrir, no primeiro campo deve
+ ser colocado o tempo que se deseja que o Zararadio permaneça conectado
+  com a rádio. No segundo campo, deve ser colocado o endereço real da
+ rádio, que não pode ser um endereço terminado em m3u, pls ou asx, pois
+ estes apenas apontam para listas de reprodução, servindo somente para
+  facilitar as coisas para os internaltas que pretendam ouvir a rádio.
+  Quando são abertos num editor de textos, mostram o endereço real da
+ transmissão. Aqui, um exemplo do conteúdo de um arquivo .m3u: #EXTM3U
+#EXTINF:0,[Radio Casares Irratia] http://emision.casaresirratia.com:8000
+â€“ mp3PRO http://emision.casaresirratia.com:8000 Neste caso, o endereço
+     real da rádio é http://emision.casaresirratia.com:8000 (essas
+programações não são suportadas pelo Zararadio quando salvas num arquivo
+ .m3u, sendo aconselhável o salvamento das mesmas em arquivo .lst e são
+    bastante úteis para se programar por exemplo, "A Voz do Brasil",
+    programas disponíveis na internet, entre outras possibilidades).
+    * Conectar ao satélite (arquivos .satcon), usados para ativar a
+  entrada de linha da placa de som que foi configurada no diálogo das
+                                opções.
+    * Desconectar do satélite (arquivos .satdis), usados para deixar
+muda a entrada de linha da placa de som escolhida para isso na janela de
+diálogo de opções. A opção de satélite permite que se configure a placa
+de som e a entrada da linha que será usada nos eventos de tipo satélite.
+    Nestes eventos, será interrompido o silêncio da entrada de linha
+   selecionada, durante sua reprodução. Ao chegar ao fim o evento de
+      satélite, a entrada de linha indicada voltará a ficar muda.
+  * Acionar o detector DTMF (arquivos .dtmfon), para ativar o detector
+                             de tons DTMF.
+   * Desativar o detector DTMF (arquivos .dtmfoff), para desativar o
+detector de tons DTMF. as opções DTMF podem ser bastante úteis, porque o
+ Zararadio possibilita que sua radio entre em rede numa transmissão em
+  cadeia, quando são usados os sistemas de tons DTMF. Exemplos dessas
+ cadeias, são Punto Radio o Intereconomía. Se não estiver associado com
+ nenhuma cadeia de transmissão que use esse sinal, desative o detector
+    DTMF. Pelo contrário, se utiliza esse sinal, ative o detector e
+ configure seguindo os parâmetros da cadeia a qual você está integrado.
+     Para a maioria das cadeias (para não dizer em todas), o tom de
+   desconexão é o 69. Quando o Zararadio detectar o tom especificado,
+    deixará muda a entrada de linha configurada e começará pela ação
+programada, para aquele momento, reproduzindo os eventos pendentes, ou a
+     lista de reprodução. Quando selecionados como ação, os eventos
+pendentes, reproduz os eventos atrasados e pendentes para serem tocados
+  na janela de eventos próximos. Ao termminar os mesmos, passa para a
+lista de reprodução, até que chegue a hora da reconexão. Se não houverem
+eventos pendentes, não reproduzirá nada. Quando selecionada a reprodução
+de listas, o zararadio reproduz a lista de maneira normal, introduzindo
+ os eventos correspondentes, se for o caso, até que chegue o momento da
+ reconexão. Para se reconectar com a cadeia, há três opções distintas:
+    tom: Algumas cadeias emitem um tom para desconectar e outro para
+ reconectar. Se este for o seu caso, escolha essa opção e especifique o
+tom correspondente, que pode ser o 90. Depois de X segundos: Há cadeias
+que optam por fixar o tempo que dura a desconexão e não enviar um tom de
+  reconexão. Sendo este o seu caso, escolha essa opção e especifique o
+   tempo em segundos que duram as desconexões de sua cadeia. Uma vez
+  passado o tempo determinado, o Zararadio, tal qual nos casos de tons
+ DTMF, parará com a reprodução local e voltará a abrir o canal da linha
+ de entrada na placa de som correspondente com a transmissão da cadeia.
+Não conectar, ou conectar manualmente: Neste caso, o Zararadio segue com
+a reprodução normal, da lista, dos eventos, não voltando a se conectar.
+Também serve para conexões manuais. Pode acontecer de você querer tocar
+um bloco de comerciais, voltando a se conectar imediatamente após isso.
+Para alcançar tal resultado, usa-se essa opção, colocando-se um comando
+de conectar-se ao satélite no final do bloco de comerciais. O Zararadio
+     também admite a possibilidade de que hajam alguns períodos de
+   programação local em que se queira ignorar os tons DTMF. que forem
+ enviados pela cadeia. Quando se der essa situação, podem ser colocados
+  comandos de ativar ou desativar tons DTMF nas listas ou nos eventos.
+Para que o Zararadio detecte corretamente os tons DTMF, é preciso que se
+  configure os controles de som no modo que se segue: se imagina que a
+fonte de som em que se deseja fazer a detecção, é a entrada de linha da
+ placa de som principal (atualmente só funciona com essa placa de som).
+ Sendo assim, devemos seguir esses passos: Abrimos o controle de volume
+do Windows (por exemplo, a partir do executar do Windows, cujo atalho é
+iniciar mais R, digitando no campo correspondente sndvol32) ou a partir
+ do Menu Ferramentas, submenu Misturador, no Zararadio. Agora acionamos
+opções e propriedades, selecionamos a placa de som principal, escolhemos
+ gravação, pressionamos ok, selecionamos entrada de linha ou line-in e
+                           fechamos a janela.
+
+
+Para criar uma lista, pressione o botão para criar uma lista vazia. Para
+      adicionar temas na lista, basta acionar a partir da barra de
+   ferramentas, ou usar o menu listas, adicionar arquivos. Esta opção
+abrirá uma janela de diálogo, que permitirá a seleção de vários arquivos
+numa só vez, com as costumeiras teclas de seleção no Windows. Como outra
+alternativa, também é possível, usando-se a função de arrastar e soltar
+  na lista ierárquica que está abaixo da lista de eventos. Para isso,
+     selecione um arquivo com o mause, e arraste-o para a lista de
+ reprodução. Você ainda pode criar uma lista de reprodução a partir do
+ bloco de notas, salvando-a depois, como um arquivo .m3u (lembrando que
+se o arquivo for construído no bloco de notas, você sempre deverá deixar
+uma linha em branco no final do arquivo para que o Zararadio não ignore
+o último íten da lista). Uma lista de reprodução pode apontar para outra
+    lista de reprodução e, vice-verssa, de modo que o Zararadio pode
+   funcionar ininterruptamente por tempo indeterminado (desde que não
+   esteja selecionada a opção "manual" ou "cíclico", ou ainda, quando
+estando o sistema de reprodução em "normal" você tenha programado aogum
+  evento para um determinado horário e a lista de reprodução atual não
+ tenha suficientes ítens para manter o Zararadio em funcionamento até a
+hora desse próximo evento, caso em que o Zararadio simplesmente entra em
+modo stop, permanecendo em tal status até que haja um evento configurado
+para início imediato ou que haja a intervenção humana). AQui, programo a
+ execução de um arquivo .m3u com um bloco de comerciais nos eventos do
+   Zararadio, apontando em seu final para uma lista de reprodução com
+   várias inserções do comando .dir (que pode apontar para pastas com
+   musicas mais agitadas durante o dia e para pastas com músicas mais
+  lentas durante a noite); lembrando que se você inclui uma pasta com
+   várias subpastas dentro dela seguida do comando .dir (por exemplo:
+"C:\músicas da Rádio\Músicas Nacionais.dir com uma pasta para as músicas
+de cada cantor dentro dela), o Zararadio vai executar também as músicas
+que estejam nas subpastas, o que torna esse comando bastante adaptável.
+  Quando o computador a executar o zararadio for manipulado por muitas
+  pessoas diferentes, convêm alterar o status da pasta onde fiquem as
+   listas de reproduções para "só de leitura" (o que pode ser feito a
+  partir da opção propriedades, ao se clicar com o direito do mouse em
+  cima da pasta, marcando-se ou desmarcando-se a opção "só de leitura"
+ (para permitir ou não alterações nos arquivos que estejam dentro dela)
+clicando em OK e mantendo marcada a caixa "Aplicar as alterações a esta
+ pasta, subpastas e arquivos" e clicando novamente em OK para fechar a
+     janela) a fim de que não sejam salvas alterações indevidas nos
+playlistes, feitas por usuários inescrupulosos ou inexperientes. Quando
+ a lista de reprodução está em stop, há sempre uma faixa marcada com a
+cor verde (A cor verde indica sempre que uma faixa será a próxima a ser
+tocada), portanto, ao se pressionar o botão play, tocará a faixa marcada
+  com a cor verde. Quando a lista está tocando, a cor verde continua a
+ indicar a próxima faixa a ser tocada, havendo ainda uma faixa marcada
+com a cor vermelha, indicando a faixa que está sendo tocada atualmente.
+A qualquer momento é possível alterar a próxima faixa a tocar, bastando
+ para isso, dar um duplo clique em qualquer uma das faixas, exceto nos
+ casos em que esteja marcado para acionar os temas com um duplo clique,
+situação em que deve ser usado o menu de contexto (Ou direito do mause).
+  Neste caso, ela continuará marcada com a cor verde, indicando ser a
+  próxima a tocar. Também é possível usar a opção (a partir do menu de
+  conttexto ou de atalho) para parar depois da próxima, caso em que o
+ Zararadio não executará nada quando terminar a faixa atual, marcada em
+                               vermelho.
+
+  Função eliminar ao reproduzir (apagar ao reproduzir). ). Quando este
+ botão está pressionado (ou caixa de verificação marcada), o Zararadio
+      apaga cada tema, logo após terminada a reprodução do mesmo.
+
+Cíclico (ou repetição). Quando este botão está pressionado (ou caixa de
+verificação marcada), o Zararadio tocará repetidas vezes a faixa atual.
+
+  Uma lista pode ser reproduzida em cinco modos diferentes, podendo-se
+ alternar entre eles, a partir da caixa combinada que está na barra de
+                         ferramentas superior.
+    . Normal: A lista toca seqüencialmente, parando quando chegar na
+                              faixa final.
+    . Repetir: com reprodução igual ao modo normal, com a diferença
+    que começará novamente da primeira faixa quando chegar ao final.
+       . Embaralhar; toca a lista tal qual no modo repetir, com o
+diferencial que, ao chegar na última faixa, reorganiza aleatoriamente a
+         ordem de execução das faixas, para continuar a tocar.
+    . Manual: é tocada a faixa selecionada, parando no final dessa,
+                       a espera de novo comando.
+     . Aleatório; Reproduz as faixas em ordem aleatória, ou seja, o
+ marcador verde vai para uma faixa ao acaso, cada vez que esteja sendo
+ reproduzido um dos temas da lista. Não é de todo certo, que faixas não
+                            sejam repetidas.
+
+
+ Enquanto está sendo reproduzida uma lista, é possível dar um fade (ou
+  atenuar o som) da lista com o atalho T # durante as locuções, sendo
+ totalmente configurável nas opções do Zararadio, o volume de fade (ou
+  atenuador) das músicas para o momento da locução e a determinação do
+   tempo aproximado que durará a variação do volume. estes parâmetros
+     alteram tanto os fades, quanto o botão localizado na barra de
+                         ferramentas inferior.
+
+   A lista de reprodução conta com um menu de contexto, que pode ser
+acionado quando estando na lista, clicamos com o menu de contexto ou com
+o direito do mause. Nesse menu, entre outras opções, podemos pré-escutar
+uma música, quando tivermos outra placa de som no micro, sem que a mesma
+                           seja ouvida no ar.
+
+ Aliás, Falando em pré-escuta, um dos muitos recursos interessantes no
+               Zararadio, são os Reprodutores auxiliares.
+
+ o Zararadio Tem, 4 reprodutores auxiliares com praticamente as mesmas
+funções que a lista de reprodução principal. Para entrar neles você tem
+                             várias opções:
+     . Ir em ferramentas, reprodutores auxiliares, reprodutor 1..4.
+                  . Pressionar Control+1,&, Control+4.
+         . Pressionar os botões de 1 a 4 que estão na barra de
+                         Ferramentas superior.
+
+
+  Depois de usar qualquer um dos três métodos indicados, aparecerão os
+         reprodutores Na parte direita da janela do ZaraRadio.
+
+ A maneira de trabalhar com eles, é quase a mesma da lista principal. A
+     única diferença a ser considerada é que, Para mudar o modo de
+reprodução, devemos usar o menu de contexto da lista, o que também pode
+              ser conseguido com o botão direito do mause.
+
+Os reprodutores auxiliares estão localizados na parte direita da janela,
+  porém, é possível movê-los para qualquer outro lugar da mesma. Para
+    isso, clique com o esquerdo do mause sobre a barra onde estão e
+ arraste-os para o lugar desejado. Você irá observar que enquanto faz a
+ movimentação, aparecerão umas flechas de cor azul que apontam para as
+    laterais da tela. Ao soltar o mause sobre uma dessas flechas, o
+   reprodutor auxiliar ficará na posição indicada. Também é possível
+ colocar numa lista, vários reprodutores, para chegar neles a partir de
+   guias, a fim de economizar espaço. Se quiser fazer essa arrumação,
+arraste um reprodutor em cima do outro e solte o mause em cima do botão
+                 circular que está no meio das flechas.
+
+  O Zararadio também conta com o recurso de locuções virtuais, podendo
+   lançar arquivos de som, assim como locuções de hora, temperatura e
+ umidade, sobre outros arquivos de som. É o que popularmente se conhece
+ como voicetracking. Para fazer isso, deve ir em ferramentas, editor de
+ locuções virtuais. E, na janela que se abrir, serão mostradas todas as
+ locuções virtuais ativas. Na primeira coluna aparece o nome do arquivo
+ sobre o qual se lançará a locução virtual. Na segunda coluna a locução
+virtual e, na terceira coluna, o tempo desde o início do arquivo sobre o
+qual será lançada a locução virtual. Ainda aparecem os seguintes botões:
+        . Adicionar: permite adicionar na lista uma nova locução
+  virtual. Ao usar esse botão, será aberta uma nova janela de diálogo,
+      para o preenchimento dos dados relacionados com cada coluna.
+     . Modificar&: Permite modificar a locução virtual selecionada,
+        abrindo a mesma janela de diálogo que no botão anterior.
+     . Eliminar tudo: Elimina todas as locuções virtuais da lista.
+         . Eliminar: Elimina as locuções virtuais selecionadas.
+       . Abrir&: permite importar uma lista de locuções virtuais
+                           previamente salva.
+    . Salvar&: Permite exportar a lista atual de locuções virtuais.
+
+
+Para quem já teve a paciência de ler esse tutorial até aqui, conhecendo
+   portanto algumas das possibilidades nesse fantástico automatizador
+     gratuito de rádios, segue-se uma lista dos menus do programa:
+     . Menu Arquivo: A) Novo: cria uma nova lista vazia, fechando a
+anterior; B) Abrir: abre uma lista previamente salva; C) Salvar: salva a
+    lista atual; D) Salvar como: salva a lista atual, porém em outro
+arquivo; E) Arquivos Recentes: mostra uma lista com os últimos arquivos
+                  abertos; F) SAir: fecha o programa.
+    . Menu Editar: A) Copiar: copia para a área de transferência as
+músicas selecionadas na lista; B) Colar: copia da área de transferência
+   para a lista: C) Eliminar: Apaga as músicas selecionadas na lista.
+Lembrando que podem ser selecionadas várias ao mesmo tempo; D) Eliminar
+     todas: Elimina todas as faixas da lista; Encontrar na lista de
+   reprodução: Abre uma caixa de diálogo para buscas; E) Encontrar em
+  pastas: Permite buscar no disco rígido, a partir de uma determinada
+ pasta. Com ela, podemos buscar um ou vários arquivos numa determinada
+pasta, buscando também em todas as suas subpastas. No campo buscar deve
+   ser escrito o texto que queremos buscar, tanto no nome do arquivo,
+ quanto nos tags ID3 TITLE e ARTIST, sempre que esteja ativada a busca
+também por tags. É possível cancelar a busca em curso, escolher a Pasta
+  onde será feita a busca e, a partir do botão examinar, escolher uma
+  pasta, e ao buscar, levar em conta os tags ID3: numa busca (tendo em
+ mente que a busca será mais lenta quando esta opção estiver ativada),
+   acionando por fim, o botão "Encontrar agora" para iniciar a busca.
+   Terminada a busca, aparecerão todos os ítens encontrados na lista
+  inferior. Para adicioná-los na lista de reprodução, basta arrastar e
+    soltar. Também é possível fazer uma pré-escuta dos temas, sendo
+ necessário para isso, pressionar o botão direito do mause sobre o ítem
+  que se quer ouvir na pré-escuta e selecionar essa opção no menu que
+aparecer. A busca é feita por máscaras, isto é, há um caractere especial
+ que se pode usar como facilitador: *. O * indica 0 ou mais vezes para
+       qualquer caractere. Por exemplo, para pesquisar o arquivo
+ Radio-Indicativo1.mp3 com a palavra indicativo deveríamos escrever no
+campo de buscas *indicativo*, funcionando de um modo parecido com o que
+                  acontece na linha de comando MS-DOS.
+     . Menú Ver: A) Caminho completo: Mostra o caminho completo dos
+arquivos da lista; B) Fonte da lista: permite alterar a fonte com a qual
+são mostrados os textos da lista de reprodução; C) topo da lista: Mostra
+ou oculta o topo da lista de reprodução (título da música, duração); D)
+Número das músicas: Numera as músicas da lista; E) informação do tempo:
+Mostra ou oculta a informação do tempo que está na direita da data e da
+hora; F) Atualizar árvore de arquivos: Atualiza a lista de arquivos que
+está abaixo da lista de eventos próximos (é interessante para quando se
+   faz mudanças no disco rígido ou a cada vez que se introduza novas
+  unidades removíveis, tais como CD Pen-Driver, etc& porque caso você
+       remova um CD e introduza outro, o Zararadio não atualizará
+         automaticamente a lista das novas faixas disponíveis).
+     . Menú Vinhetas: A) 1 a 9: Reproduz a vinheta selecionada; B)
+    Locução de hora: Fala a hora (é preciso ter instalado um jogo de
+locuções de hora); D) Locução de umidade: Fala a umidade (é preciso ter
+instalado um jogo de locuções de umidade); E) Editar vinhetas: Abre uma
+janela de diálogo que permite alterar as vinhetas. Na parte inferior do
+programa, tem 9 botões, que permite sejam tocadas rapidamente 9 vinhetas
+diferentes. Além do mais, pode-se guardar até 9 páginas diferentes, pelo
+ que, pode ter para uso, até 90 vinhetas. Há três maneiras de se tocar
+  uma vinheta: A mais rápida é pressionar o seu número no teclado: Por
+exemplo, para tocar a vinheta número 4, bastaria pressionar o número 4.
+ Pode-se ainda, pressionar o número da vinheta na barra de ferramentas.
+ Também é possível ir até o menu vinhetas e clicar na vinheta desejada.
+Para modificar a barra de vinhetas, existem duas opções. A mais fácil, é
+arrastar com o mause um arquivo da lista hierárquica que está abaixo da
+ janela de eventos próximos, ou de uma pasta do Windows até o botão que
+escolhemos para ela. A outra maneira de fazzer isso, é escolhendo o menu
+ vinhetas para ir em editar vinhetas. Para modificar uma vinheta, basta
+ selecioná-la e acionar o botão modificar, ou dar um duplo clique sobre
+    ela. Então será aberta uma janela de diálogo que permitirá seja
+ escolhido um arquivo de áudio (mp3, wav, wma, ogg) para que se faça a
+   associação do mesmo. Também é possível abrir ou salvar uma página
+  inteira a partir dos botões abrir e salvar que, todas as alterações
+  feitas, estarão associadas somente à página de vinhetas ativa. Para
+ mudar de página, pode usar a caixa combinada que está em cima da lista
+   de páginas. Também pode pré-escutar as vinhetas a partir do botão
+ pré-escuta. É possível ainda, renomear as páginas, bastando para isso,
+  escrever os nomes na caixa combinada de seleção de páginas e depois,
+ pressionar enter ou o botão renomear. As vinhetas podem ser tocadas em
+três modos diferentes: NOrmal (a vinheta é tocada de forma normal), com
+ atenuador (antes de começar a tocar, baixa automaticamente o volume da
+ lista de reprodução principal, restaurando-o quando chegar ao final da
+ vinheta) ou cíclico (a vinheta fica sendo repetida constantemente até
+           que o usuário manualmente faça com que ela pare).
+    . Menu Lista: A) Adicionar arquivos&: Permite sejam adicionadas
+   novas músicas na lista de reprodução; B) Adicionar comando parar:
+Adiciona um comando de parar abaixo da música selecionada ou da última,
+    se não houver nenhuma selecionada; C) adicionar locução de hora:
+ Adiciona uma locução de hora logo abaixo da música selecionada ou logo
+abaixo da última, se não houver nenhuma música selecionada; D) Adicionar
+locução de temperatura: Adiciona uma locução de temperatura logo abaixo
+ da música selecionada ou no fim da lista, caso não haja nenhuma música
+ selecionada; E) Adicionar locução de umidade: Adiciona uma locução de
+   umidade abaixo da música selecionada, ou no final da lista, se não
+houver nenhuma música selecionada; F) Adicionar arquivo aleatório&: Abre
+ uma janela de diálogo que permite selecionar uma pasta para selecionar
+  nela ou em suas subpastas arquivos aleatórios. G) Adicionar pausa&:
+Adiciona um comando de pausa com a duração indicada na janela de diálogo
+ que aparece, abaixo da música selecionada, ou no final da lista, caso
+ não haja nenhuma música selecionada; H) Adicionar satélite&: Adiciona
+    uma conexão pela entrada de linha da placa de som, por um tempo
+ pré-determinado; I) Adicionar Webrádio&: Adiciona uma conexão com uma
+rádio online pela internet, durante um tempo pré-determinado (lembrando
+ que esse comando não está disponível para listas de reprodução salvas
+ como .m3u, mas sim, para playlists nativas do Zararadio); J) Adicionar
+      conexão de satélite: Adiciona na lista um comando que ao ser
+  reproduzido, ativa a entrada de linha da placa de som; K) Adicionar
+    desconexão de satélite: Adiciona na lista um comando que Ao ser
+  executado, emudece a entrada de linha da placa de som; L) Adicionar
+ativação de DTMF: Adiciona na lista um comando que, ao ser reproduzido,
+    ativa o detector de tons DTMF; M) Adicionar desativação de DTMF:
+    Adiciona na lista um comando que, ao ser reproduzido, desativa o
+    detector de tons DTMF; N) Embaralhar: Organiza a lista de forma
+ aleatória. O) Pré-escuta: Permite pré-escutar a música selecionada; P)
+Ver duração da seleção&: Abre uma janela que mostra a duração total dos
+  objetos selecionados na lista de reprodução principal; Q) Atualizar
+duração: Atualiza na lista a duração do objeto selecionado; R) Atualizar
+   todas as durações: Atualiza a duração de todos os ítens da lista.
+    . Menu Ação: A) Reprodução: Começa a tocar as músicas da lista;
+B) Parar: Suspende a reprodução; C) Próximo: Começa a reproduzir o tema
+marcado em verde, parando a execução do tema atual; D) Atenuador: Baixa
+o volume do que esteja tocando para que um locutor possa falar; E) Parar
+  depois da próxima: Para de tocar quando terminar a música atual; F)
+ Renomear: Permite alterar o nome do arquivo selecionado na lista. Leve
+  em conta, que não é possível renomear arquivos quando estejam sendo
+   executados. O arquivo é renomeado fisicamente, no disco rígido do
+                              computador.
+       . Menu ferramentas: A) Misturador; Executa o aplicativo de
+    mistura especificado na janela de diálogo de opções (por padrão,
+ controles de volume); B) reprodutores auxiliares: Permite abrir até 4
+listas de reprodução auxiliares. Cada lista pode estar sendo tocada numa
+ placa de som diferente; C) Esplorador do registro: Abre uma janela de
+  diálogo que permite sejam feitas pesquisas nos arquivos de registros
+ (log), assim como, exportar informes da emissão; D) Editor de locução
+   virtual: Abre uma janela de diálogo que permite associar Locuções
+virtuais para quando a programação esteja rodando em modo automatizado,
+ ou para ser acionada a qualquer momento, sobre um arquivo de som. ; E)
+                Opções: Permite configurar o Zararadio.
+        . Menu Programas: Editar&: Permite configurar um número
+  ilimitado de acessos diretos para vários programas. Ao ser executada
+     essa opção, aparecerá uma janela de diálogo, onde poderão ser
+introduzidos os dados do programa. Nesta janela de diálogo, poderão ser
+   utilizadas macros, e nos campos os comandos e os parâmetros dessas
+ macros são: A) $(LogDir)Essa macro é substituída pelo lugar onde estão
+ armazenados os arquivos de log. B) $(NextFile)Esta macro é substituída
+    pelo caminho completo do tema da lista marcado na cor verde. C)
+ $(LogFile)Esta macro é substituída pelo caminho completo do arquivo de
+                           log do dia atual.
+     . Menu Ajuda: A) Conteúdo: mostra essa ajuda; B) Dica do dia:
+   Mostra dicas para se tirar o máximo partido do Zararadio; C) Sobre
+            ZaraRadio: mostra informações sobre o Zararadio.
+
+
+ Para finalizar essa humilde contribuição com aqueles que gostariam de
+  usar o Zararadio para automatizar suas rádios, vou colocar abaixo, a
+descrição de mais algumas opções configuráveis nesse fabuloso programa.
+     . A opção explorador, permite a configuração da pasta raiz da
+  lista de arquivos que está na esquerda da lista de reprodução, assim
+             como os tipos de arquivos que serão mostrados.
+      . A opção fundir, configura o modo em que são sobrepostas as
+    músicas. Pode trabalhar em dois modos diferentes. Com o detector
+   automático de fim de música, quando o Zararadio entra nos segundos
+ finais de uma música (valor determinado pelo campo sobrepor arquivos)
+detectará automaticamente o volume a partir do limite indicado na barra
+deslizante. Quando este volume for atingido, começará a tocar a próxima
+  música, fazendo uma sobreposição, que durará aproximadamente o tempo
+ comfigurado em sobrepor arquivos. Estando desmarcada a caixa detectar
+   fim de músicas, o Zararadio pulará para a música seguinte, quando
+ faltarem os segundos indicados em sobrepor arquivos, para que termine.
+Os valores de sobrepor e fundir, são os valores considerados por padrão
+ para todas as músicas. Porém, é possível dar um valor de sobreposição
+    diferente para cada música. Para isso, basta renomear o arquivo,
+  adicionando ao final ~sobreposição (o caracter ~ pode ser obtido ao
+pressionar-se alt mais 126), onde a sobreposição é um número natural ou
+ real. Por exemplo, no arquivo Indicativo~1.mp3, será considerado como
+ valor de sobreposição um segundo. Ao se utilizar de números decimais,
+ tenha a certeza de que está usando o sinal decimal que aparece em suas
+configurações de Windows (que podem ser "," ou "."), caso contrário, ele
+  não será levado em conta. Painel de controlle, Opções regionais e de
+   idiomas, padrões, formatos, personalizar. Quando a opção fundir ao
+    sobrepor estiver marcada, o Zararadio fará um fundido da música
+    anterior, cada vez que vai começar uma nova. Estando essa opção
+    desativada, haverá um corte em seco na canção, quando chegar na
+    sobreposição. Quando estiver marcada a caixa fundir ao parar, o
+  Zararadio fará um fundido na música, cada vez que seja pressionado o
+     botão stop, ou o botão stop mais play. Quando esta caixa está
+ desmarcada, a reprodução será interrompida em seco, ao serem acionados
+  os botões acima mencionados. Como sei que o Zararadio sobrepõem com
+ bastante prejuízo os comerciais e que fica muito desagradável terminar
+todas as músicas num corte seco, costumo deixar as opções por padrão do
+ Zararadio ao fundir e sobre por e controlo a mixagem dos mesmos com a
+        introdução do ~0 nos nomes dos arquivos dos comerciais.
+    . As Opções gerais, permitem sejam configuradas várias opções no
+     Zararadio. Nome da emissora, é o texto que aparece na barra de
+ ferramentas na janela principal. O idioma define a língua utilizada na
+interface com o usuário. A opção ativar inicio automatico, faz com que o
+  Zararadio entre em modo play, ao ser aberto (o que pode ser bastante
+  interessante em situações de um repentino reinício não programado do
+computador e a rádio esteja sem operadores). O normal é deixar marcada a
+ caixa abrir a última lista ao iniciar, sendo indicado sua desativação,
+  somente quando se trabalha com listas auxiliares muito grandes, que
+demoram muito para carregar. A opção Ativar controle automático de ganho
+    AGC, quando marcada, mantêm o som num volume constante. A opção
+ confirmação para fechar, fará uma pergunta se o usuário quer realmente
+sair do programa, sempre que a opção fechar for acionada. Por padrão, ao
+se dar um duplo clique num dos ítens da lista, este recebe a cor verde,
+ indicando que será o próximo para a reprodução. Ao ser ativada a opção
+   reproduzir arquivos com um duplo clique, um tema será reproduzido
+ imediatamente ao receber um duplo clique. Quando a opção Desativar os
+     eventos em instâncias secundárias está marcada, as instâncias
+  secundárias do Zararadio serão abertas com os eventos desativados. A
+ opção permitir a abertura de mais de uma instância, permite ou impede
+   que o Zararadio seja aberto em novas instâncias (o que pode ser de
+    grande valia para usuários não muito atentos que podem sobrepor
+ execuções em instâncias diferentes do Zararadio ou perderem a noção de
+                qual instância aberta seja a principal).
+         . A opção mixer permite que seja indicado o aplicativo
+                        responsável pelo mixer.
+     . Na opção saídas, configura-se a placa de som que será usada
+  pelo Zararadio para a transmissão, assim como, para os reprodutores
+                              auxiliares.
+    . A opção de senha permite a ativação de proteção para as opções
+comuns do diálogo de opções, assim como para os eventos. Com essa opção
+ativa, ao se tentar entrar nessa janela de diálogo, aparecerá uma janela
+ onde será pedida a senha, ficando bloqueado o acesso, quando esta não
+  estiver correta. o mesmo acontecerá com o botão de ativar/desativar
+eventos, com a janela de programar eventos, com os bottões de reproduzir
+e eliminar eventos. Também é possível configurar a proteção para apenas
+   alguns dos ítens mencionados. Só estarão protegidos, aqueles ítens
+marcados na parte inferior da janela. Desde a versão 1.6, por motivos de
+    segurança, faz-se necessário introduzir a senha no campo atual e
+ pressionar o botão aceitar que fica a direita, para que seja possível
+                         eventuais alterações.
+      . A opção de detectar silêncio, permite que sejam detectados
+ tempos de silêncio nas músicas executadas, e, quando isso acontece, o
+ Zararadio pula para a próxima música. Leve em conta que essa função só
+  funciona para músicas mal gravadas (com silêncios), não tendo efeito
+                algum nas falhas do sistema operacional.
+    . TAgs. Por padrão, aparecem nas listas de reprodução, os nomes
+ dos arquivos. Sem qualquer prejuízo, para os arquivos mp3, é possível
+que sejam mostrados os tags ID 3 versão 1, bastando para isso, que seja
+   marcada a caixa ativar informações de tags. É necessário definir o
+ formato. Especificamente, aparecerá na lista, o que estiver escrito no
+            campo, seguindo a ordem determinada nesse campo.
+
+manual criado por: Marciano Maceió:
+site: www.acessibilidadeweb.net
+skype: acessibilidade.web
+facebook: acessibilidade web
