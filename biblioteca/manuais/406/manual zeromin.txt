@@ -1,0 +1,42 @@
+ZeroMin - programa que informa a hora em um intervalo específico, dentro de
+60 minutos.
+Por Fabiano Ferreira.
+
+Obs: Estamos considerando que você
+tenha o sistema dosvox instalado em sua máquina e que saiba usá-lo.
+
+Aqui explicamos apenas o que é necessário para funcionar o utilitário zeromin.
+
+Qualquer ajuda adicional, nos contactar no endereço
+sanfersite@uol.com.br
+ou pela lista voxtec.
+
+Forma de usar:
+1. Descompactar o pacote zeromin na pasta \winvox.
+2. Atualizar o dosvox.ini através do arquivo zeromin.atu.
+3. Ativar o zeromin através da opção u de utilitários e 0 de zeromin.
+
+Daí em diante, o programa passa a informar o horário dentro do intervalo especificado.
+
+O intervalo está gravado no arquivo dosvox.ini, seção
+[ZEROMIN] ítem INTERVALO.
+Caso o valor deste ítem seja inválido ou nulo, o programa o perrguntará ao iniciar.
+Valor padrão é
+INTERVALO=60.
+
+Para parar o programa, pode acionar novamente a opção u de utilitário e 0 de
+zeromin.
+
+Este pacote também contém o arquivo zeromin.lnk.
+Ele serve para que você possa colocar o zeromin para iniciar junto com o sistema
+operacional.
+
+Este arquivo funcionará se o zeromin for instalado da forma padrão.
+Basta copiar o arquivo zeromin.lnk para o diretório
+de inicialização do seu sistema operacional.
+O caminho varia conforme a versão de seu s.o (verifique o procedimento correto
+para a sua versão de s.o).
+
+Importante: deixe o arquivo zeromin.exe sempre na mesma pasta que o zeromin_a.exe
+
+Rio de Janeiro - 06/07/2015

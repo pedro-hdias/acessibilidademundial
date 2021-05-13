@@ -1,0 +1,64 @@
+Lock Pick v1.01
+Programação e som Por Liam Erven
+Www.l-works.net
+
+Tradução para Português por Blind Games Brazil: www.audiogamesbrasil.com
+
+Obrigado por baixar e instalar Lock Pick. O documento seguinte explicará como jogar.  
+Por favor descarregue seu leitor de tela antes de jogar.
+
+Novidades em V1.01.
+
+Corrigido o bug de CORTES EM arquivos de som
+O timer não pausa enquanto a seqüência de TONS é tocada
+
+Conteúdo:
+1. Sobre o jogo
+2. Instalando
+3. Configuração
+4. O Menu Principal
+5. Como JOGAR
+6.  Postando sua pontuação:
+7.  Créditos e CONTATOS
+
+1. Sobre o Jogo
+
+É o roubo do século.  Um grande caixa forte de dinheiro está bem na sua frente. Você  venseu os cães de guarda, as câmeras, e agora apenas uma coisa está em seu caminho.. Uma estúpida fechadura. Você destranca a fechadura e anda dentro do caixa. O alarme dispara, e você é forçado a tomar uma decisão. Ou você foge, ou pega o dinheiro que você merece.  Você decide pegar o dinheiro.  Infelizmente, existe mais ou menos 60 segundos até a polícia aparecer, portanto seria melhor trabalhar rapidamente.  Seus olhos percorrem o ambiente, e você ruge.  Na sua frente existem filas e filas de cofres, cada um com seu próprio segredo na fechadura. você não só tem que pegar o dinheiro rapidamente, como também  tem que destrancar cada cofre para conseguir o dinheiro. 
+
+2. instalação:
+
+Execute lockpick-ptb.exe, que é o arquivo que você baixou do nosso site. 
+Siga as instruções para instalar o jogo.  Uma vez instalado, você achará um sub menu em seu menu iniciar, na pasta programas, a pasta LWorks.  
+
+3.  Configuração:
+
+Para poder postar suas pontuações, você precisará executar o programa de configuração do lock pick.  Vá em iniciar, programas, LWorks, lockpick, e então configuração.  Nas caixas de edição correspondentes, digite seu  nome e email, e então pressione espaço ou enter no botão save changes.  Seu nome e email então serão salvos.  Note que não é obrigatório digitar seu email.
+
+4.  Menu principal:
+
+Quando você iniciar o jogo, lhe será apresentado o menu principal do jogo.  Use suas setas acima E abaixo para navegar, e A tecla ENTER para selecionar uma opção.
+
+Começar um jogo: Começa um novo jogo
+testar altofalantes: Verifica se seus altofalantes ou fones de ouvido estão corretamente posicionados.
+Enviar Pontuação para l-works.net: Mandar sua pontuação para L-works.net
+Sair: Sair do  jogo
+
+5.  Como jogar:
+
+Há três fechaduras a sua frente. Seu trabalho é destrancar a fechadura conseguindo todos os números da combinação para isto. O computador escolhe três números aleatóriamente, e seu trabalho é descobrir esses números.  Quando você começar uma fechadura, você está sempre na roda da esquerda, use sua setas esquerda e direita para mover-se  entre as rodas.  Dependendo de qual roda você está, você ouvirá os sons em uma posição diferente.  A roda esquerda estará em seu ouvido esquerdo, enquanto a roda direita estará em seu ouvido direito. Use suas setas acima e abaixo para mudar os número na roda correspondente.  Os números variam de 1 a 7.  Quando você achar  que encontrou a combinação, aperte a tecla enter em seu teclado.  Você ouvirá uma série de 3 sons.  Um som agudo significa que você colocou aquele número no lugar correto, um som médio duplo significa que você acertou o número, mas está no lugar errado, e um som grave, em forma de zimbido, significa que você errou.  Quando você ouvir 3 sons agudos, você conseguiu descobrir o segredo da fechadura, e pode partir para a próxima.  Quando você fizer uma tentativa, você continuará na mesma posição, a menos que você destranque a fechadura, significando que você terá que tentar numa nova fechadura, e você será colocado na roda esquerda.  Sua meta é abrir tantas fechaduras quantas for  possível em 60 segundos.  Como uma gratificação adicional, depois de você abrir uma fechadura, 5 segundos extras serão adicionados ao timer.
+
+6.  Postando Sua Pontuação:
+
+Por que não postar sua pontuação, é fácil e divertido!  No menu principal selecione enviar pontuação, e então sua pontuação será enviada para nossos placares de Lock Pick, para todo verem.  Certifique-se de que você está conectado a internet, caso contrário suas pontuações não serão enviadas.  Também certifique-se de que você realmente jogou um jogo, obteve uma pontuação acima de 0, e entrou com seu nome no programa de configuração.  Caso contrário sua pontuação não será enviada.
+
+7.  Créditos e Contatos
+
+Programação: Liam Erven
+Sons e voz: Liam Erven
+
+Se você gostaria de mandar a nós um e-mail, envie para
+Support@l-works.net
+
+Não esqueça de visitar www.l-works.net para as notícias mais recentes, e mais novos jogos.
+
+Visite também o site da Blind Games Brazil, www.audiogamesbrasil.com.

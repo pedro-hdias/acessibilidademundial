@@ -1,0 +1,50 @@
+por marciano maceió
+Os jogos online invadiram os PCs das residências do mundo inteiro.
+Porém, não há a menor graça em jogar tendo que parar a ação para digitar na janela de chat a cada vez que você precisar trocar informações e estratégias com os jogadores.
+Programas como o TeamSpeak, que é chamado somente de TS pelos usuários, resolvem o problema de comunicação, pois independente da região geográfica dos jogadores,
+eles conseguirão se comunicar como se estivessem no mesmo lugar.
+
+Equipamento necessário
+Não é necessário nada mais que um fone de ouvido e um microfone. Computadores sem esses itens já são coisa do passado.
+Para poder jogar e conversar com os amigos, lembre-se de ter um bom fone de ouvido e microfone, para que eles possam ouvi-lo sem problemas.
+Se você não tiver, a única alternativa será continuar sofrendo e perdendo tempo todas as vezes que você precisar interagir com as outras pessoas do jogo.
+
+Conectando-se
+Depois de instalar o TeamSpeak Client, você deverá perguntar ao seu amigo que possui o TeamSpeak qual o endereço do servidor.
+De posse da informação, você poderá se conectar a ele e começar a conversar com seus companheiros de time.
+Para se conectar, clique no menu Conexão e depois no item Conexão rápida.
+No primeiro campo da janela que se abrirá, digite o endereço do servidor, conforme lhe foi passado pelo seu amigo.
+exemplo: ts.portalacessibilidadeweb.net
+com um tabe. vai ta convidado. coloca seu nome.
+ exemplo: joão.
+com tabe ache conequitar. só da enter.
+Opcionalmente, o administrador do servidor poderá definir um nome de usuário e senha para você.
+Se for o caso, digite essas informações nos campos “Login name” e “Password”, respectivamente.
+Não confunda o apelido (“nickname”), com o nome de usuário.
+O apelido serve para que seus amigos o identifiquem nas salas abertas no servidor, já o nome de usuário tem a função de identificar você para o sistema do TeamSpeak.
+Se a conexão tiver sucesso, uma voz confirmará. Se não for possível se conectar, você ouvirá a voz dizer “error”.
+Se isso acontecer, verifique com o administrador se as configurações que você digitou estavam certas.
+
+Configurando a captura de voz
+Existem três maneiras de permitir que o seu microfone envie a sua voz por meio do TeamSpeak.
+Uma delas, e também a mais usada, é o “Push-to-talk”, na qual você deve manter pressionada uma tecla para poder falar, e soltar a tecla quando terminar.
+Essa configuração é a mais usada porque evita que o TeamSpeak mantenha o microfone habilitado o tempo todo e enviando sons que não são você falando.
+
+Para habilitar o “Push-To-talk” (ou “aperte para falar”), clique no menu Configurações e depois na opção configurações de áudio.
+Em seguida, vá até o item  métoodo de envio de voz e escolha a segunda opção (2 de 2), pressionar para falar.
+Feito isso, pressione a barra de espaços no botão definir tecla, e pressione a tecla a ser definida, normalmente é escolhido uma das duas teclas control.
+DICA: procure definir uma tecla que não seja usada no jogo. Isso evitará que você dê comandos indesejados durante a partida e acabe perdendo.
+Também é importante escolher uma tecla de fácil acesso. Não adianta utilizar um programa que ajuda você a se comunicar se a tecla para ativá-lo estiver longe do
+seu alcance.
+
+Outra opção de ativação do microfone é a detecção de som. Se você quiser, pode configurar a ativação por voz ao invés do “Push to talk”.
+Utilize o controle deslizante para definir a sensibilidade da detecção. Quanto mais para a esquerda, mais sensível ficará e mais fácil será para o programa “ouvir”
+quando você fala e reproduzir isso para quem estiver conectado ao servidor.
+DICA: evite deixar o controle deslizante em uma posição que o deixe sensível demais, a menos que você realmente
+pretenda sussurrar, pois a sensibilidade poderá fazer com que o programa detecte até mesmo a sua respiração.
+Utilize o botão ativar modo de teste local para testar suas configurações e ajustar a sensibilidade do microfone.
+manual produzido por Marciano Maceió.
+
+site: www.acessibilidadeweb.net
+skype: acessibilidade.web
+facebook: acessibilidade web

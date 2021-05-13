@@ -1,0 +1,742 @@
+Manual do usuário
+       Android
+                                Índice  3
+
+Índice
+
+Agradecimentos                             5
+
+Precauções                                 5
+
+Limpeza                                    5
+
+Bateria                                    5
+
+1 RecarregaraBateria 5
+2 TempodeRecarga 6
+3 DuraçãodaBateria 6
+4 PrecauçõesparaProlongaraVidaÚtildaBateria
+6
+5 Dicas paraeconomizarbateria
+6
+
+Botões Físicos                             6
+
+Visualização da tela na                    7
+horizontal/vertical
+
+Ligar/Desligar                             7
+
+Bloquear/Desbloquear Tela                  7
+
+Teclado Virtual                            8
+
+Área de Trabalho                           9
+
+1 PersonalizaçãodaÁreadeTrabalho 
+10
+2 Adicionar/RemoverÍconesdaÁreadeTrabalho 
+10
+
+Instalar/Desinstalar Jogos e               10
+Aplicativos
+
+1 InstalarJogoseAplicativosAndroid 
+10
+2 InstalandoumJogoouAplicativoBaixadodeSitesdeterceiros
+ 10
+3 InstalandoumJogoouAplicativoDiretopeloGooglePlay
+ 11
+4 DesinstalandoJogoseAplicativosAndroid 
+11
+
+Configurações Wi-Fi                        11
+
+Inserir/Remover Cartão microSD             12
+4
+
+   Inserir/Remover Dispositivos USB  12
+
+   Aplicativos Pré-instalados        12
+
+   1 Gmail 12
+   2 KingsoftOffice 13
+   3 Relógio 13
+
+                Adicionar Alarme
+ 13
+                Ligar o Alarme
+ 13
+                Desligar AlertadeAlarme
+ 13
+                Excluir Alarme
+ 14
+
+   4 Câmera 14
+   5 Calculadora 14
+   6 E-mail 14
+
+                Adicionar ContasdeE-mail
+ 14
+                Excluir ContasdeE-mail
+ 15
+
+   7 Agenda 15
+   8 Restauraraconfiguraçãooriginaldefábrica 
+15
+   9 Configurações 15
+
+   Defeitos e Soluções               16
+
+   Resolução ANATEL                  18
+
+   Contato                           18
+
+   Termo de Garantia                 18
+                                                                                                          Agradecimentos 5
+
+1 Agradecimentos
+
+            Parabéns por adquirir um Tablet da "DL" com sistema operacional Android
+            Primeiramente, agradecemos sua escolha por nosso produto e desejamos uma boa utilização
+            nos fins para qual o adquiriu
+            Através de alguns aplicativos instaláveis você poderá realizar diversas funções com seu Tablet
+            Este guia do usuário foi publicado pela DL
+            As melhorias e as alterações que sejam necessárias em decorrência de erros tipográficos,
+            imprecisões das informações atuais ou aperfeiçoamento de programas e/ou equipamentos,
+            poderão ser efetuadas pela DL a qualquer momento e sem aviso prévio
+            Entretanto, essas alterações serão incorporadas em novas edições deste manual
+            · Guarde este manual para tê-lo sempre como referência
+            · Design e especificações estão sujeitos a mudanças sem aviso prévio
+            · Produto de simples manuseio
+
+2 Precauções
+
+            Sempre siga essas precauções básicas de segurança ao usar o seu Tablet
+            * Não exponha este produto à chuva ou à umidade
+            * Proteja o cabo de alimentação
+            * Utilize apenas o carregador que acompanha o produto
+            * Não tente abrir ou consertar o produto Isto ocasionará na perda imediata da garantia
+            * Nunca coloque o aparelho dentro ou em cima de eletrodomésticos, como forno microondas,
+            fogão ou aquecedor As baterias podem explodir se forem superaquecidas
+            * Evite expor o aparelho a temperaturas muito baixas ou muito altas Temperaturas elevadas
+            podem causar deformação no aparelho e reduzir a capacidade de carga da bateria e a vida útil
+            * A Versão do Android encontrada neste Tablet é uma versão customizada e própria para as
+            suas características de hardware, nunca tente carregar outra versão de Android
+
+3 Limpeza
+
+            Limpe a tela suavemente Para limpar impressões digitais ou poeiras na tela, é recomendável
+            usar um pano macio, não abrasivo, como um pano de limpar lente de câmera
+
+4 Bateria
+
+41 Recarregar a Bateria
+
+            Para carregar a bateria conecte o adaptador a uma tomada 127V ou 220VAC e conecte o cabo
+            no aparelho Durante o carregamento, o indicador da bateria ficará oscilando Quando a bateria
+            estiver totalmente carregada, o indicador se estabilizará
+            Para maior durabilidade da bateria, as recargas deverão ser feitas antes que a mesma
+            descarregue por completo
+            Caso a bateria esteja totalmente descarregada, recarregue por 20 minutos antes de ligar o
+            aparelho
+
+            Nota: Durante o carregamento, o dispositivo pode se aquecer, isto é normal e não deve afetar a
+            vida útil ou o desempenho de seu dispositivo
+      6
+
+42 Tempo de Recarga
+
+            Seu Tablet leva aproximadamente 4 horas para recarregar totalmente a bateria
+            Para o caso de baterias totalmente descarregadas ou utilização durante o carregamento
+            recomenda-se recarregar por 5 horas
+
+43 Duração da Bateria
+
+            A duração da bateria de qualquer dispositivo eletrônico está relacionada à forma de utilização do
+            mesmo
+
+            Abaixo segue alguns valores aproximados para alguns tipos de utilização Porém vale ressaltar
+            que para a mesma utilização pode haver valores diferentes de durabilidade Exemplo: Em
+            navegação na internet, alguns usuários acessam determinados sites e lêem todo conteúdo antes
+            de mudar de página, outros já lêem apenas poucas informações e mudam de páginas inúmeras
+            vezes Já outros, fazem vários downloads de jogos e aplicativos
+
+            ~5 horas (tela com brilho de 30% e sempre acesa);
+            ~3 horas e 30 minutos (tela com brilho de 30%, Wi-Fi ativada e navegação na internet);
+            ~100 horas em modo espera (stand by)
+
+            A utilização real irá se encaixar em ambos os casos acima e a duração será de acordo com o
+            estilo de cada usuário
+
+44 Precauções para Prolongar a Vida Útil da Bateria
+
+            * Use seu Tablet pelo menos uma vez por semana
+            * Carregue a bateria regularmente
+            * Mantenha sempre o produto longe do calor
+            * Nunca deixe a bateria completamente descarregada por um longo tempo Se isto ocorre,
+            primeiro conecte o carregador ao Tablet e aguarde 20 minutos para então ligar o aparelho
+
+45 Dicas para economizar bateria
+
+            Opte por utilizar um fone de ouvido quando for ouvir músicas, executar vídeos, etc
+
+            Mantenha o brilho da tela em torno de 30%, este valor é suficiente para uma boa vizualização e
+            consome menos bateria
+
+            Evite deixar dispositivos USB (pen drivers, mp3, mp4, modem 3G) conectados ao Tablet quando
+            não os tiver utilizando
+
+            Sempre que for realizar outra atividade sem o Tablet, pressione a tecla Power para que o
+            aparelho entre em Stand By e com isso reduza o consumo de energia
+
+5 Botões Físicos
+
+            Utilizado para ligar e desligar o aparelho, como também para bloquear a tela
+                                                                     Visualização da tela na horizontal/vertical 7
+
+6 Visualização da tela na horizontal/vertical
+
+            Você pode visualizar os aplicativos integrados ao Tablet tanto na orientação vertical como na
+            horizontal
+            Gire o Tablet e a tela irá girar automaticamente, ajustando-se à nova orientação
+            Caso queira deixar a tela fixa em uma orientação, acesse Configurações / Exibir / Girar tela
+            autom e desative a opção
+            Obs: O ícone "Configurações" é mencionado várias vezes neste manual, podendo ser acessado
+            através do menu de aplicativos
+
+7 Ligar/Desligar
+
+            Ligar: Pressione e segure o botão `'Power'' por 3 segundos
+            Desligar: Pressione e segure o botão `'Power'' por 3 segundos, toque em desligar e em seguida
+            OK
+
+8 Bloquear/Desbloquear Tela
+
+            Para bloquear a tela manualmente, pressione rapidamente o Botão Power
+            Para desbloquear a tela, pressione Power e em seguida faça o movimento sobre a tela
+            arrastando o cadeado fechado para a direita, até chegar ao cadeado aberto como a imagem
+            abaixo:
+
+            Obs: Você pode configurar um tempo para que a tela seja bloqueada automaticamente Para
+            isso, acesse Configurações / Exibir, toque em Modo De Espera e selecione o tempo desejado
+      8
+
+9 Teclado Virtual
+
+            O Teclado Virtual aparecerá nas aplicações como Navegador, Kingsoft Office e Pesquisa toda
+            vez que for tocado no campo para inserção de texto
+            Utilize as teclas abaixo para encontrar os caracteres desejados:
+
+            Nota: Para inserir acentos e letras tais como `ã, ç, ñ', mantenha a letra pressionada até aparecer
+            na tela as opções com as devidas acentuações e selecione a opção desejada
+            Para ativar a 3ª tecla da esquerda para direita acima, toque rapidamente duas vezes a tecla
+
+                                    
+                     Área de Trabalho 9
+
+10 Área de Trabalho
+
+1 - Voltar
+2 - Home (Retorna à Área de Trabalho do aparelho)
+3 - Aplicativos abertos recentemente
+4 - Menu de aplicativos (acessa o menu completo do aparelho, ou seja, menu com todos
+aplicativos instalados)
+5 - Nível do sinal da rede Wi-Fi
+6 - Indicador do nível de carga da bateria
+7 - Hora atual
+8 - Pesquisa
+9 - Pesquisa por voz
+10
+
+101  Personalização da Área de Trabalho
+
+      Este aparelho é composto por 5 Áreas de Trabalho, uma central e outras 4 telas, sendo 2 de
+      cada lado Para exibir as demais telas, toque na tela e deslize para direita / esquerda para exibir
+      as telas 2/1 e 4/5 respectivamente Em qualquer das telas, pressione HOME localizada no
+      rodapé da página para retornar a tela 3 padrão
+
+      Selecionar plano de fundo: Permite adicionar papeis de parede (planos de fundo) através de
+      modelos pré-instalados
+
+      Para trocar o papel de parede atual, toque e mantenha em um espaço vazio da área de trabalho
+
+      Selecione uma das cetegorias de imagem, tais como Galeria, Papéis de parede ou Papéis de
+      parade on-line (Animado) Selecione a imagem e toque em Definir plano de fundo
+
+      Mudar ícone de posição ou de tela: Para mudar um ícone existente na área de trabalho, toque,
+      mantenha e arraste o ícone para a posição ou tela desejada e em seguida solte, o ícone irá
+      permenecer na nova posição
+
+102  Adicionar/Remover Ícones da Área de Trabalho
+
+      Adicionar:
+      Para adicionar um ícone na área de trabalho, acesse o Menu de aplicativos e depois toque e
+      segure por 3 segundos sobre o ícone que deseja adicionar, arraste para a posição da área de
+      trabalho que desejar e solte
+
+      Remover:
+      Para remover um ícone da área de trabalho, toque e segure sobre o ícone e arraste para o
+      símbolo de um X ou uma lixeira que aparecerá na tela
+
+11 Instalar/Desinstalar Jogos e Aplicativos
+
+111  Instalar Jogos e Aplicativos Android
+
+      Através do Google Play podemos encontrar inúmeros jogos e aplicativos para serem instalados
+      em seu Tablet Muitos destes são encontrados em sites da Web de forma gratuita ou paga Você
+      pode instalar quaisquer destes aplicativos sendo de sua exclusiva responsabilidade conhecer o
+      fornecedor do software, sua garantia de procedência bem como a forma de utilização de cada
+      jogo e aplicativo
+
+112  Instalando um Jogo ou Aplicativo Baixado de Sites de terceiros
+
+      Após baixado o arquivo apk (extensão dos aplicativos Android), copie o arquivo para a memória
+      do aparelho ou para um cartão microSD
+      Localize o arquivo a partir de um gerenciador de arquivos
+      Toque sobre o mesmo e aguarde a tela de instalação se abrir Confirme a instalação do mesmo
+      e aguarde o processo
+      Feito isso, seu novo aplicativo estará instalado
+                                                                 Instalar/Desinstalar Jogos e Aplicativos 11
+
+      Obs: No momento da instalação, caso apareça a mensagem que a instalação está bloqueada,
+      toque em Configurações/Segurança e em Fontes desconhecidas Se você concordar com os
+      termos exibidos, toque em OK
+
+      Retorne para a fonte da instalação e efetue a mesma normalmente
+
+113  Instalando um Jogo ou Aplicativo Direto pelo Google Play
+
+      Para acessar, toque no aplicativo Play Store, toque em Próxima, faça login com uma conta do
+      Google ou crie uma
+      Toque em Concluir configuração e em Aceitar
+      Realize uma pesquisa dos jogos ou aplicativos que deseja instalar (necessário conexão com
+      internet)
+      Selecione uma das opções de pesquisa disponíveis
+      Digite no campo que se abre o nome do jogo ou aplicativo que deseja pesquisar e confirme
+      Aguarde a lista com os jogos ou aplicativos que o Google Play retornará
+
+      Caso o jogo ou aplicativo que deseja baixar esteja na lista, toque sobre o mesmo, depois toque
+      em Instalar, Aceitar e fazer download, concordando com os acessos e aguarde ele baixar e
+      instalar
+      Após concluído, serão exibidas as opções "Abrir" e "Desinstalar" o jogo ou o aplicativo baixado
+
+      Toque em Abrir para executar seu novo jogo ou aplicativo já instalado
+
+      Ao efetuar o login no Google Play você estará logado automaticamente no Gtalk e no Gmail
+
+      Nota: Este aplicativo é exibido na tela do Tablet como Play Store, porém é amplamente
+      conhecido como Google Play Neste manual as duas formas serão utilizadas como sinônimos
+
+114  Desinstalando Jogos e Aplicativos Android
+
+      Para remover um jogo ou aplicativo, vá em Configurações / Aplicativos
+      Toque sobre o jogo ou aplicativo que deseja remover Ao aparecer o botão "Desinstalar", toque
+      sobre o mesmo, toque em OK na tela de confirmação, aguarde o fim da desinstalação e toque
+      em OK
+
+      Nota: Alguns aplicativos pré-instalados no aparelho não podem ser desinstalados
+
+12 Configurações Wi-Fi
+
+            Seu aparelho é compatível com redes sem fio padrão IEEE80211 b/g/n 
+            Sua configuração pode ser realizada pelo próprio usuário seguindo os passos abaixo:
+            Toque em Configurações
+            Selecione Wi-Fi para que a rede seja ativada "LIG"
+            Aguarde até que o dispositivo verifique todas as redes locais disponíveis
+            Feito isto o aparelho irá listar tais redes, exibindo quais são redes seguras, ou seja, que
+            necessitam de login e senha para se conectar
+            Localize a rede a qual deseja se conectar, dê um toque sobre ela e digite a senha necessária
+            para conexão, caso seja solicitado
+            Aguarde a conexão com a rede e posteriormente retorne ao MENU principal
+            Acesse o aplicativo Navegador e pronto Sua internet já está disponível
+            Caso sua rede Wi-Fi esteja oculta, o aparelho não conseguirá localizá-la
+     12
+
+            Devido a uma limitação do sistema operacional Android, não é possível efetuar conexão de rede
+            sem fio Wi-Fi quando o nome da rede contiver caracteres especiais como: % , $ , Ç , ^ , ´ , ~ , ¨,
+            etc Utilize no nome da rede sem fio somente caracteres simples como: redejoao, teste123, etc
+
+13 Inserir/Remover Cartão microSD
+
+            Seu dispositivo suporta um cartão microSD e microSDHC de até 64GB Basta inserir o cartão no
+            local indicado no aparelho
+            Para remover seu cartão microSD, utilize o método seguro abaixo:
+
+            Feche todos os aplicativos ou documentos que tenham sido abertos no cartão
+            Toque em Configurações / Armazenamento / External SD Card / Desmontar cartão SD
+            Aguarde o aparelho exibir uma mensagem de segurança, toque em OK, pressione levemente o
+            cartão para que ele seja parcialmente ejetado Após isto, você pode retirar o cartão
+
+            Nota: Utilize apenas cartões de procedência garantida A utilização de cartões de má qualidade
+            poderá afetar o desempenho do aparelho, não serem compatíveis com seu Tablet bem como
+            causar a perda dos dados contidos nos cartões
+
+14 Inserir/Remover Dispositivos USB
+
+            Para utilizar dispositivos USB (Pen Drive, Mp3, Mp4, etc), basta inserir o dispositivo USB ao
+            Tablet
+            Aguarde até que o dispositivo seja reconhecido pelo Tablet
+            Pronto, a partir de agora você pode acessar os arquivos do dispositivo USB através do
+            gerenciador de arquivos
+            Nota: Os nomes das funções disponíveis no software é de responsabilidade do desenvolvedor do
+            Android, o Google
+            Poderá ser exibido em alguns momentos um dispositivo USB com nome de dispositivo SD
+            Dependendo do modelo do tablet, pode ser necessário inserir o dispositivo USB antes em um
+            cabo adaptador USB, para então conectar o cabo ao Tablet
+
+15 Aplicativos Pré-instalados
+
+            A DL disponibiliza aplicativos de usos diversos pré-instalados, e sua utilização é de
+            responsabilidade do usuário
+            Trata-se de aplicativos de terceiros e não possuem relação com a empresa Abaixo você
+            encontra informações de utilização de alguns deles Para os demais, você deve contatar o
+            fabricante para obter informações sobre utilização
+            Vale ressaltar que o usuário pode instalar quaisquer novos aplicativos disponíveis conforme o
+            tópico "Instalar Aplicativos Android" deste manual
+
+151 Gmail
+
+            Acesso a e-mails do Google
+
+            Através do Gmail é possível visualizar, escrever, responder ou encaminhar seus e-mails do
+            Gmail
+                                                                                           Aplicativos Pré-instalados 13
+
+            Para acessar toque no aplicativo Gmail, toque em Próxima, logue com uma conta do Google ou
+            crie uma
+            Toque em Concluir e Concluir configuração
+            Após efetuado o login, toda vez que você receber um e-mail do Gmail aparecerá uma notificação
+            no canto inferior direito da tela indicando o recebimento de um novo e-mail
+            Ao efetuar o login neste aplicativo você estará logado automaticamente no Google Play e no
+            Gtalk
+
+152 Kingsoft Office
+
+            Este aplicativo possibilita:
+
+            - Criação, edição e leitura de arquivos de texto nos formatos doc, txt, ppt, xls
+            - Edição e leitura de arquivos de texto nos formatos doc, txt, ppt, xls
+            - Leitura de arquivos de texto no formato doc, docx, txt, xls, xlsx, ppt, pptx, pdf
+
+            Para acessá-lo, toque o ícone Kingsoft Office A seguir, selecione o arquivo no qual deseja
+            trabalhar
+
+153 Relógio
+
+            Possibilita configurar diversos alarmes para o dispositivo
+
+            Para saber se o aparelho já está com algum alarme previamente configurado, verifique se há o
+            símbolo de um despertador na tela de bloqueio do aparelho (abaixo da hora)
+
+1531 Adicionar Alarme
+
+            Toque no Menu de aplicativos, Relógio e em Definir Alarme
+            Toque em + Adicionar alarme, na caixa de Ativar alarme e configure o horário, repetição, tipo de
+            toque e aperte OK
+            Após retornar para a tela anterior, toque em concluído
+
+1532 Ligar o Alarme
+
+            Na tela de alarmes, toque nas caixas e deixe selecionado os alarmes que deseja manter
+            ativados
+            Os alarmes que não estiverem selecionados ficarão desativados
+
+1533 Desligar Alerta de Alarme
+
+            Toque em Colocar em Espera se você quiser ser lembrado novamente em 10 minutos
+            Toque em Encerrar para cancelar o alerta
+     14
+
+1534 Excluir Alarme
+
+            Toque no ícone Relógio
+            Toque em Alarme definido
+            Toque no alarme que deseja excluir
+            Toque em Excluir / OK
+
+154  Câmera
+
+      Possibilita tirar Fotos e fazer Filmagem
+      Toque o ícone Menu de aplicativos e no ícone Câmera
+
+      Selecione Foto ou Vídeo tocando nos ícones localizados canto inferior direito da tela
+
+      Se for selecionado foto, o ícone circular fica Azul Se for selecionado Vídeo, o ícone circular fica
+      Vermelho
+
+      Aponte a câmera para o local pretendido
+
+      Toque no ícone circular na parte central direita para tirar foto ou iniciar uma Filmagem
+
+      Os arquivos serão salvos automaticamente na memória interna do aparelho
+
+155  Calculadora
+
+      Possibilita fazer cálculos simples e avançados tais como: SIN, COS, TAN, Log, In
+
+      Toque no ícone Calculadora
+      Toque nos números e sinais de operação para fazer o cálculo
+
+      Toque em Limpar (  ) para apagar o resultado
+
+156 E-mail
+
+            Possibilita configurar contas de e-mails POP3 e SMTP
+
+1561 Adicionar Contas de E-mail
+
+            Você pode inserir um ou mais endereços de e-mail que você deseja acessar através do seu
+            Tablet
+
+            Para acessar o aplicativo, toque o ícone E-mail
+
+            Na tela que se abre, adicione seu endereço de e-mail bem como sua senha de acesso Feito
+            isso, confirme tocando em Próxima
+            - Caso queira configurar os dados de entrada (POP) e saídas (SMTP) manualmente, toque sobre
+            Configuração Manual ao invés de Próxima no passo acima
+
+            Configure as opções da conta adicionada e toque sobre Próxima
+
+            Adicione um nome para a conta (opcional) e seu nome que será exibido nas mensagens
+            enviadas Feito isso, toque sobre próxima
+
+            Nota: A partir de agora você pode controlar sua conta de e-mail, enviar/receber, editar, salvar,
+                                                                                           Aplicativos Pré-instalados 15
+
+            etc, através de seu Tablet
+            Para exibir mais funções toque sobre MENU de opções e nas opções que aparecerão na parte
+            inferior da tela
+
+            Após a instalação, caso não consiga se conectar a uma conta de e-mail gratuita, verifique com
+            seu provedor de e-mail para se certificar que os servidores POP e SMTP estão corretos e em
+            funcionamento
+
+1562 Excluir Contas de E-mail
+
+            Toque o ícone E-mail
+            Na tela Caixa de entrada, toque o ícone Configurações (canto superior direito da tela)
+            Na janela de opções, toque em Remover Conta
+            Toque em OK para confirmar a exclusão
+
+157  Agenda
+
+      Para o correto funcionamento da função Agenda no Tablet, é necessário sincronizar uma conta
+      compatível com EAS (Exchange Active Sync)
+
+      1 Vá em Configurações / Contas e sincronização / Adicionar conta / Corporativa e preencha as
+      informações conforme a tela abaixo e toque em Próxima:
+
+      2 Na próxima tela, toque em próxima:
+
+      3 Adicione um nome para exibição da conta e toque em Concluído:
+
+      4 Após sincronização da conta você poderá utilizar a função agenda Para utilizar vá em
+      Agenda, toque sobre o dia e mantenha, selecione Novo evento e preencha os campos
+
+158  Restaurar a configuração original de fábrica
+
+      Para restaurar as configurações originais toque em Configurações / Fazer backup e redefinir /
+      Configuração original / Redefinir tablet e aguarde o Tablet reiniciar
+
+159  Configurações
+
+      1 - Redes sem fio e outras
+                Wi-Fi - Ativa e desativa Wi-Fi
+
+      2 - Som
+                Configura o áudio do aparelho
+
+      3 - Exibir
+                Configura opções como Brilho, Plano de fundo, Girar tela automaticamente, Modo de
+
+      espera, Tamanho da fonte
+
+      4 - Armazenamento
+                Espaço total - Do cartão microSD
+                Espaço disponível - Do cartão microSD
+                Desmontar cartão SD - Remove com segurança o cartão microSD
+     16
+
+            5 - Bateria
+                       Exibe informações sobre a porcentagem e duração da bateria do aparelho
+
+            6 - Aplicativos
+                       Exibe e gerencia os aplicativos instalados
+
+            8 - Contas e sincronização - Gerencia as contas de e-mail adicionadas
+
+            9 - Serviços de local
+                       Serviço de localiz do Google - Permite que o Google utilize o seu local para aprimorar a
+
+            execução de aplicativos (Google Maps, por exemplo)
+                       Localização e pesquisa do Google - Permite que o Google exiba pesquisas baseadas na
+
+            sua localidade
+
+            10 - Segurança
+                       Bloqueio de tela - Bloquea a tela com um padrão, PIN ou senha
+                       Tornar as senhas visíveis - Mostra senha ao digitá-la
+                       Fontes desconhecidas - Permite a instalação de aplicativos que não são do Google Play
+
+            11 - Idioma e entrada
+                       Idioma - Configura o idioma do sistema
+                       Pesquisa por voz - Gerencia a pesquisa por voz do Google (Google Voice)
+
+            12 - Fazer backup e redefinir
+                       Fazer backup - Faz backup dos de aplicativos, senhas de redes Wi-Fi e outras
+
+            configurações nos servidores Google
+                       Restauração automática
+                       Configuração original - Reseta o aparelho, deixando com as configurações que vieram
+
+            de fábrica
+                       Atenção: Todos seus dados serão apagados
+
+            13 - Data e hora
+                       Data e hora automáticas - Usa horário automático fornecido pela rede
+                       Fuso horário automático - Usa o fuso horário automático fornecido pela rede
+
+            14 - Acessibilidade
+                       Texto grande - Aumenta o tamanho das letras do sistema
+                       Girar tela autom - Habilita o recurso de girar a tela automaticamente, de acordo com a
+
+            orientação da tela
+
+16 Defeitos e Soluções
+
+            1 - CASO UM TABLET CONECTE A REDE WI-FI E NÃO CONECTE A INTERNET O QUE
+            DEVO FAZER?
+            - Verificar se a senha inserida (caso a rede Wi-Fi esteja protegida por senha) esteja correta
+            Caso a senha esteja errada é possível que apareça o símbolo de conectado e não possibilite a
+            navegação
+            - Desabilitar e habilitar a função Wi-Fi
+            - Permanecendo o problema, tocar no nome da rede Wi-Fi, "Esquecer" a rede e conectar
+            novamente
+            - Permanecendo o erro, reinicie o aparelho
+
+            2 - O WI-FI NÃO FUNCIONA, O QUE FAZER?
+            - Desative e ative novamente o Wi-Fi
+            - Verifique se a senha inserida (caso a rede Wi-Fi esteja protegida por senha) está correta
+                                                                                       Defeitos e Soluções 17
+
+- Verifique se o nome de sua rede possui caracteres especiais como ã, ç, ê, é, ñ, etc Se
+contiver, altere seu nome Exemplo: coracao
+- Verifique se outro dispositivo (notebook, celular etc) está conectando ao sinal Wi-Fi
+corretamente
+- Teste o aparelho em outra rede Wi-Fi
+
+3 - QUAL O TIPO DA TELA DOS TABLETS, RESISTIVA OU CAPACITIVA?
+Capacitiva
+
+4 - POSSO ATUALIZAR A VERSÃO DO ANDROID?
+Não, o hardware do aparelho foi desenvolvido de acordo com sua versão atual do software Uma
+tentativa de atualização poderá levar ao não funcionamento do mesmo e perda da garantia
+
+5 - POSSO AUMENTAR A MEMORIA DE ARMAZENAMENTO DO TABLET? ATÉ QUANTOS
+GIGAS?
+Os tablets DL reconhecem cartões microSD de até 64GB
+
+6 - QUANDO SEI SE MEU TABLET ESTÁ COM A CARGA COMPLETA?
+Se o aparelho estiver ligado, o símbolo de bateria (localizado na parte inferior da tela) irá parar
+de oscilar e permanecer na cor azul
+Caso o aparelho esteja desligado, uma luz azul irá acender na parte frontal superior direita ao
+lado da câmera frontal
+
+7 - MEU TABLET NÃO ESTÁ CARREGANDO, O QUE FAZER?
+Verifique se ao conectar o carregador ao Tablet acende uma luz azul na parte frontal superior
+direita (ao lado da câmera frontal) Verifique se conectou o carregador no local indicado no
+Tablet, caso esteja tudo certo, desconecte e conecte o carregador novamente e verifique se
+inicia o carregamento
+
+8 - MEU TABLET NÃO REPRODUZ MÚSICAS
+Verifique se o volume está baixo
+Verifique se o formato da música é MP2, MP3, AAC, WAV ou WMA
+
+9 - NÃO CONSIGO VISUALIZAR IMAGENS EM MEU TABLET
+Verifique se o formato é JPG, JPEG, BMP ou PNG
+
+10 - PRODUTO ESQUENTA DURANTE O CARREGAMENTO E FUNCIONAMENTO
+Ao usar o Tablet por um longo período, é normal esquentar e isso não afeta a vida útil dele
+Quando está carregando é normal esquentar
+
+11 - MEU TABLET NÃO ESTÁ RECONHECENDO DISPOSITIVOS USB
+Verifique se a conexão está correta, tanto do dispositivo USB com o cabo adaptador, quanto do
+cabo adaptador com seu Tablet
+E veja se o dispositivo USB é de boa qualidade
+
+12 - MEU TABLET NÃO LIGA
+Verifique se a bateria está carregada, se não estiver carregue-a
+Verifique se a conexão do carregador está correta com seu Tablet
+
+Veja as dúvidas frequêntes de tablets também em nosso site
+Elas poderão te ajudar à usufruir melhor dos benefícios de seu Tablet
+
+wwwdlcombr
+     18
+
+17 Resolução ANATEL
+
+            Resolução 506 - ANATEL
+            `'Este equipamento opera em caráter secundário, isto é, não tem direito a proteção contra
+            interferência prejudicial, mesmo de estações do mesmo tipo, e não pode causar interferência a
+            sistemas operando em caráter primário''
+            Para maiores informações, consulte o site da ANATEL wwwanatelgovbr
+
+            "Este produto está homologado pela Anatel, de acordo com os procedimentos regulamentados
+            pela Resolução No 242/2000 e atende aos requisitos técnicos aplicados incluindo os limites de
+            exposição da Taxa de Absorção Específica referente a campos elétricos, magnéticos e
+            eletromagnéticos de radiofreqüência, de acordo com a Resolução No 303/2002" Manter uma
+            distância mínima de 2,0 cm do corpo do usuário
+
+18 Contato
+
+            Você pode entrar em contato com a DL através de nosso site (wwwdlcombr) ou também
+            através de nosso SAC pelos contatos abaixo:
+
+            sac@dlcombr
+            São Paulo: (11) 4063 6980
+            Rio de Janeiro: (21) 4063 5980
+            Demais Localidades: 0800 031 4201
+
+            Endereço:
+            Av Embaixador Bilac Pinto, 1061
+            Bairro Boa Vista CEP: 37540-000
+            Santa Rita do Sapucaí - MG
+
+19 Termo de Garantia
+
+            A DL assegura ao consumidor deste aparelho, garantia contra defeitos de fabricação no prazo de
+            90 (Noventa) dias de prazo legal mais 275 (Duzentos e setenta e cinco) dias de cortesia,
+            totalizando 365 (Trezentos e sessenta e cinco) dias, contados a partir da data de emissão da
+            Nota Fiscal de venda
+            Para acessórios a garantia limita-se à 90 (Noventa) dias
+            Esta garantia limita-se a consertos e reajustes no aparelho por pessoal técnico da DL
+            Despesas com embalagem e transporte em caso de defeito correm por conta do cliente
+            O conserto do aparelho não prolongará o prazo de garantia estabelecido neste termo ficando
+            sem efeito sob as seguintes condições:
+
+            a) Após o término do prazo de garantia, contado a partir da emissão da Nota Fiscal;
+            b) Por defeitos cujas causas sejam agentes da natureza como descargas atmosféricas, chuvas,
+            inundações, incêndios, etc;
+            c) Por defeitos cujas causas sejam quedas, pancadas, riscos ou qualquer outro acidente de
+            ordem física;
+            d) Por violação do equipamento ou tentativa de conserto por pessoa não autorizada;
+            e) Demais defeitos que não sejam classificados como defeito de fabricação
+
+            Este guia pode sofrer alterações sem aviso prévio
+
+            Devido às constantes evoluções tecnológicas, este produto poderá sofrer atualizações,
+            resultando em pequenas alterações físicas e de software sem aviso prévio
+                 Termo de Garantia 19
+
+Rev0 27/11/2013
+  SAC Serviço de Atendimento
+                          ao Consumidor
+
+          sac@dlcombr
+          São Paulo: (11) 4063-6980
+          Rio de Janeiro: (21) 4063-5980
+          Demais Localidades: 0800 031 4201
+
+wwwdlcombr

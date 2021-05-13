@@ -1,0 +1,1566 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="pt-br">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.8.1: http://docutils.sourceforge.net/" />
+<title>Manual do Jogo</title>
+<style type="text/css">
+
+/*
+:Author: David Goodger (goodger@python.org)
+:Id: $Id: html4css1.css 7056 2011-06-17 10:50:48Z milde $
+:Copyright: This stylesheet has been placed in the public domain.
+Default cascading style sheet for the HTML output of Docutils.
+See http://docutils.sf.net/docs/howto/html-stylesheets.html for how to
+customize this style sheet.
+*/
+/* used to remove borders from tables and images */
+.borderless, table.borderless td, table.borderless th {
+  border: 0 }
+table.borderless td, table.borderless th {
+  /* Override padding for "table.docutils td" with "! important".
+     The right padding separates the table cells. */
+  padding: 0 0.5em 0 0 ! important }
+.first {
+  /* Override more specific margin styles with "! important". */
+  margin-top: 0 ! important }
+.last, .with-subtitle {
+  margin-bottom: 0 ! important }
+.hidden {
+  display: none }
+a.toc-backref {
+  text-decoration: none ;
+  color: black }
+blockquote.epigraph {
+  margin: 2em 5em ; }
+dl.docutils dd {
+  margin-bottom: 0.5em }
+object[type="image/svg+xml"], object[type="application/x-shockwave-flash"] {
+  overflow: hidden;
+}
+/* Uncomment (and remove this text!) to get bold-faced definition list terms
+dl.docutils dt {
+  font-weight: bold }
+*/
+div.abstract {
+  margin: 2em 5em }
+div.abstract p.topic-title {
+  font-weight: bold ;
+  text-align: center }
+div.admonition, div.attention, div.caution, div.danger, div.error,
+div.hint, div.important, div.note, div.tip, div.warning {
+  margin: 2em ;
+  border: medium outset ;
+  padding: 1em }
+div.admonition p.admonition-title, div.hint p.admonition-title,
+div.important p.admonition-title, div.note p.admonition-title,
+div.tip p.admonition-title {
+  font-weight: bold ;
+  font-family: sans-serif }
+div.attention p.admonition-title, div.caution p.admonition-title,
+div.danger p.admonition-title, div.error p.admonition-title,
+div.warning p.admonition-title {
+  color: red ;
+  font-weight: bold ;
+  font-family: sans-serif }
+/* Uncomment (and remove this text!) to get reduced vertical space in
+   compound paragraphs.
+div.compound .compound-first, div.compound .compound-middle {
+  margin-bottom: 0.5em }
+div.compound .compound-last, div.compound .compound-middle {
+  margin-top: 0.5em }
+*/
+div.dedication {
+  margin: 2em 5em ;
+  text-align: center ;
+  font-style: italic }
+div.dedication p.topic-title {
+  font-weight: bold ;
+  font-style: normal }
+div.figure {
+  margin-left: 2em ;
+  margin-right: 2em }
+div.footer, div.header {
+  clear: both;
+  font-size: smaller }
+div.line-block {
+  display: block ;
+  margin-top: 1em ;
+  margin-bottom: 1em }
+div.line-block div.line-block {
+  margin-top: 0 ;
+  margin-bottom: 0 ;
+  margin-left: 1.5em }
+div.sidebar {
+  margin: 0 0 0.5em 1em ;
+  border: medium outset ;
+  padding: 1em ;
+  background-color: #ffffee ;
+  width: 40% ;
+  float: right ;
+  clear: right }
+div.sidebar p.rubric {
+  font-family: sans-serif ;
+  font-size: medium }
+div.system-messages {
+  margin: 5em }
+div.system-messages h1 {
+  color: red }
+div.system-message {
+  border: medium outset ;
+  padding: 1em }
+div.system-message p.system-message-title {
+  color: red ;
+  font-weight: bold }
+div.topic {
+  margin: 2em }
+h1.section-subtitle, h2.section-subtitle, h3.section-subtitle,
+h4.section-subtitle, h5.section-subtitle, h6.section-subtitle {
+  margin-top: 0.4em }
+h1.title {
+  text-align: center }
+h2.subtitle {
+  text-align: center }
+hr.docutils {
+  width: 75% }
+img.align-left, .figure.align-left, object.align-left {
+  clear: left ;
+  float: left ;
+  margin-right: 1em }
+img.align-right, .figure.align-right, object.align-right {
+  clear: right ;
+  float: right ;
+  margin-left: 1em }
+img.align-center, .figure.align-center, object.align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.align-left {
+  text-align: left }
+.align-center {
+  clear: both ;
+  text-align: center }
+.align-right {
+  text-align: right }
+/* reset inner alignment in figures */
+div.align-right {
+  text-align: inherit }
+/* div.align-center * { */
+/*   text-align: left } */
+ol.simple, ul.simple {
+  margin-bottom: 1em }
+ol.arabic {
+  list-style: decimal }
+ol.loweralpha {
+  list-style: lower-alpha }
+ol.upperalpha {
+  list-style: upper-alpha }
+ol.lowerroman {
+  list-style: lower-roman }
+ol.upperroman {
+  list-style: upper-roman }
+p.attribution {
+  text-align: right ;
+  margin-left: 50% }
+p.caption {
+  font-style: italic }
+p.credits {
+  font-style: italic ;
+  font-size: smaller }
+p.label {
+  white-space: nowrap }
+p.rubric {
+  font-weight: bold ;
+  font-size: larger ;
+  color: maroon ;
+  text-align: center }
+p.sidebar-title {
+  font-family: sans-serif ;
+  font-weight: bold ;
+  font-size: larger }
+p.sidebar-subtitle {
+  font-family: sans-serif ;
+  font-weight: bold }
+p.topic-title {
+  font-weight: bold }
+pre.address {
+  margin-bottom: 0 ;
+  margin-top: 0 ;
+  font: inherit }
+pre.literal-block, pre.doctest-block, pre.math {
+  margin-left: 2em ;
+  margin-right: 2em }
+span.classifier {
+  font-family: sans-serif ;
+  font-style: oblique }
+span.classifier-delimiter {
+  font-family: sans-serif ;
+  font-weight: bold }
+span.interpreted {
+  font-family: sans-serif }
+span.option {
+  white-space: nowrap }
+span.pre {
+  white-space: pre }
+span.problematic {
+  color: red }
+span.section-subtitle {
+  /* font-size relative to parent (h1..h6 element) */
+  font-size: 80% }
+table.citation {
+  border-left: solid 1px gray;
+  margin-left: 1px }
+table.docinfo {
+  margin: 2em 4em }
+table.docutils {
+  margin-top: 0.5em ;
+  margin-bottom: 0.5em }
+table.footnote {
+  border-left: solid 1px black;
+  margin-left: 1px }
+table.docutils td, table.docutils th,
+table.docinfo td, table.docinfo th {
+  padding-left: 0.5em ;
+  padding-right: 0.5em ;
+  vertical-align: top }
+table.docutils th.field-name, table.docinfo th.docinfo-name {
+  font-weight: bold ;
+  text-align: left ;
+  white-space: nowrap ;
+  padding-left: 0 }
+h1 tt.docutils, h2 tt.docutils, h3 tt.docutils,
+h4 tt.docutils, h5 tt.docutils, h6 tt.docutils {
+  font-size: 100% }
+ul.auto-toc {
+  list-style-type: none }
+</style>
+</head>
+<body>
+<div class="document" id="game-manual">
+<h1 class="title">Manual do Jogo</h1>
+<div class="contents topic" id="contents">
+<p class="topic-title first">Conte&uacute;do</p>
+<ul class="simple">
+  <li><a class="reference internal" href="#introduction" id="id1">1. Introdu&ccedil;&atilde;o</a></li>
+  <li><a class="reference internal" href="#tutorial" id="id2">2. Tutorial</a>
+    <ul>
+      <li><a class="reference internal" href="#chapter-1-tutorial" id="id3">2.1 cap&iacute;tulo 1 tutorial</a></li>
+      <li><a class="reference internal" href="#chapter-2-tutorial" id="id4">2.2 Cap&iacute;tulo 2 tutorial</a></li>
+      <li><a class="reference internal" href="#hints-and-tips" id="id5">2.3Dicas e Sugest&otilde;es</a></li>
+    </ul>
+  </li>
+  <li><a class="reference internal" href="#reference-guide" id="id6">3. Guia de Refer&ecirc;ncia</a>
+    <ul>
+      <li><a class="reference internal" href="#commands-list" id="id7">3.1 Lista de Comandos</a>
+        <ul>
+          <li><a class="reference internal" href="#moving-on-the-map" id="id8">Movendo-se Pelo Mapa</a></li>
+          <li><a class="reference internal" href="#choosing-a-unit-to-control" id="id9">Escolhendo a Unidade a Controlar</a></li>
+          <li><a class="reference internal" href="#giving-an-order-main-method" id="id10">Dando uma Ordem: M&eacute;todo Principal</a></li>
+          <li><a class="reference internal" href="#giving-an-order-alternate-faster-method" id="id11">Dando uma Ordem: m&eacute;todo alternativo, mais r&aacute;pido</a></li>
+          <li><a class="reference internal" href="#examining-the-situation" id="id12">Examinando a situa&ccedil;&atilde;o</a></li>
+          <li><a class="reference internal" href="#giving-an-order-without-cancelling-the-previous-ones-queuing-commands" id="id13">Dando uma Ordem Sem Cancelar 
+as Anteriores (enfileiramento de comandos)</a></li>
+          <li><a class="reference internal" href="#giving-an-imperative-order" id="id14">Dando Uma Ordem Imperativa</a></li>
+          <li><a class="reference internal" href="#attacking-a-friendly-unit" id="id15">Atacando Uma Unidade Amiga</a></li>
+          <li><a class="reference internal" href="#other-commands" id="id16">Outros comandos</a></li>
+          <li><a class="reference internal" href="#sapi-5-experimental-support" id="id17">Suporte Experimental a SAPI 5</a></li>
+        </ul>
+      </li>
+      <li><a class="reference internal" href="#units" id="id18">3.2 Unidades</a>
+        <ul>
+          <li><a class="reference internal" href="#peasant" id="id19">Oper&aacute;rio</a></li>
+          <li><a class="reference internal" href="#footman" id="id20">Soldado</a></li>
+          <li><a class="reference internal" href="#archer" id="id21">Arqueiro</a></li>
+          <li><a class="reference internal" href="#flying-machine" id="id22">M&aacute;quina Voadora</a></li>
+          <li><a class="reference internal" href="#knight" id="id23">Cavaleiro</a></li>
+          <li><a class="reference internal" href="#dark-archer" id="id24">Arqueiro Negro</a></li>
+          <li><a class="reference internal" href="#priest" id="id25">Sacerdote</a></li>
+          <li><a class="reference internal" href="#catapult" id="id26">Catapulta</a></li>
+          <li><a class="reference internal" href="#dragon" id="id27">Drag&atilde;o</a></li>
+          <li><a class="reference internal" href="#mage" id="id28">Mago</a></li>
+          <li><a class="reference internal" href="#necromancer" id="id29">Necromante</a></li>
+          <li><a class="reference internal" href="#offensive-flying-machine" id="id30">M&aacute;quina Voadora Ofensiva</a></li>
+          <li><a class="reference internal" href="#skeleton" id="id31">Esqueleto</a></li>
+          <li><a class="reference internal" href="#zombie" id="id32">Zumbi</a></li>
+        </ul>
+      </li>
+      <li><a class="reference internal" href="#buildings" id="id33">3.3 Edif&iacute;cios</a>
+        <ul>
+          <li><a class="reference internal" href="#scout-tower" id="id34">Torre de Monitoramento</a></li>
+          <li><a class="reference internal" href="#farm" id="id35">Fazenda</a></li>
+          <li><a class="reference internal" href="#guard-tower" id="id36">Torre com Arqueiros</a></li>
+          <li><a class="reference internal" href="#lumber-mill" id="id37">Marcenaria</a></li>
+          <li><a class="reference internal" href="#barracks" id="id38">Quartel</a></li>
+          <li><a class="reference internal" href="#blacksmith" id="id39">Ferreiro</a></li>
+          <li><a class="reference internal" href="#cannon-tower" id="id40">Torre com Canh&otilde;es</a></li>
+          <li><a class="reference internal" href="#stables" id="id41">Est&aacute;bulo</a></li>
+          <li><a class="reference internal" href="#workshop" id="id42">Oficina</a></li>
+          <li><a class="reference internal" href="#town-hall" id="id43">Edif&iacute;cio Principal</a></li>
+          <li><a class="reference internal" href="#dragons-lair" id="id44">Casa dos Drag&otilde;es</a></li>
+          <li><a class="reference internal" href="#mages-tower" id="id45">Torre dos Magos</a></li>
+          <li><a class="reference internal" href="#necropolis" id="id46">Cemit&eacute;rio</a></li>
+          <li><a class="reference internal" href="#temple" id="id47">Templo</a></li>
+          <li><a class="reference internal" href="#keep" id="id48">Fortaleza</a></li>
+          <li><a class="reference internal" href="#castle" id="id49">Castelo</a></li>
+        </ul>
+      </li>
+      <li><a class="reference internal" href="#abilities" id="id50">3.4 Habilidades</a>
+        <ul>
+          <li><a class="reference internal" href="#conversion" id="id51">Convers&atilde;o</a></li>
+          <li><a class="reference internal" href="#deadly-fog" id="id52">N&eacute;voa Mortal</a></li>
+          <li><a class="reference internal" href="#exorcism" id="id53">Exorcismo</a></li>
+          <li><a class="reference internal" href="#holy-vision" id="id54">Santa Vis&atilde;o</a></li>
+          <li><a class="reference internal" href="#meteors" id="id55">Meteoros</a></li>
+          <li><a class="reference internal" href="#raise-dead" id="id56">Reanimar os Mortos</a></li>
+          <li><a class="reference internal" href="#resurrection" id="id57">Ressurrei&ccedil;&atilde;o</a></li>
+          <li><a class="reference internal" href="#summon-dragon" id="id58">Evocar Drag&atilde;o</a></li>
+          <li><a class="reference internal" href="#teleportation" id="id59">Teletransporte</a></li>
+        </ul>
+      </li>
+      <li><a class="reference internal" href="#upgrades-and-research" id="id60">3.5 Pesquisas e Melhoramentos</a>
+        <ul>
+          <li><a class="reference internal" href="#archer-armor-upgrade" id="id61">Melhoramento de Armadura dos Arqueiros</a></li>
+          <li><a class="reference internal" href="#archer-range-upgrade" id="id62">Melhoramento do alcance dos Arqueiros</a></li>
+          <li><a class="reference internal" href="#archer-weapon-upgrade" id="id63">Melhoramento das flechas dos Arqueiros</a></li>
+          <li><a class="reference internal" href="#melee-armor-upgrade" id="id64">Melhoramento de Armadura dos Soldados</a></li>
+          <li><a class="reference internal" href="#melee-weapon-upgrade" id="id65">Melhoramento das Espadas</a></li>
+          <li><a class="reference internal" href="#horse-speed-upgrade" id="id66">Melhoramento da Velocidade dos Cavalos</a></li>
+          <li><a class="reference internal" href="#conversion-research" id="id67">Pesquisas para Convers&atilde;o</a></li>
+          <li><a class="reference internal" href="#deadly-fog-research" id="id68">Pesquisa de N&eacute;voa Mortal</a></li>
+          <li><a class="reference internal" href="#exorcism-research" id="id69">Pesquisa Para Exorcismo</a></li>
+          <li><a class="reference internal" href="#meteors-research" id="id70">Pesquisa Para Meteoros</a></li>
+          <li><a class="reference internal" href="#resurrection-research" id="id71">Pesquisa Para Ressurrei&ccedil;&atilde;o</a></li>
+          <li><a class="reference internal" href="#summon-dragon-research" id="id72">Pesquisa Para Evoca&ccedil;&atilde;o de Drag&atilde;o</a></li>
+          <li><a class="reference internal" href="#teleportation-research" id="id73">Pesquisa Para Teletransporte</a></li>
+          <li><a class="reference internal" href="#super-healer-upgrade" id="id74">Melhoramento para Super Curativo</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a class="reference internal" href="#multiplayer-games" id="id75">4. Jogo Multiplayer</a>
+    <ul>
+      <li><a class="reference internal" href="#starting-a-multiplayer-game" id="id76">4.1 Iniciando um Jogo Multiplayer</a></li>
+      <li><a class="reference internal" href="#chatting" id="id77">4.2 Chat</a></li>
+      <li><a class="reference internal" href="#team-play" id="id78">4.3 Equipe de Jogo</a></li>
+      <li><a class="reference internal" href="#how-to-make-your-server-accessible-to-other-players" id="id79">4.4 Como Tornar Seu Servidor Acess&iacute;vel a Outros 
+Jogadores</a></li>
+      <li><a class="reference internal" href="#how-to-download-a-map-from-a-server" id="id80">4.5 Como Fazer Download de um Mapa em um Servidor</a></li>
+    </ul>
+  </li>
+  <li><a class="reference internal" href="#game-elements" id="id81">5. Elementos do Jogo</a>
+    <ul>
+      <li><a class="reference internal" href="#food" id="id82">Comida</a></li>
+      <li><a class="reference internal" href="#tech-upgrades" id="id83">Melhoramento de T&eacute;cnicas</a></li>
+      <li><a class="reference internal" href="#flying-units" id="id84">Unidades Voadoras</a></li>
+      <li><a class="reference internal" href="#invisible-units-and-detectors" id="id85">Unidades Invis&iacute;veis e Detectores</a></li>
+    </ul>
+  </li>
+  <li><a class="reference internal" href="#more-details-for-customization" id="id86">6. Mais Detalhes sobre Personaliza&ccedil;&atilde;o</a>
+    <ul>
+      <li><a class="reference internal" href="#soundrts-ini" id="id87">SoundRTS.ini</a></li>
+      <li><a class="reference internal" href="#screen-reader-support-experimental" id="id88">Suporte Experimental a Leitores de Tela</a></li>
+      <li><a class="reference internal" href="#linux-speech-dispatcher-support-experimental" id="id89">Suporte Experimental ao Speech Dispatcher no Linux</a></li>
+      <li><a class="reference internal" href="#temporary-folder" id="id90">Pasta Tempor&aacute;ria</a></li>
+      <li><a class="reference internal" href="#user-folder" id="id91">Pasta do Usu&aacute;rio</a></li>
+      <li><a class="reference internal" href="#how-to-create-a-portable-version-of-soundrts" id="id92">Como Criar uma Vers&atilde;o Portable do SoundRTS</a></li>
+      <li><a class="reference internal" href="#how-to-change-the-default-speed-in-single-player-games" id="id93">Como Mudar a Velocidade do Jogo contra o Computador</a></li>
+      <li><a class="reference internal" href="#changing-some-key-bindings" id="id94">Alterando Algumas Teclas</a></li>
+      <li><a class="reference internal" href="#building-new-recorded-voices" id="id95">Gravando Novas Vozes</a></li>
+      <li><a class="reference internal" href="#creating-an-app-for-mac" id="id96">Criando um App para Mac</a></li>
+      <li><a class="reference internal" href="#using-the-windows-installer-with-a-limited-account-windows-xp" id="id97">Usando o Windows Installer Em Uma Conta Limitada 
+(Windows XP)</a></li>
+    </ul>
+  </li>
+  <li><a class="reference internal" href="#credits" id="id98">7. Cr&eacute;ditos</a></li>
+</ul>
+</div>
+<div class="section" id="introduction">
+<h1><a class="toc-backref" href="#id1">1. Introdu&ccedil;&atilde;o</a></h1>
+<p>Bem-vindo ao SoundRTS!</p>
+<p>SoundRTS &eacute; um jogo de estrat&eacute;gia em tempo real inspirado
+nas s&eacute;ries Warcraft e Starcraft, mas trata-se de um audiogame,
+Por tanto adaptado para cegos. Nesse jogo, voc&ecirc; vai explorar as
+imedia&ccedil;&otilde;es, explorar
+Minas de ouro e bosques, construir edif&iacute;cios,
+recrutar oper&aacute;rios e soldados, e lutar
+contra o inimigo!</p>
+<p>O jogo est&aacute; pr&eacute;-configurado no modo de mapa: voc&ecirc;
+est&aacute; voltado para o norte, e pode selecionar
+todos os objetos sem necessidade de se virar. Mas voc&ecirc; pode
+tamb&eacute;m jogar no modo
+de primeira pessoa, &uacute;til na explora&ccedil;&atilde;o e no ataque.</p>
+</div>
+<div class="section" id="tutorial">
+<h1><a class="toc-backref" href="#id2">2. Tutorial</a></h1>
+<p>Este tutorial vai ajud&aacute;-lo a aprender os principais controles do jogo.</p>
+<div class="section" id="chapter-1-tutorial">
+<h2><a class="toc-backref" href="#id3">2.1 Cap&iacute;tulo 1 tutorial</a></h2>
+<p>Se voc&ecirc; usa Jaws ou outro leitor de tela, ser&aacute; necess&aacute;rio desativ&aacute;-lo para poder acessar o teclado.</p>
+<p>Quando o jogo come&ccedil;ar, voc&ecirc; vai ouvir o nome do
+quadrado onde est&aacute;: "A1". A presen&ccedil;a de uma mina de ouro
+em A1 tamb&eacute;m ser&aacute; mencionada. Para examinar este<br />
+quadrado, pressione a tecla tab algumas vezes. Voc&ecirc; vai notar que
+este quadrado tem uma &uacute;nica sa&iacute;da (um caminho), uma mina
+de ouro, um bosque, o Edif&iacute;cio<br />
+Principal 1 (&eacute; a sua base), e o oper&aacute;rio 1. <br />
+Ent&atilde;o pressione"Page Down" para saber se outro quadrado
+pode ser examinado. Vai ouvir ent&atilde;o o que existe em "C1",
+(pressione"Tab" para saber isto) a<br />
+fazenda, o caminho, o bosque e o soldado 1.<br />
+Se pressionar "Page down" novamente, estar&aacute; de novo em "A1".
+Isso significa que apenas 2 quadrados Podem ser examinados por agora.<br />
+Outro m&eacute;todo para se mover no mapa &eacute; utilizar as setas
+direcionais. Nesse modo, pode saltar por cima de quadrados
+desconhecidos para dar uma ordem de movimenta&ccedil;&atilde;o<br />
+para um quadrado desconhecido.<br />
+O objetivo dessa miss&atilde;o &eacute; construir uma fazenda e um
+quartel. Somente os oper&aacute;rios podem construir. Mas para isso
+precisa de ouro e madeira e tamb&eacute;m de<br />
+um espa&ccedil;o livre (um terreno). Para saber quanto possui de ouro, madeira e comida, pressione Z, X e C respectivamente.<br />
+Vamos ent&atilde;o pedir ao oper&aacute;rio para ir recolher ouro.
+Primeiro, para o controlar, pressione Q at&eacute; ouvir
+"Oper&aacute;rio 1, esperando ordens!". Em seguida, pressione<br />
+A at&eacute; ouvir "explorar"; ent&atilde;o pressione Tab at&eacute;
+selecionar a mina de ouro e por fim pressione Enter para confirmar. O
+oper&aacute;rio ir&aacute; iniciar o recolhimento<br />
+de ouro.<br />
+Para ir mais r&aacute;pido, vai precisar de mais oper&aacute;rios.
+Pressione Q at&eacute; controlar o Edif&iacute;cio Principal.
+Ent&atilde;o pressione A at&eacute; selecionar "recrutar
+oper&aacute;rio"<br />
+e pressione Enter. Ap&oacute;s alguns segundos, Um novo oper&aacute;rio (Oper&aacute;rio 2), ir&aacute; aparecer.<br />
+Para pedir ao Oper&aacute;rio 2 que recolha madeira, fa&ccedil;a como o
+primeiro, ou para ir mais r&aacute;pido pressione Q at&eacute;
+controlar oper&aacute;rio 2, em seguida Tab para selecionar<br />
+a mina de ouro, ent&atilde;o pressione "Backspace". Essa tecla vai
+ativar a a&ccedil;&atilde;o padr&atilde;o no alvo selecionado: Neste
+caso, a a&ccedil;&atilde;o padr&atilde;o &eacute; "explorar a mina de
+ouro".<br />
+Antes de recrutar o terceiro oper&aacute;rio conv&eacute;m informar o
+Edif&iacute;cio Principal 1 que os novos oper&aacute;rios que
+ser&atilde;o recrutados, ter&atilde;o a miss&atilde;o de explorar essa<br />
+mina de ouro. Para isso, pressione Q at&eacute; controlar o
+Edif&iacute;cio Principal 1. Em seguida, pressione Tab at&eacute;
+selecionar a mina de ouro. Finaumente pressione<br />
+"Backspace" Para tornar a ordem de explorar a mina de ouro uma
+configura&ccedil;&atilde;o. Feito isso, s&oacute; precisa pressionar A
+Para escolher "recrutar oper&aacute;rio", e Enter<br />
+para confirmar.<br />
+Quando tiver ouro suficiente ou a mina de ouro ficar esgotada,
+pressione D para controlar Todos os oper&aacute;rios em seguida Tab
+at&eacute; selecionar o bosque. Por<br />
+fim pressione "Backspace" para ativar a explora&ccedil;&atilde;o do bosque.<br />
+O resto n&atilde;o &eacute; dif&iacute;cil. <br />
+</p>
+</div>
+<div class="section" id="chapter-2-tutorial">2.2 Cap&iacute;tulo 2 tutorial<br />
+Dica: Agrupe as suas unidades de combate. Para fazer
+isso, controle-as(com a tecla S) e mande-as Patrulhar entre os
+quadrados que quer proteger.<br />
+</div>
+<div class="section" id="hints-and-tips">
+<h2><a class="toc-backref" href="#id5">2.3 Dicas e Sugest&otilde;es</a></h2>
+<ul class="simple">
+  <li>Mantenha suas tropas ativas.</li>
+  <li>Mande seus soldados patrulhar. Uma patrulha militar pode proteger uma zona ampla mantendo as suas tropas em atividade.</li>
+  <li>Use pontos de converg&ecirc;ncia para seus edif&iacute;cios. Os
+edif&iacute;cios que recrutam unidades podem definir pontos de
+converg&ecirc;ncia. As novas unidades ir&atilde;o visar este novo
+ponto. Por exemplo, um novo oper&aacute;rio ir&aacute; explorar uma
+mina de ouro definida como ponto de converg&ecirc;ncia.</li>
+  <li>Use o modo defensivo para explora&ccedil;&atilde;o. Uma unidade em modo defensivo ir&aacute; fugir se encontrar unidades
+inimigas mais fortes. Dessa forma voc&ecirc; poder&aacute; saber
+quantos inimigos se encontram num determinado quadrado sem sacrificar
+as suas unidades que est&atilde;o explorando. Os oper&aacute;rios
+est&atilde;o pr&eacute;-configurados em modo defensivo, mas os
+guerreiros tamb&eacute;m podem ser alterados para esse modo.</li>
+  <li>Uma unidade que fugiu, esquece as suas ordens. Por exemplo, um
+oper&aacute;rio que esteja recolhendo ouro, n&atilde;o ir&aacute;
+trabalhar depois de fugir, uma vez que ele fugiu e sobreviveu!
+Ter&aacute; que lhe dar as ordens novamente para ele voltar a recolher
+ouro.</li>
+</ul>
+ </div>
+</div>
+<div class="section" id="reference-guide">
+<h1><a class="toc-backref" href="#id6">3. Guia de Refer&ecirc;ncia</a></h1>
+<div class="section" id="commands-list">
+<h2><a class="toc-backref" href="#id7">3.1 Lista de comandos</a></h2>
+<p>O jogo consiste em dar ordens &agrave;s suas unidades e
+edif&iacute;cios. Para dar ordens A uma unidade, em primeiro lugar
+voc&ecirc; deve control&aacute;-la.
+Se voc&ecirc; pressionar F10 durante o jogo, ir&aacute; para o menu.
+Se utiliza Jaws ou outro leitor de tela, ser&aacute; necess&aacute;rio
+desativ&aacute;-lo para poder acessar o teclado.</p>
+<div class="section" id="moving-on-the-map">
+<h3><a class="toc-backref" href="#id8">Movendo-se pelo Mapa</a></h3>
+<p>As setas direcionais fazem com que se mova pelo mapa de um quadrado para outro. Se existir um caminho
+direto entre o quadrado atual e o novo quadrado, ir&aacute; ouvir o som correspondente
+Dependendo do tipo de passagem (caminho ou ponte). Se n&atilde;o existir nenhuma
+passagem, ir&aacute; ouvir o som de uma colis&atilde;o e ficar&aacute; no mesmo quadrado (pressione control +
+setas direcionais para saltar por cima de um obst&aacute;culo. Se ainda n&atilde;o souber se a
+passagem existe (quadrado desconhecido) nesse caso nenhum som ser&aacute; ouvido.</p>
+<p>Outra forma de se mover pelo mapa &eacute; atrav&eacute;s da tecla Page Up, que vai lev&aacute;-lo
+diretamente para o pr&oacute;ximo quadrado de interesse Sem passar pelos quadrados vazios.</p>
+Desde o SoundRTS 1.1 alpha 3, algumas varia&ccedil;&otilde;es est&atilde;o dispon&iacute;veis:
+<ul class="simple">
+  <li>pressione Alt + PageUp/PageDown para selecionar o quadrado desconhecido anterior ou posterior respectivamente</li>
+  <li>pressione Shift + PageUp/PageDown para selecionar respectivamente o quadrado anterior ou posterior que contenha recursos</li>
+</ul>
+<p>Quando voc&ecirc; estiver controlando uma unidade e pressionar a barra de espa&ccedil;os, ir&aacute;
+automaticamente segui-la quando ela se mover de um quadrado para outro.</p>
+</div>
+<div class="section" id="choosing-a-unit-to-control">
+<h3><a class="toc-backref" href="#id9">Escolhendo uma Unidade a Controlar</a></h3>
+<p>Para controlar a pr&oacute;xima unidade local, pressione Q.</p>
+<p>Para controlar o pr&oacute;ximo edif&iacute;cio, pressione W.
+Para controlar o pr&oacute;ximo oper&aacute;rio, pressione E. Para
+controlar todos os oper&aacute;rios no quadrado atual, pressione D.
+Para controlar o pr&oacute;ximo oper&aacute;rio inativo pressione Alt
+E. Para controlar todos os oper&aacute;rios inativos presentes no
+quadrado atual, pressione alt D.
+Para controlar o pr&oacute;ximo soldado pressione R. Para controlar
+todos os soldados presentes no quadrado atual, pressione F.
+Para controlar o pr&oacute;ximo arqueiro, pressione T. Para controlar
+todos os arqueiros presentes no quadrado atual, pressione G.
+Para controlar o pr&oacute;ximo cavaleiro, pressione Y. Para controlar
+todos os cavaleiros presentes no quadrado atual, pressione H.
+Para controlar a pr&oacute;xima catapulta, pressione U. Para controlar
+todas as catapultas presentes no quadrado atual pressione J.
+Para controlar o pr&oacute;ximo drag&atilde;o, pressione I. Para
+controlar todos os drag&otilde;es presentes no quadrado atual,
+pressione K.
+Para controlar o pr&oacute;ximo mago, pressione O. Para controlar todos
+os magos presentes no quadrado atual, pressione L.</p>
+<p>As teclas que servem para controlar a pr&oacute;xima unidade, se
+forem combinadas com Shift fazem com que controle a unidade anterior!
+Por exemplo, para controlar
+o oper&aacute;rio anterior pressione Shift + E.</p>
+<p>Para controlar todas as unidades presentes no quadrado atual do mesmo tipo da atuaumente controlada, pressione1.
+Para controlar a metade ou um ter&ccedil;o pressione 2 ou 3.
+Para deixar de controlar um grupo, pressione0.</p>
+<p>Para controlar todas as unidades de combate presentes no quadrado
+atual pressione S.
+Para controlar todos os oper&aacute;rios e unidades de combate
+presentes no quadrado atual pressione Alt + S. As teclas que
+representam o controle dum grupo de unidades presentes no quadrado
+atual se forem combinadas com a tecla Control, v&atilde;o controlar
+todas as
+unidades desse grupo presentes em todo o mapa. Por exemplo, para
+controlar todos os Soldados, pressione Control + R ou Control + F.</p>
+</div>
+<div class="section" id="giving-an-order-main-method">
+<h3><a class="toc-backref" href="#id10">Dando Uma Ordem: M&eacute;todo Principal</a></h3>
+<p>Para dar uma ordem a uma unidade controlada, o principal
+m&eacute;todo consiste em escolher a ordem na lista e escolher o alvo
+se a a&ccedil;&atilde;o assim o requerer.</p>
+<p>Para escolher a ordem dentro da lista, pressione A (e Shift A) para selecionar a ordem.</p>
+<p>Se tiver necessidade de selecionar um alvo, pressione Tab (e Shift
+Tab) para selecionar o alvo. Para selecionar um quadrado remoto como
+alvo, use as setas
+direcionais.</p>
+<p>Pressione Enter para confirmar sua sele&ccedil;&atilde;o.</p>
+</div>
+<div class="section" id="giving-an-order-alternate-faster-method">
+<h3><a class="toc-backref" href="#id11">Dando Uma Ordem: M&eacute;todo alternativo, Mais R&aacute;pido</a></h3>
+<p>O Segundo m&eacute;todo para dar uma ordem consiste em selecionar o
+alvo com Tab (ou as setas direcionais) e ent&atilde;o dever&aacute;
+pressionar Backspace. A ordem padr&atilde;o
+ser&aacute; dada. Por exemplo, um oper&aacute;rio que esteja numa mina
+de ouro, ir&aacute; explor&aacute;-la se voc&ecirc; pressionar
+Backspace.</p>
+</div>
+<div class="section" id="examining-the-situation">
+<h3><a class="toc-backref" href="#id12">Examinando a Situa&ccedil;&atilde;o</a></h3>
+<p>Para obter informa&ccedil;&atilde;o sobre a unidade controlada (ou o
+grupo controlado), pressione a Barra de espa&ccedil;os. Nesse caso
+voc&ecirc; ir&aacute; para o quadrado ocupado pela
+unidade (ou pelo l&iacute;der do grupo).</p>
+<p>Para saber quanto ouro voc&ecirc; tem, pressione Z. Pressione X para a madeira, pressione C para a comida.</p>
+<p>Para saber o estado de sa&uacute;de da unidade atuaumente controlada pressione V.</p>
+<p>Para examinar novamente um objeto selecionado com Tab, pressione Control.</p>
+</div>
+<div class="section" id="giving-an-order-without-cancelling-the-previous-ones-queuing-commands">
+<h3><a class="toc-backref" href="#id13">Dando Uma Ordem Sem Cancelar as Anteriores (enfileiramento de comandos)</a></h3>
+<p>Segure a tecla Shift antes de pressionar Enter para confirmar a ordem.</p>
+<p>Isso tamb&eacute;m funciona para ordens padr&atilde;o: Segure a tecla Shift antes de pressionar Backspace.</p>
+<p>Pressione espa&ccedil;o para verificar se a unidade tem outras ordens para executar.</p>
+<p>Aqui est&atilde;o algumas situa&ccedil;&otilde;es em que o enfileiramento de comandos pode ser &uacute;til:</p>
+<ul class="simple">
+  <li>Exemplo 1: voc&ecirc; quer que um oper&aacute;rio explore cada
+quadrado inicial do mapa (para saber onde est&aacute; o inimigo).
+Controle o oper&aacute;rio, mova o cursor para um quadrado inicial e,
+em seguida, pressione Shift + Backspace. Repita o procedimento para
+cada quadrado inicial.</li>
+  <li>Exemplo 2: voc&ecirc; quer que um oper&aacute;rio explore
+diversos recursos. Selecione um recurso, pressione Shift + Backspace.
+Repita para o pr&oacute;ximo recurso. Quando um recurso &eacute;
+esgotado, o oper&aacute;rio vai explorar o pr&oacute;ximo.</li>
+</ul>
+</div>
+<div class="section" id="giving-an-imperative-order">
+<h3><a class="toc-backref" href="#id14">Dando Uma Ordem Imperativa</a></h3>
+<p>Se voc&ecirc; segurar a tecla Control ao pressionar Enter ou backspace, a ordem ser&aacute; imperativa.</p>
+<p>Unidades com uma ordem imperativa tendem a ignorar tudo o que
+n&atilde;o seja diretamente relacionado com a ordem. Se eles tiverem
+que ir a algum lugar e passarem
+pelas unidades inimigas, simplesmente v&atilde;o ignor&aacute;-las.
+Isto &eacute; perigoso na maioria das vezes, mas pode ser &uacute;til
+em alguns casos, por exemplo, para atingir
+um objetivo muito importante.</p>
+<p>Aqui est&atilde;o alguns exemplos em que um comando imperativo pode ser &uacute;til:</p>
+<ul class="simple">
+  <li>Exemplo 1: voc&ecirc; deseja que suas unidades ataquem um inimigo
+espec&iacute;fico, edif&iacute;cio ou unidade, e ignore o resto.
+Selecione o destino e pressione Control + Backspace.</li>
+  <li>Exemplo 2: voc&ecirc; deseja retirar suas unidades de um lugar e
+ignorar as unidades inimigas. Selecione outro quadrado e pressione
+Control + Backspace.</li>
+</ul>
+<p>Voc&ecirc; pode enfileirar v&aacute;rios comandos imperativos. Segure as teclas Control + Shift em vez de Shift.</p>
+</div>
+<div class="section" id="attacking-a-friendly-unit">
+<h3><a class="toc-backref" href="#id15">Atacando Uma Unidade Amiga</a></h3>
+<p>Escolha a unidade de destino e pressione Shift Backspace: as unidades v&atilde;o atacar o alvo.</p>
+<p>Exce&ccedil;&atilde;o: se o alvo for um edif&iacute;cio danificado
+(ou uma unidade repar&aacute;vel como uma catapulta) e voc&ecirc;
+estiver controlando os oper&aacute;rios, eles ir&atilde;o
+consert&aacute;-la.</p>
+</div>
+<div class="section" id="other-commands">
+<h3><a class="toc-backref" href="#id16">Outros comandos</a></h3>
+<p>Para ouvir novamente toda a lista de mensagens, use F5 e F6.
+Para interromper a frase atual, use a tecla Alt.</p>
+<p>Para sair do jogo ou acessar o menu do jogo, utilize F10. Alt F4 ou Control C fazem exatamente o mesmo.</p>
+<p>Control + espa&ccedil;o, far&atilde;o com que o jogo passe para o
+modo de primeira pessoa. Pressione Escapepara voltar ao modo
+de mapa.</p>
+<p>Home e End, ou mais e menos do teclado num&eacute;rico, para alterar o volume do som.
+Control Home/End, ou control +/- do teclado num&eacute;rico: para aumentar/diminuir o volume da voz.</p>
+<p>Nos menus as setas direcionais, s&atilde;o usadas para cima e para
+baixo para selecionar, Direita para confirmar, Esquerda para cancelar.</p>
+<p>F3: Informa o tempo de jogo
+Control F3: Liga/desliga o aviso a cada minuto (O padr&atilde;o &eacute; desligado)</p>
+<p>Control Tab seleciona somente bosques, minas de ouro, terrenos e
+outros objetivos a reparar ou construir (edif&iacute;cios danificados,
+catapultas danificadas...).</p>
+<p>Alt + R Repete ordens dadas anteriormente. &Uacute;til para recrutar
+novamente unidades do mesmo tipo, ou construir edif&iacute;cios do
+mesmo tipo v&aacute;rias vezes.
+Alt + G Repete ordem anterior, validando-a caso n&atilde;o necessite de
+par&acirc;metros adicionais. Por exemplo, para recrutar 5 arqueiros
+adicionais, pressione alt+g
+5 vezes.</p>
+<p>Desde a vers&atilde;o o 1.1 alpha 3 do SoundRTS, Alt + A &eacute; equivalente a Alt + G.</p>
+</div>
+<div class="section" id="sapi-5-experimental-support">
+<h3><a class="toc-backref" href="#id17">Suporte Experimental a SAPI 5</a></h3>
+<p>Leia Tamb&eacute;m: <a class="reference internal" href="#screen-reader-support-experimental">Suporte Experimental a Leitores de Tela</a></p>
+<p>Leia tamb&eacute;m:<a class="reference internal" href="#linux-speech-dispatcher-support-experimental"> Suporte Experimental ao Speech Dispatcher no Linux</a></p>
+<p>Plataforma: Windows</p>
+<p>As configura&ccedil;&otilde;es e ativa&ccedil;&atilde;o de SAPI 5
+s&oacute; podem ser acessadas durante um jogo, mas a
+configura&ccedil;&atilde;o pode ser salva.</p>
+<ul class="simple">
+  <li>Para Ligar/desligar o SAPI: durante um jogo, pressione Control Alt F12 (o padr&atilde;o &eacute; desligado)</li>
+  <li>pressione Control F12 para selecionar a pr&oacute;xima voz, e Control Shift F12 para selecionar a voz anterior</li>
+  <li>Alterar velocidade SAPI: Alt (Shift) F12</li>
+  <li>pressione Control Alt Shift F12 para salvar a configura&ccedil;&atilde;o de SAPI</li>
+  <li>volume SAPI (as mesmas teclas de volume para vozes)</li>
+</ul>
+</div>
+</div>
+<div class="section" id="units">
+<h2><a class="toc-backref" href="#id18">3.2 Unidades</a></h2>
+<div class="section" id="peasant">
+<h3><a class="toc-backref" href="#id19">Oper&aacute;rio</a></h3>
+<p>O oper&aacute;rio &eacute; importante, mas fr&aacute;gil. Os
+oper&aacute;rios s&atilde;o utilizados para recolher ouro e madeira,
+construir e reparar edif&iacute;cios. Muitos oper&aacute;rios juntos
+podem
+ajudar na constru&ccedil;&atilde;o e reparo de edif&iacute;cios e com
+isso aumentar a velocidade e tempo de execu&ccedil;&atilde;o. Quando um
+oper&aacute;rio pode construir novos tipos de edif&iacute;cios,
+esta nova op&ccedil;&atilde;o ir&aacute; aparecer no fim da lista de
+ordens (selecionar com a Tecla A).</p>
+<p>O Oper&aacute;rio pode lutar, e pode juntar-se a ataques maci&ccedil;os com o comando Control + Alt + S.</p>
+Ele tem4 pontos de vida.
+Sua arma retira 1,5 pontos de vida a cada um segundo. O alvo deve estar a menos de 0,8 metros de dist&acirc;ncia.
+Sua velocidade &eacute; de1.5 metros por segundo.
+Ele custa4 de ouro. O edif&iacute;cio principal &eacute; seu local de recrutamento.
+ele necessita 1 de comida para sobreviver.
+<ul class="simple">
+  <li>Recrutado no: <a class="reference internal" href="#town-hall">edif&iacute;cio principal</a>, <a class="reference internal" href="#keep">fortaleza</a>, <a 
+class="reference internal" href="#castle">castelo</a></li>
+  <li>custo total: 4 de ouro</li>
+  <li>custo em alimenta&ccedil;&atilde;o: 1 de comida</li>
+  <li>tempo de recrutamento: 10 segundos</li>
+  <li>sa&uacute;de:  4 pontos de vida</li>
+  <li>ataque:  1.5 pontos de vida a cada 1 segundo</li>
+  <li>alcance do ataque:  0.8 metros</li>
+  <li>velocidade:  1.5 metros por segundo</li>
+  <li>pode construir: <a class="reference internal" href="#farm">fazenda</a>, <a class="reference internal" href="#barracks">quartel</a>, <a class="reference internal" 
+href="#lumber-mill">marcenaria</a>, <a class="reference internal" href="#blacksmith">ferreiro</a>, <a class="reference internal" href="#scout-tower">torre de monitoramento</a>, 
+<a class="reference internal" href="#town-hall">edif&iacute;cio principal</a>, <a class="reference internal" href="#stables">est&aacute;bulo</a>, <a class="reference 
+internal" href="#workshop">oficina</a>, <a class="reference internal" href="#dragons-lair">casa dos drag&otilde;es</a>, <a class="reference internal" href="#mages-tower">torre 
+dos magos</a>, <a class="reference internal" href="#temple">templo</a>, <a class="reference internal" href="#necropolis">cemit&eacute;rio</a></li>
+</ul>
+</div>
+<div class="section" id="footman">
+<h3><a class="toc-backref" href="#id20">Soldado</a></h3>
+<p>O Soldado luta com sua espada. Ele deve estar pr&oacute;ximo do alvo para poder atingi-lo.</p>
+<ul class="simple">
+  <li>recrutado no <a class="reference internal" href="#barracks">quartel</a></li>
+  <li>custo total: 6 de ouro</li>
+  <li>custo de alimenta&ccedil;&atilde;o: 1 de comida</li>
+  <li>tempo de recrutamento: 12 segundos</li>
+  <li>sa&uacute;de:  15 pontos de vida</li>
+  <li>armadura:  0.5 pontos de vida</li>
+  <li>melhoramento da armadura:  1 ponto de vida</li>
+  <li>seu ataque retira:3.5 pontos de vida a cada 1.5 segundo</li>
+  <li>com espadas melhoradas: 6 pontos de vida</li>
+  <li>alcance:  1 metro</li>
+  <li>velocidade:  1.5 metro por segundo</li>
+  <li>melhoramentos poss&iacute;veis:  <a class="reference internal" href="#melee-armor-upgrade">melhoramento de armadura</a>, <a class="reference internal" href="#melee-weapon-upg
+rade">melhoramento de espada</a></li>
+</ul>
+</div>
+<div class="section" id="archer">
+<h3><a class="toc-backref" href="#id21">Arqueiro</a></h3>
+<p>O Arqueiro luta atrav&eacute;s de um alvo direcionado e ataques de
+longa dist&acirc;ncia com o arco e a flecha. Se os Arqueiros forem
+suficientemente numerosos, os soldados
+inimigos morrem antes de alcan&ccedil;&aacute;-los.</p>
+<ul class="simple">
+  <li>recrutado no <a class="reference internal" href="#barracks">quartel</a></li>
+  <li>requer: <a class="reference internal" href="#lumber-mill">marcenaria</a></li>
+  <li>custo total: 5 de ouro, 1 de madeira</li>
+  <li>custo de alimenta&ccedil;&atilde;o: 1 de comida</li>
+  <li>tempo de recrutamento: 15 segundos</li>
+  <li>sa&uacute;de:  10 pontos de vida</li>
+  <li>ataque:  retira 2.5 pontos de vida a cada 1.5 segundo</li>
+  <li>alcance:  3 metros</li>
+  <li>velocidade:  1.5 metros por segundo</li>
+  <li>pode tornar-se: <a class="reference internal" href="#dark-archer">arqueiro negro</a></li>
+  <li>melhorias poss&iacute;veis:  <a class="reference internal" href="#archer-armor-upgrade">armadura dos arqueiros</a>, <a class="reference internal" href="#archer-range-upgrade"
+>seu alcance</a>, <a class="reference internal" href="#archer-weapon-upgrade">flechas</a></li>
+</ul>
+</div>
+<div class="section" id="flying-machine">
+<h3><a class="toc-backref" href="#id22">M&aacute;quina Voadora</a></h3>
+<p>Esta nova vers&atilde;o da m&aacute;quina voadora t&ecirc;m a
+capacidade de transportar unidades e detectar unidades
+invis&iacute;veis, mas n&atilde;o pode se defender. Unidades
+transportadas n&atilde;o podem atacar a partir de uma m&aacute;quina
+voadora. Se o transporte for destru&iacute;do, as unidades que
+estiverem dentro ser&atilde;o destru&iacute;das tamb&eacute;m.</p>
+<p>Para carregar unidades:</p>
+<ul class="simple">
+  <li>Método 1: controle as unidades a serem transportadas, escolha o destino para a m&aacute;quina voadora e pressione backspace</li>
+  <li>M&eacute;todo 2: controle a(s) m&aacute;quina(s)
+voadora(s), escolha o local para onde devem ser transportadas as
+unidades e pressione backspace.</li>
+  <li>M&eacute;todo 3: controle a(s) m&aacute;quina(s) voadora(s),
+selecione o quadrado onde est&atilde;o as unidades a serem
+transportadas, selecione com a letra a a op&ccedil;&atilde;o
+"carregar todos de..." e pressione Enter.</li>
+</ul>
+<p>Para descarregar as unidades: controle a(s) m&aacute;quina(s)
+voadora(s), selecione no menu de a&ccedil;&otilde;es a
+op&ccedil;&atilde;o "descarregar todas em", escolha o destino e
+pressione Enter.</p>
+<ul class="simple">
+  <li>Recrutada na <a class="reference internal" href="#workshop">oficina</a></li>
+  <li>custo total: 5 de ouro e 5 de madeira</li>
+  <li>Custo total de alimenta&ccedil;&atilde;o: 1 de comida</li>
+  <li>tempo de recrutamento: 10 segundos</li>
+  <li>sa&uacute;de:  30 pontos de vida</li>
+  <li>velocidade:  1.5 metros por segundo</li>
+  <li>pode ver os quadrados ao redor</li>
+  <li>detecta as unidades invis&iacute;veis</li>
+</ul>
+</div>
+<div class="section" id="knight">
+<h3><a class="toc-backref" href="#id23">cavaleiro</a></h3>
+<p>O cavaleiro luta com sua espada e move-se rapidamente.</p>
+<ul class="simple">
+  <li>recrutado no <span style="text-decoration: underline;">quartel</span></li>
+  <li>requer:<span style="text-decoration: underline;">est&aacute;bulo</span></li>
+  <li>custo total: 15 de ouro</li>
+  <li>custo em alimenta&ccedil;&atilde;o: 2 de comida</li>
+  <li>tempo de recrutamento: 20 segundos</li>
+  <li>sa&uacute;de:  45 pontos de vida</li>
+  <li>armadura:  1 ponto de vida</li>
+  <li>armadura melhorada:  1.5 pontos de vida</li>
+  <li>seu ataque retira:  6  pontos de vida a cada 1.5 segundo</li>
+  <li>com espadas melhoradas: 12 pontos de vida</li>
+  <li>alcance:  1 metro</li>
+  <li>velocidade:  2.5 metros por segundo</li>
+  <li>melhorias poss&iacute;veis::<a class="reference internal" href="#melee-armor-upgrade"> armadura</a>,<a class="reference internal" href="#melee-weapon-upgrade">espadas</a>,<a 
+class="reference internal" href="#horse-speed-upgrade">velocidade dos cavalos</a></li>
+</ul>
+</div>
+<div class="section" id="dark-archer">
+<h3><a class="toc-backref" href="#id24">Arqueiro Negro</a></h3>
+<p>Qualquer arqueiro pode tornar-se um arqueiro negro.</p>
+<ul class="simple">
+  <li>requer:<a class="reference internal" href="#lumber-mill">marcenaria</a>,<a class="reference internal" href="#mages-tower">torre dos magos</a></li>
+  <li>custo total: 10 de ouro, 5 de madeira</li>
+  <li>custo total em alimenta&ccedil;&atilde;o: 1 de comida</li>
+  <li>tempo de recrutamento: 75 segundos</li>
+  <li>sa&uacute;de:  12 pontos de vida</li>
+  <li>ataque:  10 pontos de vida a cada  3 segundos</li>
+  <li>alcance:  5 metros</li>
+  <li>velocidade:  1.5 metros por segundo</li>
+  <li>&eacute; invis&iacute;vel</li>
+  <li>Melhorias poss&iacute;veis:<a class="reference internal" href="#archer-armor-upgrade">armadura dos arqueiros</a>, <a class="reference internal" href="#archer-range-upgrade">alcance</a>,<a class="reference internal" href="#archer-weapon-upgrade">flechas</a></li>
+</ul>
+</div>
+<div class="section" id="priest">
+<h3><a class="toc-backref" href="#id25">Sacerdote</a></h3>
+<p>O sacerdote cura automaticamente todas as unidades amigas
+localizadas no mesmo quadrado (iniciaumente 0.13 pontos por segundo, e
+1.33 pontos por segundo ap&oacute;s a melhoria de "super curativo"). O
+sacerdote n&atilde;o ataca diretamente.</p>
+<ul class="simple">
+  <li>recrutado no <a class="reference internal" href="#temple">templo</a></li>
+  <li>custo total: 15 de ouro, 7 de madeira</li>
+  <li>custo em alimenta&ccedil;&atilde;o: 2 de comida</li>
+  <li>tempo de recrutamento: 20 segundos</li>
+  <li>sa&uacute;de:  30 pontos de vida</li>
+  <li>velocidade:  1 metro por segundo</li>
+  <li>poder de cura: 1</li>
+  <li>habilidades especiais:  <a class="reference internal" href="#conversion">convers&atilde;o</a>, <a class="reference internal" href="#exorcism">exorcismo</a>,<a 
+class="reference internal" href="#holy-vision">santa vis&atilde;o</a>, <a class="reference internal" href="#resurrection">ressurrei&ccedil;&atilde;o</a></li>
+  <li>melhorias poss&iacute;veis:  <a class="reference internal" href="#super-healer-upgrade">super curativo</a></li>
+</ul>
+</div>
+<div class="section" id="catapult">
+<h3><a class="toc-backref" href="#id26">catapulta</a></h3>
+<p>A catapulta pode atacar unidades e edif&iacute;cios localizados em
+um quadrado pr&oacute;ximo. A catapulta tamb&eacute;m pode causar danos
+a v&aacute;rios inimigos ao mesmo tempo.</p>
+<p>Por outro lado, a catapulta &eacute; muito fr&aacute;gil e
+n&atilde;o pode sequer defender-se contra uma unidade no mesmo
+quadrado. Ela se move muito lentamente.</p>
+<ul class="simple">
+  <li>recrutada na <a class="reference internal" href="#workshop">oficina</a></li>
+  <li>custo total: 15 de ouro, 10 de madeira</li>
+  <li>custo total em alimenta&ccedil;&atilde;o: 2 de comida</li>
+  <li>tempo de recrutamento: 30 segundos</li>
+  <li>sa&uacute;de:  30 pontos de vida</li>
+  <li>ataque:  8 pontos de vida a cada 4 segundos</li>
+  <li>raio de a&ccedil;&atilde;o:  0.25 metro</li>
+  <li>velocidade:  0.75 metros por segundo</li>
+  <li>pode ver os quadrados ao redor</li>
+</ul>
+</div>
+<div class="section" id="dragon">
+<h3><a class="toc-backref" href="#id27">drag&atilde;o</a></h3>
+<p>O drag&atilde;o, criatura voadora, n&atilde;o pode ser atingido por
+oper&aacute;rios, soldados, cavaleiros ou catapultas. Ele voa
+diretamente para seu destino, sem ter de seguir os caminhos por terra.</p>
+<ul class="simple">
+  <li>recrutado na <span style="text-decoration: underline;">casa dos drag&otilde;es</span></li>
+  <li>custo total: 15 de ouro, 10 de madeira</li>
+  <li>custo de alimenta&ccedil;&atilde;o: 3 de comida</li>
+  <li>tempo de recrutamento: 15 segundos</li>
+  <li>sa&uacute;de:  30 pontos de vida</li>
+  <li>ataque:  4 pontos de vida a cada 4 segundos</li>
+  <li>raio de a&ccedil;&atilde;o:  1 metro</li>
+  <li>alcance:  3 metros</li>
+  <li>velocidade:  1.75 metros por segundo</li>
+  <li>pode ver os quadrados ao redor</li>
+</ul>
+</div>
+<div class="section" id="mage">
+<h3><a class="toc-backref" href="#id28">mago</a></h3>
+<ul class="simple">
+  <li>recrutado na <a class="reference internal" href="#mages-tower">torre dos magos</a></li>
+  <li>custo total: 20 de ouro, 10 de madeira</li>
+  <li>custo de alimenta&ccedil;&atilde;o: 3 de comida</li>
+  <li>tempo de recrutamento: 30 segundos</li>
+  <li>sa&uacute;de:  30 pontos de vida</li>
+  <li>ataque:  8 pontos de vida a cada  1.5 segundos</li>
+  <li>alcance:  4.5 metros</li>
+  <li>velocidade:  1 metro por segundo</li>
+  <li>habilidades especiais:  <a class="reference internal" href="#meteors">meteoros</a>, <a class="reference internal" href="#summon-dragon">evocar drag&atilde;o</a>, 
+<a class="reference internal" href="#teleportation">teletransporte</a></li>
+</ul>
+</div>
+<div class="section" id="necromancer">
+<h3><a class="toc-backref" href="#id29">necromante</a></h3>
+<p>Os necromantes podem reanimar ex&eacute;rcitos de cad&aacute;veres.</p>
+<ul class="simple">
+  <li>recrutado no <span style="text-decoration: underline;">cemit&eacute;rio</span></li>
+  <li>custo total: 20 de ouro, 10 de madeira</li>
+  <li>custo de alimenta&ccedil;&atilde;o: 3 de comida</li>
+  <li>tempo de recrutamento: 30 segundos</li>
+  <li>sa&uacute;de:  30 pontos de vida</li>
+  <li>ataque:  8 pontos de vida a cada 1.5 segundos</li>
+  <li>alcance:  4.5 metros</li>
+  <li>velocidade:  1 metro por segundo</li>
+  <li>habilidades especiais: <a class="reference internal" href="#deadly-fog">n&eacute;voa mortal</a>, <a class="reference internal" href="#raise-dead">reanimar 
+os mortos</a></li>
+</ul>
+</div>
+<div class="section" id="offensive-flying-machine">
+<h3><a class="toc-backref" href="#id30">m&aacute;quina voadora ofensiva</a></h3>
+<ul class="simple">
+  <li>recrutada na <a class="reference internal" href="#workshop">oficina</a></li>
+  <li>requer:<a class="reference internal" href="#mages-tower">torre dos magos</a></li>
+  <li>custo total: 20 de ouro, 10 de madeira</li>
+  <li>custo de alimenta&ccedil;&atilde;o: 3 de comida</li>
+  <li>tempo de recrutamento: 30 segundo</li>
+  <li>sa&uacute;de:  30 pontos de vida</li>
+  <li>ataque:  8 pontos de vida a cada  1.5 segundo</li>
+  <li>alcance:  4.5 metros</li>
+  <li>velocidade: 1.5 metros por segundo</li>
+  <li>pode ver os quadrados ao redor</li>
+</ul>
+</div>
+<div class="section" id="skeleton">
+<h3><a class="toc-backref" href="#id31">esqueleto</a></h3>
+<ul class="simple">
+  <li>sa&uacute;de:  15 pontos de vida</li>
+  <li>ataque:  2.5 pontos de vida a cada  1.5 segundo</li>
+  <li>alcance:  3 metros</li>
+  <li>velocidade:  1.5 metros por segundo</li>
+  <li>melhorias poss&iacute;veis:  <a class="reference internal" href="#archer-armor-upgrade">armadura dos arqueiros</a>, seu alcance, flechas</li>
+</ul>
+</div>
+<div class="section" id="zombie">
+<h3><a class="toc-backref" href="#id32">zumbi</a></h3>
+<ul class="simple">
+  <li>sa&uacute;de:  23 pontos de vida</li>
+  <li>armadura:  0.5 pontos de vida</li>
+  <li>armadura melhorada:  1.5 pontos de vida</li>
+  <li>ataque:  5 pontos de vida a cada  3 segundos</li>
+  <li>espadas melhoradas: 7.5 pontos de vida</li>
+  <li>alcance:  1 metro</li>
+  <li>velocidade:  1 metro por segundo</li>
+  <li>melhorias poss&iacute;veis:<a class="reference internal" href="#melee-armor-upgrade">armaduras dos soldados</a>,<a class="reference internal" href="#melee-weapon-upgrade">espadas</a></li>
+</ul>
+</div>
+</div>
+<div class="section" id="buildings">
+<h2><a class="toc-backref" href="#id33">3.3Edif&iacute;cios</a></h2>
+<div class="section" id="scout-tower">
+<h3><a class="toc-backref" href="#id34">Torre de Monitoramento</a></h3>
+A Torre de monitoramento n&atilde;o pode se defender, mas pode evoluir
+rapidamente para uma torre com arqueiros (requer uma marcenaria) ou uma
+torre com canh&otilde;es (requer um ferreiro). No in&iacute;cio do jogo
+a Torre de monitoramento pode ser constru&iacute;da no caso de ataques
+r&aacute;pidos, com um investimento menor que o custo de uma torre
+totaumente equipada. Uma torre n&atilde;o requer alimento e pode ser
+constru&iacute;da em qualquer lugar (n&atilde;o apenas em um terreno).
+<ul class="simple">
+  <li>custo total: 6 de ouro, 2 de madeira</li>
+  <li>tempo de constru&ccedil;&atilde;o: 60 segundos</li>
+  <li>sa&uacute;de:  33 pontos de vida</li>
+  <li>pode ser atualizada para: <a class="reference internal" href="#guard-tower">torre com arqueiros</a>, <a class="reference internal" href="#cannon-tower">torre 
+com canh&otilde;es</a></li>
+  <li>pode ver os quadrados ao redor</li>
+</ul>
+</div>
+<div class="section" id="farm">
+<h3><a class="toc-backref" href="#id35">Fazenda</a></h3>
+<p>As fazendas fornecem comida.</p>
+<ul class="simple">
+  <li>Requer: <a class="reference internal" href="#town-hall">edif&iacute;cio principal</a></li>
+  <li>custo total: 5 de ouro, 5 de madeira</li>
+  <li>tempo de constru&ccedil;&atilde;o: 45 segundos</li>
+  <li>sa&uacute;de:  133.3 pontos de vida</li>
+  <li>alimento fornecido: 8 de comida</li>
+</ul>
+</div>
+<div class="section" id="guard-tower">
+<h3><a class="toc-backref" href="#id36">Torre com Arqueiros</a></h3>
+<p>A Torre com arqueiros atira flechas, como um arqueiro.</p>
+<ul class="simple">
+  <li>requer: <a class="reference internal" href="#lumber-mill">marcenaria</a></li>
+  <li>custo total: 11 de ouro, 4 de madeira</li>
+  <li>tempo de constru&ccedil;&atilde;o: 140 segundos</li>
+  <li>sa&uacute;de:  43 pontos de vida</li>
+  <li>armadura:  1 ponto de vida</li>
+  <li>ataque:  6 pontos de vida a cada 1.5 segundos</li>
+  <li>alcance:  5 metros</li>
+  <li>pode ver os quadrados ao redor</li>
+  <li>melhorias poss&iacute;veis:  <a class="reference internal" href="#archer-range-upgrade">alcance</a>, <a class="reference internal" href="#archer-weapon-upgrade">flechas</a></li>
+</ul>
+</div>
+<div class="section" id="lumber-mill">
+<h3><a class="toc-backref" href="#id37">Marcenaria</a></h3>
+<p>A Marcenaria pode armazenar Madeira. Se a Marcenaria se encontrar
+mais pr&oacute;xima do que o Edif&iacute;cio Principal, os
+oper&aacute;rios podem levar para l&aacute; a madeira recolhida
+para ganhar tempo. Por outro lado, possuir pelo menos uma marcenaria,
+aumenta em 25 por cento a produ&ccedil;&atilde;o de madeira.</p>
+<ul class="simple">
+  <li>requer: <a class="reference internal" href="#town-hall">edif&iacute;cio principal</a></li>
+  <li>custo total: 6 de ouro, 9 de madeira</li>
+  <li>tempo de constru&ccedil;&atilde;o: 68 segundos</li>
+  <li>sa&uacute;de:  200 pontos de vida</li>
+  <li>pode armazenar madeira</li>
+  <li>pode produzir: <a class="reference internal" href="#archer-weapon-upgrade">melhora das flechas dos arqueiros</a>, <a class="reference internal" href="#archer-armor-upgrade">melhora das armaduras dos arqueiros</a>, <a class="reference internal" href="#archer-range-upgrade">melhora do alcance dos arqueiros</a></li>
+</ul>
+</div>
+<div class="section" id="barracks">
+<h3><a class="toc-backref" href="#id38">Quartel</a></h3>
+<ul class="simple">
+  <li>requer: <a class="reference internal" href="#town-hall">edif&iacute;cio principal</a></li>
+  <li>custo total: 7 de ouro, 9 de madeira</li>
+  <li>tempo de constru&ccedil;&atilde;o: 90 segundos</li>
+  <li>sa&uacute;de:  266.7 pontos de vida</li>
+  <li>pode recrutar: <a class="reference internal" href="#footman">soldado</a>, <a class="reference internal" href="#archer">arqueiro</a>, <a class="reference internal" 
+href="#knight">cavaleiro</a></li>
+</ul>
+</div>
+<div class="section" id="blacksmith">
+<h3><a class="toc-backref" href="#id39">Ferreiro</a></h3>
+<ul class="simple">
+  <li>requer: <a class="reference internal" href="#town-hall">edif&iacute;cio principal</a></li>
+  <li>custo total: 8 de ouro, 10 de madeira</li>
+  <li>tempo de constru&ccedil;&atilde;o: 90 segundos</li>
+  <li>sa&uacute;de:  266.7 pontos de vida</li>
+  <li>pode pesquisar: <a class="reference internal" href="#melee-weapon-upgrade">melhora das espadas</a>, <a class="reference internal" href="#melee-armor-upgrade">melhora 
+das armaduras dos soldados</a></li>
+</ul>
+</div>
+<div class="section" id="cannon-tower">
+<h3><a class="toc-backref" href="#id40">Torre com Canh&otilde;es</a></h3>
+<p>A torre com canh&otilde;es ataca apenas unidades que estejam no solo.</p>
+<ul class="simple">
+  <li>requer: <a class="reference internal" href="#blacksmith">ferreiro</a></li>
+  <li>custo total: 16 de ouro, 5 de madeira</li>
+  <li>tempo de constru&ccedil;&atilde;o: 190 segundos</li>
+  <li>sa&uacute;de:  53 pontos de vida</li>
+  <li>armadura:  1 ponto de vida</li>
+  <li>ataque:  8 pontos de vida a cada 4 segundos</li>
+  <li>raio de a&ccedil;&atilde;o:  1 metro</li>
+  <li>alcance do ataque:  6 metros</li>
+  <li>pode ver os quadrados ao redor</li>
+</ul>
+</div>
+<div class="section" id="stables">
+<h3><a class="toc-backref" href="#id41">Est&aacute;bulo</a></h3>
+<ul class="simple">
+  <li>requer: <a class="reference internal" href="#keep">fortaleza</a></li>
+  <li>custo total: 10 de ouro, 15 de madeira</li>
+  <li>tempo de constru&ccedil;&atilde;o: 90 segundos</li>
+  <li>sa&uacute;de:  266.7 pontos de vida</li>
+  <li>pode pesquisar: <a class="reference internal" href="#horse-speed-upgrade">melhora da velocidade dos cavalos</a></li>
+</ul>
+</div>
+<div class="section" id="workshop">
+<h3><a class="toc-backref" href="#id42">Oficina</a></h3>
+<ul class="simple">
+  <li>requer: <a class="reference internal" href="#keep">fortaleza</a></li>
+  <li>custo total: 10 de ouro, 15 de madeira</li>
+  <li>tempo de constru&ccedil;&atilde;o: 90 segundos</li>
+  <li>sa&uacute;de:  266.7 pontos de vida</li>
+  <li>pode recrutar: <a class="reference internal" href="#catapult">catapulta</a>, <a class="reference internal" href="#flying-machine">m&aacute;quina voadora</a>, 
+<a class="reference internal" href="#offensive-flying-machine">m&aacute;quina voadora ofensiva</a></li>
+</ul>
+</div>
+<div class="section" id="town-hall">
+<h3><a class="toc-backref" href="#id43">Edif&iacute;cio Principal</a></h3>
+<ul class="simple">
+  <li>custo total: 12 de ouro, 16 de madeira</li>
+  <li>tempo de constru&ccedil;&atilde;o: 135 segundos</li>
+  <li>sa&uacute;de:  400 pontos de vida</li>
+  <li>alimenta&ccedil;&atilde;o: 1 de comida</li>
+  <li>pode armazenar:  ouro, madeira</li>
+  <li>pode recrutar: <a class="reference internal" href="#peasant">oper&aacute;rio</a></li>
+  <li>pode ser atualizado para: <a class="reference internal" href="#keep">fortaleza</a></li>
+</ul>
+</div>
+<div class="section" id="dragons-lair">
+<h3><a class="toc-backref" href="#id44">Casa dos Drag&otilde;es</a></h3>
+<ul class="simple">
+  <li>requer: <a class="reference internal" href="#castle">castelo</a></li>
+  <li>custo total: 15 de ouro, 20 de madeira</li>
+  <li>tempo de constru&ccedil;&atilde;o: 90 segundos</li>
+  <li>sa&uacute;de:  266.7 pontos de vida</li>
+  <li>pode recrutar: <a class="reference internal" href="#dragon">drag&atilde;o</a></li>
+</ul>
+</div>
+<div class="section" id="mages-tower">
+<h3><a class="toc-backref" href="#id45">Torre dos Magos</a></h3>
+<ul class="simple">
+  <li>requer: <a class="reference internal" href="#castle">castelo</a></li>
+  <li>custo total: 15 de ouro, 20 de madeira</li>
+  <li>tempo de constru&ccedil;&atilde;o: 90 segundos</li>
+  <li>sa&uacute;de:  266.7 pontos de vida</li>
+  <li>pode recrutar: <a class="reference internal" href="#mage">mago</a></li>
+  <li>pode fazer pesquisas para: <a class="reference internal" href="#teleportation-research">teletransporte</a>, <a class="reference internal" href="#summon-dragon-research">evoca&ccedil;&atilde;o de drag&atilde;o</a>, <a class="reference internal" href="#meteors-research">meteoros</a></li>
+</ul>
+</div>
+<div class="section" id="necropolis">
+<h3><a class="toc-backref" href="#id46">cemit&eacute;rio</a></h3>
+<ul class="simple">
+  <li>requer: <a class="reference internal" href="#castle">castelo</a></li>
+  <li>custo total: 10 de ouro, 30 de madeira</li>
+  <li>tempo de constru&ccedil;&atilde;o: 90 segundos</li>
+  <li>sa&uacute;de:  300 pontos de vida</li>
+  <li>pode recrutar: <a class="reference internal" href="#necromancer">necromante</a></li>
+  <li>pode fazer pesquisas para: <a class="reference internal" href="#deadly-fog-research">n&eacute;voa mortal</a></li>
+</ul>
+</div>
+<div class="section" id="temple">
+<h3><a class="toc-backref" href="#id47">templo</a></h3>
+<ul class="simple">
+  <li>requer: <a class="reference internal" href="#keep">fortaleza</a></li>
+  <li>custo total: 10 de ouro, 30 de madeira</li>
+  <li>tempo de constru&ccedil;&atilde;o: 90 segundos</li>
+  <li>sa&uacute;de:  300 pontos de vida</li>
+  <li>pode recrutar: <a class="reference internal" href="#priest">sacerdote</a></li>
+  <li>pode fazer pesquisas para: <a class="reference internal" href="#super-healer-upgrade">super curativo</a>, <a class="reference internal" href="#exorcism-research">exorcismo</a
+>, <a class="reference internal" href="#conversion-research">convers&atilde;o</a>, <a class="reference internal" href="#resurrection-research">ressurrei&ccedil;&atilde;o</a></li>
+</ul>
+</div>
+<div class="section" id="keep">
+<h3><a class="toc-backref" href="#id48">Fortaleza</a></h3>
+<ul class="simple">
+  <li>requer: <a class="reference internal" href="#barracks">quartel</a></li>
+  <li>custo total: 22 de ouro, 31 de madeira</li>
+  <li>tempo de constru&ccedil;&atilde;o: 315 segundos</li>
+  <li>sa&uacute;de:  800 pontos de vida</li>
+  <li>alimenta&ccedil;&atilde;o fornecida: 1 de comida</li>
+  <li>pode armazenar:  ouro, madeira</li>
+  <li>pode recrutar: <a class="reference internal" href="#peasant">oper&aacute;rio</a></li>
+  <li>pode ser atualizada para: <a class="reference internal" href="#castle">castelo</a></li>
+</ul>
+</div>
+<div class="section" id="castle">
+<h3><a class="toc-backref" href="#id49">castelo</a></h3>
+<ul class="simple">
+  <li>requer: <a class="reference internal" href="#barracks">quartel</a>, <a class="reference internal" href="#lumber-mill">marcenaria</a>, <a class="reference internal" 
+href="#blacksmith">ferreiro</a>, <a class="reference internal" href="#stables">est&aacute;bulo</a></li>
+  <li>custo total: 42 de ouro, 61 de madeira</li>
+  <li>tempo de constru&ccedil;&atilde;o: 675 segundos</li>
+  <li>sa&uacute;de:  1600 pontos de vida</li>
+  <li>alimenta&ccedil;&atilde;o fornecida: 1 de comida</li>
+  <li>pode armazenar:  ouro, madeira</li>
+  <li>pode recrutar: <a class="reference internal" href="#peasant">oper&aacute;rio</a></li>
+</ul>
+</div>
+</div>
+<div class="section" id="abilities">
+<h2><a class="toc-backref" href="#id50">3.4 Habilidades</a></h2>
+<div class="section" id="conversion">
+<h3><a class="toc-backref" href="#id51">Convers&atilde;o</a></h3>
+<p>A convers&atilde;o &eacute; uma maneira de tomar o controle de uma
+unidade inimiga. A unidade passar&aacute; a ser uma das suas unidades.
+Edif&iacute;cios tamb&eacute;m podem ser convertidos.</p>
+<p>Para converter uma unidade inimiga:</p>
+<ol class="arabic simple">
+  <li>escolha quem ir&aacute; cumprir a ordem</li>
+  <li>no menu de a&ccedil;&otilde;es, selecione convers&atilde;o</li>
+  <li>Selecione uma unidade ou edif&iacute;cio inimigo como alvo (nota:
+se voc&ecirc; estiver selecionando uma unidade m&oacute;vel em um
+quadrado que n&atilde;o esteja sendo visto no momento, a unidade pode
+estar em outro lugar e a ordem ser&aacute; cancelada quando o
+encarregado chegar no quadrado)</li>
+  <li>confirme a ordem com enter</li>
+</ol>
+<ul class="simple">
+  <li>requer: <a class="reference internal" href="#conversion-research">pesquisa para convers&atilde;o</a></li>
+  <li>custo em mana: 150 pontos de mana</li>
+</ul>
+</div>
+<div class="section" id="deadly-fog">
+<h3><a class="toc-backref" href="#id52">N&eacute;voa Mortal</a></h3>
+<p>A n&eacute;voa mortal danifica qualquer unidade repar&aacute;vel no quadrado de destino.</p>
+<ul class="simple">
+  <li>dura&ccedil;&atilde;o: 15 segundos</li>
+  <li>dano: 0.13 ponto de vida por segundo</li>
+  <li>requer: <a class="reference internal" href="#deadly-fog-research">pesquisa de n&eacute;voa mortal</a></li>
+  <li>custo em mana 150 pontos de mana</li>
+</ul>
+</div>
+<div class="section" id="exorcism">
+<h3><a class="toc-backref" href="#id53">exorcismo</a></h3>
+<p>O exorcismo causa danos a todos os mortos reanimados que estejam no mesmo quadrado.</p>
+<ul class="simple">
+  <li>dura&ccedil;&atilde;o: 15 segundos</li>
+  <li>dano: 0.27 ponto de vida por segundo</li>
+  <li>requer: <a class="reference internal" href="#exorcism-research">pesquisas de exorcismo</a></li>
+  <li>custo em mana 150 pontos de mana</li>
+</ul>
+</div>
+<div class="section" id="holy-vision">
+<h3><a class="toc-backref" href="#id54">Santa Vis&atilde;o</a></h3>
+<p>Mostra o que existe em qualquer quadrado por 10 segundos. Detecta unidades invis&iacute;veis.</p>
+<ul class="simple">
+  <li>custo em mana 30 pontos de mana</li>
+</ul>
+</div>
+<div class="section" id="meteors">
+<h3><a class="toc-backref" href="#id55">meteoros</a></h3>
+<p>Meteoros causa danos a todas as unidades e edif&iacute;cios no quadrado de destino.</p>
+<ul class="simple">
+  <li>dura&ccedil;&atilde;o: 15 segundos</li>
+  <li>dano: 0.13 ponto de vida por segundo</li>
+  <li>requer: <a class="reference internal" href="#meteors-research">pesquisa por meteoros</a></li>
+  <li>custo em mana 150 pontos de mana</li>
+</ul>
+</div>
+<div class="section" id="raise-dead">
+<h3><a class="toc-backref" href="#id56">Reanimar os Mortos</a></h3>
+<p>Reanima at&eacute; 10 cad&aacute;veres no mesmo quadrado. Um cad&aacute;ver reanimado pode ser um <a class="reference internal" href="#zombie">zumbi</a> ou um 
+<a class="reference internal" href="#skeleton">esqueleto</a>. Depois de 10 minutos, os cad&aacute;veres reanimados ser&atilde;o reduzidos a p&oacute;.</p>
+<ul class="simple">
+  <li>custo em mana 50 pontos de mana</li>
+</ul>
+</div>
+<div class="section" id="resurrection">
+<h3><a class="toc-backref" href="#id57">Ressurrei&ccedil;&atilde;o</a></h3>
+<p>Ressuscita at&eacute; 6 unidades nas proximidades, com 33 por cento dos seu pontos de vida. Afeta apenas as suas unidades.</p>
+<ul class="simple">
+  <li>requer: <a class="reference internal" href="#resurrection-research">pesquisas para ressurrei&ccedil;&atilde;o</a></li>
+  <li>custo em mana 150 pontos de mana</li>
+</ul>
+</div>
+<div class="section" id="summon-dragon">
+<h3><a class="toc-backref" href="#id58">Evocar drag&atilde;o</a></h3>
+<p>Evoca 2 drag&otilde;es por at&eacute; 2 minutos. Veja <a class="reference internal" href="#dragon">drag&atilde;o</a>.</p>
+<ul class="simple">
+  <li>requer: <a class="reference internal" href="#summon-dragon-research">pesquisas para evoca&ccedil;&atilde;o de drag&atilde;o</a></li>
+  <li>custo em mana 150 pontos de mana</li>
+</ul>
+</div>
+<div class="section" id="teleportation">
+<h3><a class="toc-backref" href="#id59">Teletransporte</a></h3>
+<p>Teletransporte &eacute; a capacidade de mover instantaneamente
+unidades para outro lugar. Afeta todas as unidades amigas no mesmo
+quadrado. O destino pode ser qualquer quadrado de sua escolha.</p>
+<ul class="simple">
+  <li>requer: <a class="reference internal" href="#teleportation-research">pesquisas para teletransporte</a></li>
+  <li>custo em mana 150 pontos de mana</li>
+</ul>
+</div>
+</div>
+<div class="section" id="upgrades-and-research">
+<h2><a class="toc-backref" href="#id60">3.5 Pesquisas e Melhorias</a></h2>
+<div class="section" id="archer-armor-upgrade">
+<h3><a class="toc-backref" href="#id61">Armaduras dos Arqueiros</a></h3>
+<ul class="simple">
+  <li>custo total: 8 de ouro, 10 de madeira</li>
+  <li>tempo de constru&ccedil;&atilde;o: 60 segundos</li>
+  <li>Efeito: 0.5 ponto a mais na armadura</li>
+</ul>
+</div>
+<div class="section" id="archer-range-upgrade">
+<h3><a class="toc-backref" href="#id62">Alcance dos Arqueiros</a></h3>
+<ul class="simple">
+  <li>custo total: 8 de ouro, 10 de madeira</li>
+  <li>tempo necess&aacute;rio: 60 segundos</li>
+  <li>efeito: 1 metro a mais</li>
+</ul>
+</div>
+<div class="section" id="archer-weapon-upgrade">
+<h3><a class="toc-backref" href="#id63">Melhora das flechas dos Arqueiros</a></h3>
+<ul class="simple">
+  <li>custo total: 8 de ouro, 10 de madeira</li>
+  <li>tempo necess&aacute;rio: 60 segundos</li>
+  <li>efeito: causa 1.5 a mais de dano</li>
+</ul>
+</div>
+<div class="section" id="melee-armor-upgrade">
+<h3><a class="toc-backref" href="#id64">Melhorias das Armaduras dos Soldados</a></h3>
+<ul class="simple">
+  <li>custo total: 8 de ouro, 10 de madeira</li>
+  <li>tempo necess&aacute;rio: 60 segundos</li>
+  <li>efeito: prov&ecirc; uma melhoria nas armaduras dos soldados e cavaleiros</li>
+</ul>
+</div>
+<div class="section" id="melee-weapon-upgrade">
+<h3><a class="toc-backref" href="#id65">Melhoria das Espadas</a></h3>
+<ul class="simple">
+  <li>custo total: 8 de ouro, 10 de madeira</li>
+  <li>tempo necess&aacute;rio: 60 segundos</li>
+  <li>efeito: prov&ecirc; uma melhoria no ataque com as espadas, causando mais danos</li>
+</ul>
+</div>
+<div class="section" id="horse-speed-upgrade">
+<h3><a class="toc-backref" href="#id66">Melhoria na Velocidade dos Cavalos</a></h3>
+<ul class="simple">
+  <li>custo total: 15 de ouro, 5 de madeira</li>
+  <li>tempo necess&aacute;rio: 60 segundos</li>
+  <li>efeito: aumenta em 2.5 metros por segundo a velocidade dos cavalos</li>
+</ul>
+</div>
+<div class="section" id="conversion-research">
+<h3><a class="toc-backref" href="#id67">Pesquisas para Convers&atilde;o</a></h3>
+<ul class="simple">
+  <li>requer: <a class="reference internal" href="#castle">castelo</a></li>
+  <li>custo total: 50 de ouro</li>
+  <li>tempo necess&aacute;rio: 120 segundos</li>
+</ul>
+</div>
+<div class="section" id="deadly-fog-research">
+<h3><a class="toc-backref" href="#id68">Pesquisas de N&eacute;voa Mortal</a></h3>
+<ul class="simple">
+  <li>custo total: 50 de ouro</li>
+  <li>tempo necess&aacute;rio: 120 segundos</li>
+</ul>
+</div>
+<div class="section" id="exorcism-research">
+<h3><a class="toc-backref" href="#id69">Pesquisas para Exorcismo</a></h3>
+<ul class="simple">
+  <li>custo total: 50 de ouro</li>
+  <li>tempo necess&aacute;rio: 120 segundos</li>
+</ul>
+</div>
+<div class="section" id="meteors-research">
+<h3><a class="toc-backref" href="#id70">Pesquisas Para Meteoros</a></h3>
+<ul class="simple">
+  <li>custo total: 50 de ouro</li>
+  <li>tempo necess&aacute;rio: 120 segundos</li>
+</ul>
+</div>
+<div class="section" id="resurrection-research">
+<h3><a class="toc-backref" href="#id71">Pesquisas Para Ressurrei&ccedil;&atilde;o</a></h3>
+<ul class="simple">
+  <li>requer: <a class="reference internal" href="#castle">castelo</a></li>
+  <li>custo total: 50 de ouro</li>
+  <li>tempo necess&aacute;rio: 120 segundos</li>
+</ul>
+</div>
+<div class="section" id="summon-dragon-research">
+<h3><a class="toc-backref" href="#id72">Pesquisas Para Evoca&ccedil;&atilde;o de Drag&atilde;o</a></h3>
+<ul class="simple">
+  <li>custo total: 50 de ouro</li>
+  <li>tempo necess&aacute;rio: 120 segundos</li>
+</ul>
+</div>
+<div class="section" id="teleportation-research">
+<h3><a class="toc-backref" href="#id73">Pesquisas Para Teletransporte</a></h3>
+<ul class="simple">
+  <li>custo total: 50 de ouro</li>
+  <li>tempo necess&aacute;rio: 120 segundos</li>
+</ul>
+</div>
+<div class="section" id="super-healer-upgrade">
+<h3><a class="toc-backref" href="#id74">Melhoria de Super Curativo</a></h3>
+<ul class="simple">
+  <li>requer: <a class="reference internal" href="#castle">castelo</a></li>
+  <li>custo total: 80 de ouro</li>
+  <li>tempo necess&aacute;rio: 120 segundos</li>
+  <li>efeito:aumenta em +9 o poder de cura</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="section" id="multiplayer-games">
+<h1><a class="toc-backref" href="#id75">4. Jogos Multiplayer</a></h1>
+<div class="section" id="starting-a-multiplayer-game">
+<h2><a class="toc-backref" href="#id76">4.1 Iniciando um Jogo Multiplayer</a></h2>
+<p>Selecione "multijogador", e em seguida "selecionar na lista de servidores".</p>
+<p>Em um servidor p&uacute;blico voc&ecirc; tem a possibilidade de organizar um jogo.</p>
+<p>Dica: enquanto estiver esperando por jogadores on-line, voc&ecirc;
+pode iniciar outra sess&atilde;o do SoundRTS e jogar contra o
+computador. Quando um jogador aparecer, pressione a tecla F10 para
+pausar seu jogo local e come&ccedil;ar a jogar on-line.</p>
+</div>
+<div class="section" id="chatting">
+<h2><a class="toc-backref" href="#id77">4.2 Chat</a></h2>
+<p>Voc&ecirc; pode conversar apenas na entrada do servidor e na sala de
+pr&eacute;-jogo. Por&eacute;m o organizador do jogo estar&aacute;
+temporariamente indispon&iacute;vel durante a sele&ccedil;&atilde;o do
+mapa e da velocidade do jogo.</p>
+<p>Para dizer algo a todos na mesma sala, tecle S, digite sua mensagem
+e em seguida pressione enter. Se a fun&ccedil;&atilde;o de texto para
+fala n&atilde;o estiver habilitada, a mensagem ser&aacute; soletrada.</p>
+<p>Outra op&ccedil;&atilde;o seria usar o skype ( ou outro similar).</p>
+</div>
+<div class="section" id="team-play">
+<h2><a class="toc-backref" href="#id78">4.3 Jogar em Equipe</a></h2>
+<p>As equipes devem ser criadas antes do in&iacute;cio do jogo, pois n&atilde;o podem ser alteradas posteriormente.</p>
+<p>Jogadores aliados compartilham o conhecimento do mapa, a
+vit&oacute;ria, e suas unidades podem ajudar-se mutuamente. O
+oper&aacute;rio pode usar um edif&iacute;cio aliado para armazenar um
+recurso (o recurso ser&aacute; ainda adicionado ao ex&eacute;rcito a
+que pertence esse oper&aacute;rio).</p>
+<p>Por padr&atilde;o, em um servidor os computadores n&atilde;o s&atilde;o aliados.</p>
+<p>Nota: quando estiver jogando contra o computador pela op&ccedil;&atilde;o "Jogar sozinho", os computadores s&atilde;o aliados.</p>
+<p>Dica: para jogar sozinho com um computador como aliado, execute um servidor privado.</p>
+</div>
+<div class="section" id="how-to-make-your-server-accessible-to-other-players">
+<h2><a class="toc-backref" href="#id79">4.4 Como Tornar Seu Servidor Acess&iacute;vel a Outros Jogadores</a></h2>
+<p>Aqui v&atilde;o algumas dicas caso ningu&eacute;m consiga conectar-se ao seu servidor.</p>
+<p>Se voc&ecirc; estiver protegido por um firewall, ser&aacute; necess&aacute;rio liberara porta 2500 (em TCP).</p>
+<p>No entanto, se voc&ecirc; usa um roteador, ser&aacute; preciso
+adicionar um servidor virtual &agrave; porta 2500 para o IP do seu
+servidor. Sem isto, o roteador n&atilde;o vai saber
+a qual computador deve direcionar as informa&ccedil;&otilde;es. No caso
+de um Servidor virtual, voc&ecirc; ter&aacute; necessidade de fornecer
+um Endere&ccedil;o IP fixo ao seu servidor com DHCP.</p>
+</div>
+<div class="section" id="how-to-download-a-map-from-a-server">
+<h2><a class="toc-backref" href="#id80">4.5 Como Fazer download de um Mapa em um Servidor</a></h2>
+<p>Jogue um jogo com o mapa que voc&ecirc; gostaria de baixar. ap&oacute;s o jogo, o mapa poder&aacute; ser copiado da sua <a class="reference internal" href="#temporary-folder">pasta tempor&aacute;ria</a> with the following name:  SoundRTS_recent_map.txt</p>
+</div>
+</div>
+<div class="section" id="game-elements">
+<h1><a class="toc-backref" href="#id81">5. Elementos do Jogo</a></h1>
+<div class="section" id="food">
+<h2><a class="toc-backref" href="#id82">Comida</a></h2>
+<p>O recrutamento de uma nova unidade s&oacute; pode ocorrer se o
+jogador tiver comida suficiente. Se algumas fazendas forem
+destru&iacute;das ou novas unidades forem obtidas sem recrutamento, e a
+comida se tornarem insuficientes, as unidades atuais ser&atilde;o
+mantidas sem qualquer problema. Por&eacute;m nenhum novo recrutamento
+ser&aacute; permitido.</p>
+</div>
+<div class="section" id="tech-upgrades">
+<h2><a class="toc-backref" href="#id83">Melhoramentos T&eacute;cnicos</a></h2>
+<p>As melhorias ser&atilde;o aplicadas a todas as unidades atuais e futuras.</p>
+</div>
+<div class="section" id="flying-units">
+<h2><a class="toc-backref" href="#id84">Unidades Voadoras</a></h2>
+<p>Desde a vers&atilde;o 1.1 do SoundRTS, as unidades voadoras voam diretamente para o objetivo, ignorando os caminhos terrestre.</p>
+</div>
+<div class="section" id="invisible-units-and-detectors">
+<h2><a class="toc-backref" href="#id85">Unidades Invis&iacute;veis e Detectores</a></h2>
+<p>Existem ao menos 3 maneiras para se defender de unidades invis&iacute;veis:</p>
+<ul class="simple">
+  <li>Levar para o local uma unidade detectora ou usar alguma magia para detec&ccedil;&atilde;o, e finaumente atacar a unidade</li>
+  <li>usar alguma magia destrutiva sobre o quadrado em que estiver a unidade</li>
+  <li>Ignorar as unidades invis&iacute;veis e destruir rapidamente todos os edif&iacute;cios inimigos</li>
+</ul>
+</div>
+</div>
+<div class="section" id="more-details-for-customization">
+<h1><a class="toc-backref" href="#id86">6. Mais Detalhes sobre Personaliza&ccedil;&atilde;o</a></h1>
+<div class="section" id="soundrts-ini">
+<h2><a class="toc-backref" href="#id87">SoundRTS.ini</a></h2>
+<p>Este arquivo est&aacute; localizado na <a class="reference internal" href="#user-folder">Pasta de Usu&aacute;rio</a>.
+Ele cont&eacute;m diversos par&acirc;metros para o funcionamento do
+jogo. Quando o SoundRTS for iniciado, se o arquivo SoundRTS.ini contiver algum erro, um novo arquivo ser&aacute; gerado com todos
+os par&acirc;metros que puderem ser recuperados do arquivo corrompido.</p>
+</div>
+<div class="section" id="screen-reader-support-experimental">
+<h2><a class="toc-backref" href="#id88">Suporte Experimental a Leitores de Tela</a></h2>
+<p>Esta caracter&iacute;stica requer uma vers&atilde;o do Windows
+installer (ou a vers&atilde;o multiplatavorma contendo a dll da
+ScreenReaderAPI).</p>
+<p>Para ativar o suporte a leitores de tela, edite o arquivo <a class="reference internal" href="#soundrts-ini">SoundRTS.ini</a> e substitua "srapi = 0" por "srapi = 1". N&atilde;o ser&aacute; preciso
+nenhum procedimento adicional.
+O SoundRTS dever&aacute; usar o leitor de tela assim que iniciado. Para
+utilizar novamente outro m&eacute;todo de sa&iacute;da, restaure a
+linha para "srapi =
+0".</p>
+<p>Um par&acirc;metro adicional chamado "srapi_wait" determina quanto
+tempo o SoundRTS ir&aacute; esperar antes de enviar a pr&oacute;xima
+mensagem. Com "srapi_wait =.1" e uma mensagem de 10 caracteres,
+SoundRTS ir&aacute; aguardar .1 * 10 = 1 segundo.</p>
+<p>Nenhum outro par&acirc;metro de leitores de tela pode ser configurado no jogo.</p>
+</div>
+<div class="section" id="linux-speech-dispatcher-support-experimental">
+<h2><a class="toc-backref" href="#id89">Suporte Experimental ao Speech Dispatcher no Linux</a></h2>
+<p>Esta caracter&iacute;stica requer a instala&ccedil;&atilde;o dos pacotes "speech dispatcher" e "speech dispatcher for Python".</p>
+<p>Para ativar, execute o SoundRTS utilizando as op&ccedil;&otilde;es
+--speechd ou -s na linha de comando. Por exemplo: python soundrts.pyc -s</p>
+</div>
+<div class="section" id="temporary-folder">
+<h2><a class="toc-backref" href="#id90">Pasta Tempor&aacute;ria</a></h2>
+<p>A pasta tempor&aacute;ria cont&eacute;m os logs e os mapas anteriormente utilizados.</p>
+<p>Se a pasta principal contiver uma pasta chamada "tmp", essa
+ser&aacute; a pasta tempor&aacute;ria. Se n&atilde;o existir a pasta
+"tmp", ent&atilde;o a localiza&ccedil;&atilde;o depender&aacute; do seu
+sistema operacional:</p>
+<ul class="simple">
+  <li>Windows XP: "C:\Documents and settings\seu_nome_de_usu&aacute;rio\Local Settings\Temp"</li>
+  <li>Linux: "home/seu_nome_de_usu&aacute;rio/.SoundRTS unstable/tmp"</li>
+</ul>
+</div>
+<div class="section" id="user-folder">
+<h2><a class="toc-backref" href="#id91">Pasta do Usu&aacute;rio</a></h2>
+<p>A pasta do usu&aacute;rio cont&eacute;m as configura&ccedil;&otilde;es do jogo e os mapas personalizados.</p>
+<p>Se a pasta principal contiver uma pasta chamada "user", essa
+ser&aacute; a pasta do usu&aacute;rio. Se a pasta "user" n&atilde;o
+existir, ent&atilde;o a localiza&ccedil;&atilde;o depender&aacute; do
+seu sistema operacional::</p>
+<ul class="simple">
+  <li>Windows XP: "C:\Documents and settings\seu_nome_de_usu&aacute;rio\Application data\SoundRTS unstable"</li>
+  <li>Linux: "home/seu_nome_de_usu&aacute;rio/.SoundRTS unstable"</li>
+</ul>
+</div>
+<div class="section" id="how-to-create-a-portable-version-of-soundrts">
+<h2><a class="toc-backref" href="#id92">Como Criar uma Vers&atilde;o Portable do SoundRTS</a></h2>
+<p>Desde a vers&atilde;o 1.0 beta 10 p do SoundRTS &eacute;
+poss&iacute;vel ter todos os arquivos (log, configura&ccedil;&atilde;o,
+mapas personalizados...) armazenados na pasta do jogo. Fa&ccedil;a o
+seguinte:</p>
+<ul class="simple">
+  <li>instale o SoundRTS</li>
+  <li>No Windows: copie a <cite>pasta do jogo</cite> de  "Arquivos de Programas" para outro local (sua &aacute;rea de trabalho, um drive USB, etc)</li>
+  <li>em sua nova pasta do SoundRTS, crie duas pastas: "tmp" e "user". "user" pode ser uma c&oacute;pia da sua <a class="reference internal" href="#user-folder">pasta 
+do usu&aacute;rio</a> (desde que a vers&atilde;o seja a mesma).</li>
+  <li>Windows: para abrir o programa, execute "soundrts.exe".</li>
+</ul>
+</div>
+<div class="section" id="how-to-change-the-default-speed-in-single-player-games">
+<h2><a class="toc-backref" href="#id93">Como Alterar a Velocidade padr&atilde;o de um Jogo local</a></h2>
+<p>Procure pelo arquivo <a class="reference internal" href="#soundrts-ini">SoundRTS.ini</a> na <a class="reference internal" href="#user-folder">pasta do usu&aacute;rio</a> 
+e modifique a linha "speed = ...". Use um n&uacute;mero inteiro.</p>
+</div>
+<div class="section" id="changing-some-key-bindings">
+<h2><a class="toc-backref" href="#id94">alterando algumas Teclas</a></h2>
+<p>Desde a vers&atilde;o 1.1 do SoundRTS, o layout de teclado &eacute; definido em um arquivo chamado bindings.txt localizado na <cite>pasta do jogo</cite>.</p>
+</div>
+<div class="section" id="building-new-recorded-voices">
+<h2><a class="toc-backref" href="#id95">Gravando Novas vozes</a></h2>
+<p>Se uma voz SAPI 5 estiver dispon&iacute;vel, build_tts.exe grava o
+texto definido no arquivo tts.txt e converte o resultado para o formato
+ogg requerido.</p>
+</div>
+<div class="section" id="creating-an-app-for-mac">
+<h2><a class="toc-backref" href="#id96">Criando um app Para Mac</a></h2>
+<p>Se voc&ecirc; conseguiu instalar a vers&atilde;o multiplataforma no
+Mac, talvez possa criar um app para facilitar a
+instala&ccedil;&atilde;o de outros jogadores. Aqui est&atilde;o algumas
+dicas. Use py2app. Voc&ecirc; n&atilde;o precisa da fonte. Por exemplo,
+crie um arquivo chamado soundrts_launcher.py que contenha esta
+&uacute;nica linha: "import soundrts"
+Voc&ecirc; tamb&eacute;m pode criar um arquivo chamado
+server_launcher.py com a linha: "import soundrts". Certifique-se de
+executar "python soundrts_launcher.py" que esteja funcionando.</p>
+</div>
+<div class="section" id="using-the-windows-installer-with-a-limited-account-windows-xp">
+<h2><a class="toc-backref" href="#id97">Usando o windows Installer em Uma Conta Limitada (Windows XP)</a></h2>
+<p>Voc&ecirc; pode usar uma conta limitada do Windows XP para instalar
+o SoundRTS. Basta escolher outra pasta diferente de "arquivos de
+programas".</p>
+<p>Se voc&ecirc; instalar o SoundRTS usando uma conta de administrador,
+&eacute; poss&iacute;vel jogar atrav&eacute;s de uma conta limitada..</p>
+</div>
+</div>
+<div class="section" id="credits">
+<h1><a class="toc-backref" href="#id98">7. Cr&eacute;ditos</a></h1>
+<p>Nota: a seguinte lista n&atilde;o &eacute; exaustiva. Obrigado a todos que ajudaram!</p>
+<p>Este jogo foi escrito por SoundMUD (<a class="reference external" href="mailto:soundmud@gmail.com">soundmud@gmail.com</a>).</p>
+<p>Descoberta da comunidade franc&oacute;fona de jogos
+acess&iacute;veis, e id&eacute;ias iniciais: Sabine Gorecki.
+Numerosos testes e est&iacute;mulos durante o primeiro per&iacute;odo
+da SoundMUD: Alex. Primeiroteste do SoundMUD no Linux: Miguel.
+Relan&ccedil;amento do projetoSoundMUD,apoio durante o
+Segundo per&iacute;odo de SoundMUD para levar o jogo de
+estrat&eacute;gia at&eacute; sua conclus&atilde;o, e numerosos testes:
+Louis-Rock
+Lampron et Martin Morin.</p>
+<p>Tradu&ccedil;&atilde;o para Portugu&ecirc;s: <a href="http://www.audiogames.com.br">Blind Games Brazil</a></p>
+<p>Tradu&ccedil;&atilde;o para Ingl&ecirc;s: SoundMUD.
+Tradu&ccedil;&atilde;o para o Alem&atilde;o: Alexander Westphal from Gameport.
+Tradu&ccedil;&atilde;o para o Italiano: Gabriel Battaglia.
+Tradu&ccedil;&atilde;o para o Espanhol: Alan.</p>
+<p>Melhorias nos sons e vozes em ingl&ecirc;s: Bryan Smart.</p>
+<p>Mapa 101 - frontier para multiplayer: Bryan Smart.</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+HTML
+A tag HTML é a primeira que deve ser inserida em todos os arquivos HTML. Ela define que tudo que está dentro desta tag está na linguagem HTML. Embora não tenha
+um resultado visual, ela deve sempre ser usada por definição. Este comando de bloco sempre possui outros dois importantes dentro: o bloco HEAD que define as informações
+sobre o documento e o bloco BODY que é onde são colocados os comandos HTML que resultarão na saída visual propriamente dita.
+
+Exemplos de uso:
+<HTML>
+<HEAD>
+(aqui vem os comandos de definição do documento)
+</HEAD>
+<BODY>
+(aqui vem os comandos de formatação visual)
+</BODY>
+</HTML>

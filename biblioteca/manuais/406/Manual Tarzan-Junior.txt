@@ -1,0 +1,220 @@
+Documentação de Tarzan Junior
+
+
+Copyright (C) Pb Games, 2004.
+
+
+Tradução para português pela blind Games Brazil:
+http://www.audiogamesbrasil.com
+
+
+* Nota Importante: As informações sobre compra deste jogo existentes no manual em inglês foram aqui homitidas, já que o desenvolvedor tornou o mesmo freeware, e portanto elas não fazem mais sentido.
+
+
+Conteúdo:
+* Introdução.
+* Copyright e créditos.
+* Requisitos de sistema.
+* Instruções gerais do jogo.
+* O menu principal.
+* Instruções para nível 1, Experiência em selva.
+* Instruções para nível 2, Luta com tigre.
+* Instruções para o primeiro round de bônus.
+* Instruções para nível 3, o território dos macacos.
+* Instruções para nível 4, a procura de mel.
+* Instruções para o segundo round de bônus.
+* Instruções para nível 5, caçada na montanha.
+* Instruções para nível 6, Batalha com Torgones.
+* Instruções para nível 7, a luta final!
+* Instruções para nível 8, fuga da avalanche.
+* Salvar/Carregar um jogo salvo
+* Informações de contato.
+
+
+* Introdução.
+Tarzan Junior é um novo jogo excitante para o deficiente visual. É uma aventura de áudio que o conduzirá a uma jornada surpreendente que você nunca mais esquecerá. Neste jogo de ação rápida, você lutará com animais na selva, matará tigres que tentam devorá-lo, balançará em cipós, subirá em árvores, e muitas, muitas aventuras mais fantásticas.
+
+Tarzan é, como você deve saber, um personagem na série "Tarzan" de Edgar Rice Burroughs. Tarzan é um herói forte, aventureiro, valente, que nunca desiste, e já se leu sobre ele por muitas gerações. Como eu gosto desse tipo de leitura, é que tive a idéia para este jogo em primeiro lugar.
+
+
+* Copyright e créditos.
+Os direitos autorais deste jogo são de propriedade de Pb Games, ano 2004. Alguns dos sons neste jogo vêm de:
+Http://www.ljudo.com/
+Um arquivo com mais de 1000 efeitos sonoros grátis. Obrigado a todo em ljudo por permitir-me usar seus grandes sons neste jogo!
+
+Você pode distribuir este jogo; As únicas restrições são como se segue:
+1. Você não tem permissão para modificar o jogo de qualquer forma, inclusive mas não limitando-se ao arquivo de programa propriamente, quaisquer dos arquivos de som, ou esta documentação.
+2. Você deve deixar claro que Pb Games é o autor do jogo, e de preferência colocar nosso link: Http://www.pbsoundscape.net.
+
+Eu também quero agradecer todos meus testadores beta pelo grande trabalho que eles fizeram!
+Meus testadores beta são: Branco de Jason, William Lomas, Munawar Bijani, Sean Randall, Albin Correia, Ibrahim Gucukoglu, Liam Erven e Karl Belanger. Obrigado a todos por sua ajuda, sem vocês Tarzan Junior não existiria mesmo!
+Também, eu gostaria de agradecer especialmente a Munawar Bijani por escrever o grande programa de registro para este jogo. Muito obrigado!
+
+Atores no jogo:
+Tarzan: Philip Bennefall.
+O macaco no primeiro round de bônus: Philip Bennefall.
+O macaco alfa: Philip Bennefall.
+Locutor do jogo: Sintetizador dectalk.
+Falas dos Torgones: Liam Erven, William Lomas, Albin Correia e Philip Bennefall.
+Insane blaster: Munawar Bijani.
+O líder dos Torgones: Liam Erven.
+
+Eu também quero deixar meu muito obrigado às pessoas que compuseram a música para este jogo. Andre Louis, Kelly Sapergia e Liam Erven. Vocês fizeram um trabalho maravilhoso! Muito obrigado rapazes!
+
+
+* Requisitos de sistema.
+Este jogo requer o seguinte:
+* Uma placa de som estéreo compatível.
+* Fones ou alto-falantes, claro. Mas desde que o jogo é apenas para um jogador, fones são fortemente recomendados, especialmente nas cenas de ação rápida.
+* Um computador rápido é exigido para o jogo trabalhar corretamente.
+* Muito importante: Microsoft Internet Explorer 5 ou superior, com JavaScript habilitado!
+
+
+* Instruções gerais do jogo.
+Quando estiver jogando, tenha certeza de haver descarregado seu leitor de tela para o jogo trabalhar melhor e mais rápido. Para navegar nos menus no jogo, use as seta para percorrer as opções, e enter para selecionar.
+Para pular diálogos eventuais entre níveis, ou a introdução, aperte enter.
+Se você quiser mudar o volume da música de FUNDO no jogo, você pode pressionar Page Up ou Page Down para aumentar ou diminuir o volume respectivamente. Para desligar a música completamente, pressione End, e para aumentar o volume ao máximo, pressione Home.
+
+Quando estiver jogando, você pode apertar p para pausar o jogo, para ouvir sua pontuação, aperte s, Para ouvir sua força, aperte h e para ouvir quantas vidas você ainda tem, aperte L. Pausando o jogo, você entrará em um novo menu com várias opções.
+Retomar jogo: Permite que você continue o jogo na posição onde você pausou.
+Salvar jogo: Salvará o jogo corrente para continuar mais tarde.
+Cancelar jogo e voltar para menu principal, cancela o jogo corrente e volta ao menu principal.
+Também, quando você tem seu estilingue, você pode comprar mais pedras para ele, escolhendo essa opção que aparecerá no menu de pausa. Você paga pelas pedras com seus pontos, então não compre muitas a menos que você queira acabar com uma pontuação realmente ruim. Você tem que pagar 10 pontos para cada cartucho de pedras; Um cartucho contém 5 pedras para o estilingue. Quando você escolher a opção no menu de pausa, o programa automaticamente calcula quantos cartuchos você pode comprar pelos pontos que você tem atualmente, e mostra um menu com números diferentes. Estes números são o número de cartuchos que você pode comprar, escolha um e aperte enter. Você também tem uma opção no menu que da instruções. Se você escolher essa, você obterá uma descrição breve de como trabalhar com os menus e como comprar pedras.
+
+
+* O menu principal.
+No menu principal, você tem muitas opções diferentes. Novo jogo, round de velocidade em cipós, carregar jogo salvo, apagar jogo salvo, jogar cada nível separadamente, aprender os sons do jogo, testar alto-falantes, e sair.
+
+Novo jogo:
+Quando você escolher novo jogo, será pedido para escolher um nível de dificuldade. Quando escolher a dificuldade, você começará no nível 1.
+
+Round de velocidade em cipós:
+É exatamente isso, um Round para velocidade nos cipós. Você deve saltar por cipós, e a cada vez o cipó fica mais rápido. Você aperta a seta acima para saltar, e a seta direita para ir adiante como sempre.
+
+Carregar jogo salvo:
+Carregar um jogo salvo, se você salvou um jogo, claro. Para mais informações sobre salvar e carregar jogos, veja a seção "salvar/carregar jogo salvo".
+
+Apagar jogo salvo:
+Se você salvou um jogo, você pode apagar escolhendo esta opção. Se o jogo salvo for apagado com sucesso, uma voz dirá "jogo apagado" e então você rotornará ao menu principal.
+
+Jogar  cada nível individualmente:
+Esta é uma boa característica se você quiser praticar cada nível antes de começar a aventura real. Permite que você escolha um dos níveis para jogar, inclusive os dois rounds de bônus. Use as setas acima e abaixo para percorrer as opções, e enter para selecionar, como sempre. Depois de você terminar um nível que escolheu deste menu, você não vai para o próximo nível, você voltará ao menu principal, depois que sua pontuação final for falada. Por favor note também, que você não pode salvar enquanto estiver jogando um dos níveis individualmente.
+
+conhecer os sons do jogo:
+Esta é uma característica muito útil. Quando escolher isto, será perguntado de qual nível você quer conhecer os sons. Escolha um e então aperte enter. Uma voz dirá, "Escolha um som".
+Dependendo do nível que você escolheu, você terá muitas opções neste sub menu, que aparecerá. Navegue entre os vários sons, e apertem enter para ouvir um som. Quando você tiver ouvido todos os sons que desejava, escolha "voltar a menu principal".
+
+Teste de alto-falantes:
+Isto simplesmente tocará primeiro um som em sua esquerda (ou que deve ser seu alto-falante esquerdo, e outro a sua direita. Se não estiver correto, mude a posição de seus alto-falantes ou fones. É muito, muito importante que você execute isto antes de jogar!
+
+Sair:
+Bem, eu suponho que você deve imaginar o que esta opção faz? Jackpot, você achou certo! Fechará todo o jogo e LEVARÁ VOCÊ PARA LONGE DA SELVA, EXATAMENTE PARA A vida normal.
+
+
+* Instruções para nível 1, experiência em selva.
+Neste nível você encontra-se no meio do dia e no  meio da selva. Quando começar o nível, você ouvirá pássaros ao fundo. Para caminhar adiante, use a seta direita e para saltar, use a seta acima.
+(Note: Você não pode ir para trás neste nível, porque você realmente não precisa disso.)
+Eventualmente, você encontrará um animal que terá de matar. Use a barra de espaço para golpeá-lo com sua lança até que esteja morto. Na dificuldade fácil você deve golpear um animal uma única vez para matá-lo, porém, em médio você deve golpear duas vezes, em difícil você deve golpear três vezes e em insano você deve golpear quatro vezes!
+Se você for golpeado, você perderá um ponto de força. Se sua força cair para 0, você morrerá.
+Também quando estiver caminhando por algum tempo, você ouvirá um som "woo". Isso significa que você está perto de uma cova. Continue caminhando até que você ouça outro som "woo". Este significa que você está dois passos longe da cova. Dê um passo a frente.
+Se você não ouvir um cipó, pressione a seta acima para pular a cova. Se não saltar, e só caminhar, você morrerá.
+Também durante sua caminhada, você poderá ouvir um som de beep, significando que existe um objeto de bônus próximo. Aperte a barra de espaço tão rápido quanto puder para pegá-lo. Se conseguir, você ouvirá um som especial, e então o tipo de bônus que  recebeu.
+Mas você tem que ser muito rápido, porque o objeto de bônus não ficará por muito tempo...
+Finalmente, o uso dos cipós.
+Um cipó pode balançar quando você passar pela segunda advertência de cova. Sua tarefa é pegar o cipó e usar ele para balançar de um lado para o outro da cova.
+Quando você está de pé na mesma posição que o cipó, diretamente depois da segunda advertência de cova, você deve saltar e pegar o cipó  quando você ouvir ele balançando na esquerda, porque então está mais perto de você.
+Se você puder pegar o cipó, Tarzan dirá "peguei!" Então, você está pendurado no cipó, balançando para esquerda e direita, esquerda e direita. Então você deve, é claro, pular a cova, e para fazer isto, você deve pular quando o cipó estiver balançando para sua extrema direita, então você estará mais próximo do lado direito da cova . Se você tiver sucesso, e pular no chão no lado direito da cova, você ouvirá Tarzan cair sobre o chão. Então você passou a cova e pode continuar a caminhar normalmente. Você só pode ficar pendurado em um cipó por um curto espaço de tempo, esse tempo é diferente para os níveis de dificuldade, em difícil é só por alguns segundos. Se você ficar pendurado por muito tempo, o cipó se quebrará e você infelizmente cairá para sua morte...
+Só uma advertência, quando você saltar uma cova, não volte, porque então você cairá na cova, e é claro que morre.
+
+
+* Instruções para nível 2, luta com tigres.
+Neste nível, você deve matar tigres. É noite, e está muito escuro. Você ouvirá passos correndo quando o nível começar. É você que tenta fugir dos tigres. Mas muito freqüentemente eles são mais rápidos que você e eles estão correndo bem a sua frente, bloqueando seu caminho. Então a única coisa que você pode fazer é tentar matá-los, claro. Os tigres podem vir da extrema exquerda, mais próximo a esquerda, diretamente na sua frente, da direita mais próxima ou extrema direita nas dificuldades médio e difícil, mas apenas da esquerda, a frente ou da direita na dificuldade fácil. Você pode correr nas mesmas posições que os tigres vierem. Para correr um passo à esquerda, aperte a seta esquerda, e para correr um passo à direita, aperte seta direita. Por exemplo se você ouvir um tigre que vem até você da extrema direita e você está no centro, aperte a seta direita duas vezes. Desse modo você ouvirá seus passos na mesma posição que o tigre está rosnando. Então você pode matá-lo. Você precisa estar na mesma direção do tigre para poder matá-lo com sua lança. Você usa sua lança apertando a barra de espaço.
+Uma dica: Uma vez que tenha matado um tigre, volte para o centro. Assim você terá um menor caminho a percorrer se,  por exemplo um tigre vier da extrema esquerda e você estiver na direita.
+Só uma advertência: existe a chance de vir mais de um tigre de uma vez, então escute muito cuidadosamente! Você precisa golpear um tigre só uma vez para matar, mas por outro lado, você só precisa ser golpeado uma vez para perder uma vida!
+Boa sorte, e tenha certeza de que os tigres não conseguirão um grande banquete de Tarzan hoje à noite!
+
+
+* Instruções para o primeiro round de bônus.
+Depois de terminar o nível 2, você às vezes virá para um round de bônus onde você deve ajudar um macaco velho a pegar cocos. É muito simples, mas você pode conseguir duas vidas extras se você pegar muitos cocos. Quando o nível começar, você primeiro ouvirá um pequeno diálogo entre o macaco e Tarzan, e então a ação começa. Você ouvirá cocos caírem das árvores; Eles podem cair na esquerda, no centro ou na direita. Se você ouvir um coco em sua esquerda, aperte a seta esquerda, se você ouvir um no centro, aperte a seta acima e se ouvir um na direita, aperte a seta direita para pegar. O nível de bônus terminará depois de mais ou menos 15 segundos, então você precisa ser rápido! Note que você pode apertar uma tecla várias vezes para pegar muitos cocos de uma vez. Mas uma advertência, se você tentar pegar um coco em uma posição onde não existe nenhum coco, você derrubará um dos cocos que você tem em sua mão. Você pode até elevar sua pontuação neste nível, basta pegar tantos cocos quanto puder!
+
+
+* Instruções para nível 3, o território dos macacos.
+Tome cuidado! Você está no território dos macacos, e eles não estão muito contentes por encontrá-lo. Você está em um lugar muito bonito, paisagem boa, mas os  habitantes não são tão bons, e você verá por si  mesmo mais cedo do que poderia pensar.
+Você está perto de um rio, e quando começar o nível, você terá muitos cipós a sua frente, que você terá que balançar acima da água. Você podia, é claro, acabar de caminhar no chão e não se pendurar em um único cipó, mas neste momento isto é impossível, devido aos dóceis macacos que estão guardando o chão. Então sua única possibilidade é tomar o caminho perigoso, nos cipó.
+Você caminha adiante como sempre com a seta direita, e salta com a seta acima.
+Note: Você não pode ir para trás neste nível, porque não é necessário.
+Os cipós funcionam do mesmo modo que em nível 1, depois do segundo som "woo", você ouvirá o balanço do cipó. Salte quando estiver à esquerda. Se você tiver sucesso e pegar o cipó, Tarzan dirá "ah! peguei!" E o cipó continuará banançando. Agora, salte para o próximo cipó, quando você ouvir o balanço do cipó na direita. Então, você irá para outro cipó, e saltará para o próximo, quando o cipó estiver balançando na direita.
+Se você não conseguir saltar para um cipó, você cairá no rio. O rio é perigoso, porque se você ficar nele por muito tempo, vai se afogar. Para nadar, você usa a seta direita. Não não, não pense que você está seguro só porque está na água, os macacos maravilhosos jogarão grandes pedras na água em você. Quando você ouvir uma pedra, pule assim que puder e a pedra passará por baixo de você. Tenha cuidado! As pedras são redutoras de saúde. Se você for muito lento.
+Depois de um tempo no rio, você morrerá e continuará  de onde você caiu.
+Também existem galhos neste nível, e estes também são perigosos, porque algunas vezes eles se quebrarão e você cairá no rio. Você só pode cair no rio por 3 vezes em cada vida, se você cair uma quarta vez, morrerá.
+
+Agora a coisa mais importante neste nível, macacos! Os macacos atacam quando você estiver balançando nos cipós. Eles aparecerão ao acaso em momentos e posições diferentes. Eles poderão vir dà esquerda, do centro ou da direita. Então, você tem que matar eles com a sua lança ou seu estilingue. Se usar sua lança, você tem que estar na mesma posição que o macaco, por exemplo, se você ouvir o macaco na direita, o cipó tem que balançar na direita para você poder golpear a criatura. Você tem que golpear umas 3 vezes um macaco com sua lança para matá-lo. Se você não fizer isto rápido o bastante ou se você tentar saltar para o próximo cipó sem matar o macaco, ele lançará um cipó em seu pescoço como um laço e você será enforcado, e isso não parece muito bom... Se você usar seu estilingue, não importa onde o cipó atualmente esteja balançando, o macaco será golpeado de qualquer maneira, e você só precisa golpear uma vez um macaco com o estilingue para ele morrer.
+
+No fim do nível, algo inesperado acontece. Você encontra o macaco alfa que decidiu finalmente livrar-se de você. Você não tem armas fortes o suficiente para derrotá-lo, então você tem que correr! O macaco alfa é realmente rápido, muito mais rápido que você, então se você apenas correr e se pendurar como sempre, não existe nenhuma chance de escapar. Mas o cérebro do macaco alfa não é muito grande ou complexo, então eu estou certo de que você achará uma maneira de fazer com que ele mesmo se mate, se você for inteligente.
+Quando o macaco alfa estiver morto, você bateu o nível!
+
+
+* Instruções para nível 4, a procura  de mel.
+Você gosta de mel? Bom, porque você provavelmente vai ter muito quando bater este nível. Tarzan é inesperadamente atacado por centenas de abelhas perigosas, super rápidas. As abelhas estão voando ao redor da sua cabeça, tentando picar você. As abelhas voarão de um lado para outro; Da esquerda para direita,  da direita voltarão  à esquerda novamente, e assim por diante. Quando você ouvir uma abelha no centro, mate-a! Você usa a barra de espaço para atacar como sempre. Se uma abelha passa pelo centro sem ser morta por você, haverá grande chance de ser picado! Ai! Se Se levar muitas picadas, você morre. Toda vez que matar uma abelha, você fica com o mel que ela estava transportando. Toda vez que você mata uma abelha, você ganha pontos, mas toda vez que você apertar a barra de espaço quando não existir nenhuma abelha, você perderá pontos. Então você pode acabar perdendo mais pontos que ganhou se você ficar apertando espaço, e dramaticamente reduzirá sua pontuação, então seja cuidadoso! Se você usar seu estilingue neste nível, as abelhas não têm chance. Um tiro com o estilingue cuidará de todas as abelhas atualmente na tela. Isso pode ser muito útil se você estiver cercado e não souber o que fazer. Uma advertência entretanto, não desperdice toda sua munição de estilingue neste nível, você precisará disso mais tarde, acredite-me!
+
+Quando finalmente bateu o nível, eu posso imaginar você se sentindo bastante contente consigo mesmo, mas você está longe de estar fora de perigo, porque olhe o que está voando em sua direção! A abelha rainha! Ela não está muito contente, pois você matou todas as outras abelhas e ela quer vingança! A batalha com a abelha rainha é muito difícil, pelo menos nas dificuldades mais altas. A abelha rainha voa de um lado para outro através da tela, tentando pousar em você e picá-lo. Você tem que  matá-la com sua lança, ou então não existe nenhuma esperança de você sobreviver. Quando a abelha rainha chegar a sua posição, ela tentará pousar em você. Você ouvirá que ela está tentando fazer isto, pois  seu volume fica mais alto, o que significa que ela está vindo mais perto, e mais perto. Você só pode golpear a abelha rainha quando ela estiver no centro do campo de estéreo, que quer dizer na mesma posição que você. Então tem que golpear tantas vezes quanto possível, e fugir antes dela pousar em você, assim você não é picado. Se você levar apenas uma picada, é suficiente para perder uma vida, já que suas picadas são extremamente venenosas! Então quando você ouvir ela tentando pousar em você, ataque-a algumas vezes e fuja, e espere ela voltar e então golpeie mais algumas vezes. Continue fazendo isto até que ela morra. Agora, você pode finalmente relaxar por um breve momento e comer o mel que você conseguiu. Quando você fizer isto, sua força será aumentada, e isso é muito útil, já que um perigo muito maior o espreita em algum canto!
+
+
+* Instruções para o segundo round de bônus.
+Este round de bônus é semelhante a Simon. O computador dirá um número e você deve teclar aquele número. Então outro número será adicionado a seqüência e você deve apertar aqueles dois números. Então um terceiro número será adicionado e você terá que apertar os três, e assim por diante. Este round de bônus pode ser um real reforço para sua pontuação se você lembrar de muitos números. Quando o round de bônus começar, a seqüência terá 3 números. Depois ela terá 4, 5, 6, 7 e assim por diante. Continuará até que você erre um número, então você estará fora e será informada sua pontuação para o round de bônus, e esta pontuação então será adicionada a sua pontuação normal.
+Feliz lembrança!
+
+
+* Instruções para nível 5, caçada na montanha.
+Tarzan ouviu falar de "os Torgones", uma espécie de humano realmente grande, criaturas que têm mais de 4 metros de altura, realmente fortes e do mal. Eles estão matando os habitantes da selva todos os dias, e depois que ele viu uma cena terrível, em que  um Torgone, sem qualquer razão destruiu uma aldeia, e matou os habitantes só por diversão, Tarzan sente que precisa fazer algo a respeito disto. Ele decide fazer seu caminho para a montanha dos Torgone, onde todos eles vivem, e matar eles todos para livrar a selva do terror. Para ser capaz de derrotar os torgones, ele precisa da arma do poder, que está escondida na montanha dos Torgones. Então, neste nível, você está na montanha dos Torgones, procurando pela arma do poder, que está localizada na "sala do poder". Mas a porta para a sala do poder está trancada, e você tem que achar a chave para poder entrar lá e pegar o canhão. A chave está em um cofre trancado. Você precisa destrancá-lo, mas para fazer isso precisará inserir 10 moedas nele. Quando você matar "os garders", uma espécie de Torgones mais fracos que estão guardando a entrada para a montanha, você pega os objetos que eles estão levando (se houver algum). Pode ser minas, bombas, ou moedas, mais sobre minas e bombas mais tarde.
+Quando você tiver 10 moedas, (tecle c para ouvir quantas já tem), você pode ir para o cofre que está exatamente no princípio do nível, e aperte a tecla Enter para inserir as moedas, e pegar a chave. Quando você tiver a chave, você precisa achar a porta para a sala de força; está localizada no canto direito da grade em que você está caminhando. Agora, deixe-me descrever as minas.
+Quando você tiver uma mina, (aperte m para ouvir quantas minas você
+Tem), você pode armá-la pressionando control. Quando você armar uma mina, começará a fazer um sinal de alarme, e depois de alguns segundos, explodirá e o livrará-se de todos os inimigos que estão perto dela.
+Note: Você não pode armar mais de uma mina de uma vez.
+
+As bombas que eu mencionei anteriormente também são muito úteis. Quando você tiver uma bomba, (aperte b para ouvir quantas bombas você tem), você pode segurar a tecla alte e apertar ou a seta esquerda ou a seta direita para lançar a bomba ou à esquerda ou a direita. Se você por exemplo lança uma bomba à direita, se livrará de todos os inimigos que estão atualmente a sua direita, da mesma forma para a esquerda.
+
+O nível é limitado; quanto maior o nível de dificuldade escolhido, menor o tempo para concluir este nível.
+Aperte r para ouvir quanto tempo resta para você antes da montanha começar a se quebrar e você morrer. Se a montanha se quebrar, você perde uma vida, mas se não for sua última vida, você fica com tempo completo novamente. Porém quando isso acontecer, você perde todas as suas moedas e minas, e sua chave também, se você tiver com ela. Então se a montanha se quebrar, você terá que conseguir 10 moedas novamente, e inseri-las no cofre para pegar a chave.
+
+Uma advertência, não use suas armas no cofre, isso pode levar a surpresas não desejadas.
+
+
+* Instruções para nível 6, Batalha com Torgones.
+Neste nível difícil, você está lutando com Torgones, porque quando você pegar aarma do poder, um alarme dispara, alertando todos 
+Eles de sua presença. Você move seu canhão com as setas esquerda e direita, e quando ouvir um Torgone, você precisa apontar para ele movendo seu canhão de forma que a voz do Torgone esteja no centro de seu campo de audição. Quando estiver, você pode começar a atirar. Cada Torgone requer 5 tiros para morrer. Se você ouvir um ruído de clique quando tentar atirar, então você ficou sem munição e terá que apertar control para recarregar seu canhão com 5 novas balas. Você não pode recarregar seu canhão se tiver mais de 0 balas restantes.
+Seu poderoso canhão também está equipado com um sonar que emite um som agudo quando você estiver na mira para atirar em um Torgone. Você pode ligar ou desligar o sonar teclando tab.
+
+Também, para dificultar ainda mais, existe um Torgone com forças especiais no nível, chamado Insane Blaster. O Insane Blaster move-se através da tela sem disparar nada, ele se move ao acaso da esquerda para direita, ou da direita para a esquerda. Se ele conseguir correr por toda a tela sem ser morto por você, ele usa suas armas especiais, ele lança uma espécie de bomba com direção  própria que machucará muito você. Em fácil, levará 3 forças, em médio levará 5 forças, e em difícil e insano você morrerá imediatamente! Então tenha certeza de matar o Insane Blaster antes de ele percorrer toda a tela!
+O Insane Blaster requer 10 tiros para morrer em vez de 5 como os Torgones normais.
+
+
+* Instruções para nível 7, a luta final.
+Neste nível, você acabou com todos os Torgones, e agora você tem que matar seu líder. Ele é realmente forte, e rápido. Se ele é realmente inteligente eu não sei, mas pelo menos inteligente suficiente para fazer-me suar quando eu lutei contra ele. Ele tem um estilingue, e um canhão. Quando você ouvir seu estilingue, você precisa desviar-se depressa para evitar ser atingido. Quando você o ouvir muito perto do centro, ou diretamente no centro, atire tão rápido quanto puder para o ferir!
+Se você ouvir um ruído de clique quando tentar atirar, precisará recarregar seu canhão teclando control, então você terá 5 novas balas. Existem objetos de bônus neste nível, apenas passando por eles você conseguirá pegar. O problema é que o líder é tão inteligente que ele tenta pegar estes também! Quem pegar um objeto de bônus ganha 5 forças extra. Eu só direi uma coisa, fogo, Tarzan!
+
+
+* Instruções para nível 8, fuga da avalanche.
+Este é o nível final do jogo. Depois de matar o líder dos Torgones, você ouve um ruído forte ao longe. Você e os Torgones lutaram tão fortemente que provocaram uma rachadura na montanha, e agora ela vem como uma avalanche de grandes pedras da qual você precisa fugir. Quando começar o nível, você ainda está na
+Montanha, e a únicas coisa que você precisa fazer é correr tão rápido quanto puder. Mas ao correr, você de repente ouvirá seus passos na grama em vez de no chão da montanha. Então você correu para fora da montanha, mas a avalanche está ainda atrás de você. Além disso, existem elefantes correndo do lado de fora da montanha.
+Se você ouvir passos do elefante, tente saltar sobre suas costas, você ouvirá um som indicando que foi bem sucedido quando você cair sobre as costas dele. Mas se você saltar na hora errada, o elefante pisa em você, e um pé de elefante na cabeça não parece muito bom... Se ele pisa em você, é claro que você morre. Se você conseguir pular sobre as costas do  elefante
+poderá montar nele por alguns segundos antes que ele perceba que você está lá, e o jogue para fora das suas costas, e você terá que correr sozinho novamente. Mas esteja avisado, existe mais de um elefante no nível. Se você correr muito lentamente, você morrerá na avalanche, mas você já deve ter advinhado isto.
+
+
+* Salvar/carregar jogo salvo.
+Você pode salvar um jogo para continuar mais tarde se quiser. Para fazer isto, siga estes passos:
+1. Enquanto estiver em um dos níveis do jogo, aperte p para pausar o jogo.
+2. No menu de pausa, escolha "salvar jogo"
+3. Voila! Se você jogar a versão registrada, uma voz dirá, "jogo salvo".
+Para carregar um jogo salvo, simplesmente escolha "carregar jogo salvo" no menu principal. 
+Só existe um pequeno problema. Tarzan junior salva o jogo corrente em um cookie em seu computador. Um cookie é um arquivo de texto que muitas páginas de internet salvam em seu disco rígido. Por exemplo, se você já comprou algo online, e preencheu suas informações em um formulário, e da próxima vez que carregar a página, as caixas de texto já estiverem com suas informações, isto provavelmente é um cookie. Como Tarzan junior é codificado em JavaScript, precisa usar cookies; Não existe nenhum outro modo. Mas o problema que eu quero dizer, é que pode ser que você ou outra pessoa tenha desativado cookies ou configurou a data de expiração por volta de 1, então. O jogo Tarzan júnior só será salvo por tantos dias quantos estejam configurada a data de expiração dos cookies em seu navegador de internet. Se você desativar cookies, a função de salvamento não funcionará mesmo.
+
+
+* Informações de Contato.
+Se você quiser contactar-me, sinta-se livre para me mandar um e-mail. Meu endereço é:
+Philip_bennefall@hotmail.com
+Este também é meu msn.
+O endereço do meu site na web é:
+Http://www.pbsoundscape.net/
+
+Copyright (c) Pb Games, 2004.

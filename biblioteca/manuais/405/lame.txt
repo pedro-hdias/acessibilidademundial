@@ -1,0 +1,42 @@
+LAME versão 3.92 MMX  (http://www.mp3dev.org/)
+
+uso mais comum:
+    lame -h input.wav output.mp3
+
+uso completo:
+    LAME [opções] <arqentrada> [arqsaida]
+
+Notas:
+1. os nomes dos arquivos de entrada e saida não podem conter espaços em branco
+
+2. o comando acima assume que o LAME está instalado no
+      diretório \windows ou qualquer outro.
+
+3. <infile> e/ou <outfile> podem ser "-", o que significa stdin ou stdout
+
+OPÇÕES:
+    -h              (higher quality) qualidade melhor, conversão mais lenta
+		    O modo h é geralmente recomendado.
+
+    -f              (fast mode) - modo rápido (qualidade menor)
+
+    -b bitrate      ajusta a taxa de saida, assume 128 kbps se não informar
+
+    -k              (keep ALL frequencies) elimina todos os filtros de áudio
+                    Pode causar barulhinhos no áudio
+
+    -m modo         (s)tereo, (j)oint, (m)ono or (a)uto
+                    default is (j) or (s) depending on bitrate
+
+    -V n            fator de qualidade do VBR (variable bit rate). assume n=4
+
+    --preset <tipo>   ajustes automáticos para saida.  
+		    use os valores phone, voice, fm, tape, hifi, cd or studio
+                    "--preset help" gives some more infos on these
+
+    --alt-preset <tipo>   tipo deve ser um dos seguintes
+		    "standard", "extreme", "insane",
+                    ou um valor para o bitrate médio desejado; serão usados
+                    valores de qualidade compatíveis.
+
+    --longhelp      obtém uma lista completa de opções
