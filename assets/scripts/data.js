@@ -30,7 +30,7 @@ if (!mName < 10) {
     Month = "0" + mName;
 }
 yearNr = 1900 + yearNr;
-var data = Day + "/" + Month + "/" + yearNr;
+var data = Day + ", " + dayNr + "/" + Month + "/" + yearNr;
 
 function Horario() {
     var Hoje = new Date();
