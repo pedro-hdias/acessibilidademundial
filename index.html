@@ -25,43 +25,44 @@
   <BODY>
     <div class="container">
       <div class="row cols-sm-3">
-        <div id="linguagem" class="col">
-          <div id="google_translate_element"></div>
-          <script>
-            function googleTranslateElementInit() {
-              new google.translate.TranslateElement({
-                pageLanguage: 'pt',
-                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
-                autoDisplay: false
-              }, 'google_translate_element');
-            }
-          </script>
-          <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"> </script>
-        </div>
-        <div CLASS="col-sm-6 descricao-layout">
-          <SECTION TITLE="Topo">
-            <p><a name="topo-pg" id="Topo-pg">Topo da p&aacute;gina.</a></p>
-          </SECTION>
-        </div>
-        <div id="va" class="col menu" CONTENTEDITABLE="false" NOWRAP>
-          <SECTION TITLE="Se&ccedil;&otilde;es desta p&aacute;gina">
-            <p>Ce&ccedil;&otilde;es desta p&aacute;gina:</p>
-            <NAV CLASS="menu">
-              <UL ID="va" ROLE="menuitem">
-                <li><A HREF="#menu" accesskey="1">Pule para o Menu.</A></li>
-                <li><a href="#conteudo" accesskey="2">Pule ao conteudo.</a></li>
-                <li><A HREF="#social" accesskey="3">Pule para o Menu Social.</A></li>
-              </UL>
-            </NAV>
-          </SECTION>
-        </div>
+        <header>
+          <div id="linguagem" class="col">
+            <div id="google_translate_element"></div>
+            <script>
+              function googleTranslateElementInit() {
+                new google.translate.TranslateElement({
+                  pageLanguage: 'pt',
+                  layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                  autoDisplay: false
+                }, 'google_translate_element');
+              }
+            </script>
+            <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"> </script>
+          </div>
+          <div CLASS="col-sm-6 descricao-layout">
+            <SECTION TITLE="Topo">
+              <p><a name="topo-pg" id="Topo-pg">Topo da p&aacute;gina.</a></p>
+            </SECTION>
+          </div>
+          <div id="va" class="col menu" CONTENTEDITABLE="false" NOWRAP>
+            <SECTION TITLE="Se&ccedil;&otilde;es desta p&aacute;gina">
+              <NAV CLASS="menu">
+                t <UL ID="va" ROLE="menuitem">
+                  <li><A HREF="#menu" accesskey="1">Pule para o Menu.</A></li>
+                  <li><a href="#conteudo" accesskey="2">Pule ao conteúdo.</a></li>
+                  <li><A HREF="#social" accesskey="3">Pule para o Menu Social.</A></li>
+                </UL>
+              </NAV>
+            </SECTION>
+          </div>
+        </header>
       </div>
-      <div class="row text-sm-center">
-        <div ID="cabecalho" class="col justify-content-center">
-          <HEADER>
+      <div class="row text-sm-center justify-content-center">
+        <header>
+          <div ID="cabecalho" class="col justify-content-center">
             <H1><A HREF="#topo-pg">Seja bem-vindo!</A> </H1>
-          </HEADER>
-        </div>
+          </div>
+        </header>
       </div>
       <div class="row cols-sm-2">
         <div ID="menu" class="col-4">
@@ -100,29 +101,18 @@
                     <input type="text" name="q" size="25" maxlength="255" value="" />
                     <input type="reset" value="limpar" />
                     <input type="submit" value="Enviar ao Google" />
-                    <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
-                      codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0 . 0"
-                      width="100" height="30" id="online" align="middle">
-                      <param name="allowScriptAccess" value="sameDomain" />
-                      <param name="movie" value="online.swf" />
-                      <param name="quality" value="high" />
-                      <param name="bgcolor" value="#000000" />
-                      <embed src="online.swf" quality="high" bgcolor="#000000" width="100" height="30" name="online"
-                        align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash"
-                        pluginspage="http://www.macromedia.com/go/getflashp layer" />
-                    </object>
                   </div>
                 </form>
               </SECTION>
             </SECTION>
           </div>
         </div>
-        <div CLASS="col cabecalho">
+        <div CLASS="col cabecalho" id="conteudo">
           <main>
             <SECTION TITLE="Boas vindas!">
               <HEADER>
                 <p>
-                  <SCRIPT LANGUAGE="JAVASCRIPT">
+                  <SCRIPT>
                     var now = new Date();
                     var mName = now.getMonth() + 1;
                     var dName = now.getDay() + 1;
@@ -149,89 +139,34 @@
                     if (dName == 7) {
                       Day = "S&aacute;bado";
                     }
-                    if (mName == 1) {
-                      Month = "de Janeiro";
+                    if (!mName < 10) {
+                      Month = "0" + mName;
                     }
-                    if (mName == 2) {
-                      Month = "de Fevereiro";
-                    }
-                    if (mName == 3) {
-                      Month = "de Mar&ccedil;o";
-                    }
-                    if (mName == 4) {
-                      Month = "de Abril";
-                    }
-                    if (mName == 5) {
-                      Month = "de Maio";
-                    }
-                    if (mName == 6) {
-                      Month = "de Junho";
-                    }
-                    if (mName == 7) {
-                      Month = "de Julho";
-                    }
-                    if (mName == 8) {
-                      Month = "de Agosto";
-                    }
-                    if (mName == 9) {
-                      Month = "de Setembro";
-                    }
-                    if (mName == 10) {
-                      Month = "de Outubro";
-                    }
-                    if (mName == 11) {
-                      Month = "de Novembro";
-                    }
-                    if (mName == 12) {
-                      Month = "de Dezembro";
-                    }
-                    if (yearNr < 2000) {
-                      Year = 1900 + yearNr;
-                    } else {
-                      Year = yearNr;
-                    }
-                    var todaysDate = (" " + Day + ", " + dayNr + ", " + Month + " de " + Year);
-                    document.write(' Hoje &eacute;:' + todaysDate + ',');
+                    yearNr = 1900 + yearNr;
+                    document.write(`Olá, hoje é: ${Day}, ${dayNr}/${Month}/${yearNr}`);
                   </SCRIPT>
 
                   <SPAN ID="Clock">00:00:00</SPAN>
 
-                  <SCRIPT LANGUAGE="JavaScript">
+                  <SCRIPT>
                     var Elem = document.getElementById("Clock");
 
                     function Horario() {
-
                       var Hoje = new Date();
-
                       var Horas = Hoje.getHours();
-
                       if (Horas < 10) {
-
                         Horas = "0" + Horas;
-
                       }
-
                       var Minutos = Hoje.getMinutes();
-
                       if (Minutos < 10) {
-
                         Minutos = "0" + Minutos;
-
                       }
-
                       var Segundos = Hoje.getSeconds();
-
                       if (Segundos < 10) {
-
                         Segundos = "0" + Segundos;
-
                       }
-
-                      Elem.innerHTML = "Agora s&atilde;o: " + Horas + " horas, " + Minutos + " minutos e " +
-                        Segundos +
-                        " segundos.";
+                      Elem.innerHTML = `${Horas}:${Minutos}:${Segundos}`;
                     }
-
                     window.setInterval("Horario()", 1000);
                   </SCRIPT>
                 </p>
@@ -254,75 +189,75 @@
             </SECTION>
           </main>
         </div>
-      </di>
-      <br>
-      <div class="row cols-sm-3">
-        <div id="social" class="col">
-          <p>Estamos nos esfor&ccedil;ando para enteragir cada vez mais com voc&ecirc;s nas redes. Compartilhe nosso
-            site no Facebook:</p>
-          <div id="fb-root"></div>
-          <script>
-            (function (d, s, id) {
-              var js, fjs = d.getElementsByTagName(s)[0];
-              if (d.getElementById(id)) return;
-              js = d.createElement(s);
-              js.id = id;
-              js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
-              fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));
-          </script>
-
-          <!-- Your share button code -->
-          <div class="fb-share-button" data-href="https://www.your-domain.com/your-page.html"
-            data-layout="button_count">
-          </div>
-        </div>
-        <div class="col">
-          <p>E no WhatsApp? compartilhe para seus amigos:</p>
-          <button><span class="ShareWhatsApp"><a
-                href="whatsapp://send?text=Ea&iacute;!  Vim te fazer um convite:  Acesse o site AcessibilidadeMundial16MB e veja in&uacute;meros conte&uacute;dos interessant&iacute;cimos. Segue o link pra voc&ecirc;: <BR>"><img
-                  src="slogan.gif" width="200" height="200" border="0" alt="Compartilhe no WhatsApp"
-                  title="Necessita do WhatsApp estar instalado."></a></span></button>
-        </div>
-        <div class="col">
-          <p>Compartilhe pros seus amigos no Twitter:</p>
-          <button><a href="https://twitter.com/share" class="twitter-share-button"
-              data-url="acessibilidademundial.16mb.com"
-              data-text="AcessibilidadeMundial, Levando a Acessibilidade At&eacute; voc&ecirc;!" data-via="pedro20161"
-              data-lang="pt" data-related="pedrodias">Tweetar</a></button>
-          <script>
-            ! function (d, s, id) {
-              var js, fjs = d.getElementsByTagName(s)[0],
-                p = /^http:/.test(d.location) ? 'http' : 'https';
-              if (!d.getElementById(id)) {
+        </di>
+        <br>
+        <div class="row cols-sm-3">
+          <div id="social" class="col">
+            <p>Estamos nos esfor&ccedil;ando para enteragir cada vez mais com voc&ecirc;s nas redes. Compartilhe nosso
+              site no Facebook:</p>
+            <div id="fb-root"></div>
+            <script>
+              (function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
                 js = d.createElement(s);
                 js.id = id;
-                js.src = p + '://platform.t  witter.com/ widgets.js';
+                js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
                 fjs.parentNode.insertBefore(js, fjs);
-              }
-            }(document, 'script', 'twitter-wjs');
-          </script>
-        </div>
-      </div>
-      <br>
-      <div CLASS="row-cols-sm-3 Barra_Azul">
-        <div class="col">
-          <UL><A HREF="#Topo-pg" title="Volte ao topo">Topo</A> </UL>
-        </div>
-        <div class="col">
-          <P ID="imprecao" CLASS="imprecao">acessibilidademundial16mb - acessibilidademundial.16mb.com</P>
-        </div>
-      </div>
-      <footer>
-        <div class="row-cols-sm-2">
-          <div class="col">
-            <p>Acessibilidademundial16mb&#8211; Copyright &#169; 2016|<SPAN ID="copyright">...</SPAN></p>
+              }(document, 'script', 'facebook-jssdk'));
+            </script>
+
+            <!-- Your share button code -->
+            <div class="fb-share-button" data-href="https://www.your-domain.com/your-page.html"
+              data-layout="button_count">
+            </div>
           </div>
           <div class="col">
-            <p>ACESSIBILIDADEMUNDIAL16MB &#8211; Todos os Direitos Reservados</p>
+            <p>E no WhatsApp? compartilhe para seus amigos:</p>
+            <button><span class="ShareWhatsApp"><a
+                  href="whatsapp://send?text=Ea&iacute;!  Vim te fazer um convite:  Acesse o site AcessibilidadeMundial16MB e veja in&uacute;meros conte&uacute;dos interessant&iacute;cimos. Segue o link pra voc&ecirc;: <BR>"><img
+                    src="slogan.gif" width="200" height="200" border="0" alt="Compartilhe no WhatsApp"
+                    title="Necessita do WhatsApp estar instalado."></a></span></button>
           </div>
-      </footer>
-    </div>
+          <div class="col">
+            <p>Compartilhe pros seus amigos no Twitter:</p>
+            <button><a href="https://twitter.com/share" class="twitter-share-button"
+                data-url="acessibilidademundial.16mb.com"
+                data-text="AcessibilidadeMundial, Levando a Acessibilidade At&eacute; voc&ecirc;!" data-via="pedro20161"
+                data-lang="pt" data-related="pedrodias">Tweetar</a></button>
+            <script>
+              ! function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0],
+                  p = /^http:/.test(d.location) ? 'http' : 'https';
+                if (!d.getElementById(id)) {
+                  js = d.createElement(s);
+                  js.id = id;
+                  js.src = p + '://platform.t  witter.com/ widgets.js';
+                  fjs.parentNode.insertBefore(js, fjs);
+                }
+              }(document, 'script', 'twitter-wjs');
+            </script>
+          </div>
+        </div>
+        <br>
+        <div CLASS="row-cols-sm-3 Barra_Azul">
+          <div class="col">
+            <UL><A HREF="#Topo-pg" title="Volte ao topo">Topo</A> </UL>
+          </div>
+          <div class="col">
+            <P ID="imprecao" CLASS="imprecao">acessibilidademundial16mb - acessibilidademundial.16mb.com</P>
+          </div>
+        </div>
+        <footer>
+          <div class="row-cols-sm-2">
+            <div class="col">
+              <p>Acessibilidademundial16mb&#8211; Copyright &#169; 2016|<SPAN ID="copyright">...</SPAN></p>
+            </div>
+            <div class="col">
+              <p>ACESSIBILIDADEMUNDIAL16MB &#8211; Todos os Direitos Reservados</p>
+            </div>
+        </footer>
+      </div>
   </BODY>
   <!-- scripts -->
   <script src="js/widgets.js" id="twitter-wjs"></script>
