@@ -111,66 +111,8 @@
           <main>
             <SECTION TITLE="Boas vindas!">
               <HEADER>
-                <p>
-                  <SCRIPT>
-                    var now = new Date();
-                    var mName = now.getMonth() + 1;
-                    var dName = now.getDay() + 1;
-                    var dayNr = now.getDate();
-                    var yearNr = now.getYear();
-                    if (dName == 1) {
-                      Day = "Domingo";
-                    }
-                    if (dName == 2) {
-                      Day = "Segunda-feira";
-                    }
-                    if (dName == 3) {
-                      Day = "Ter&#231;a-feira";
-                    }
-                    if (dName == 4) {
-                      Day = "Quarta-feira";
-                    }
-                    if (dName == 5) {
-                      Day = "Quinta-feira";
-                    }
-                    if (dName == 6) {
-                      Day = "Sexta-feira";
-                    }
-                    if (dName == 7) {
-                      Day = "S&aacute;bado";
-                    }
-                    if (!mName < 10) {
-                      Month = "0" + mName;
-                    }
-                    yearNr = 1900 + yearNr;
-                    document.write(`Olá, hoje é: ${Day}, ${dayNr}/${Month}/${yearNr}`);
-                  </SCRIPT>
-
-                  <SPAN ID="Clock">00:00:00</SPAN>
-
-                  <SCRIPT>
-                    var Elem = document.getElementById("Clock");
-
-                    function Horario() {
-                      var Hoje = new Date();
-                      var Horas = Hoje.getHours();
-                      if (Horas < 10) {
-                        Horas = "0" + Horas;
-                      }
-                      var Minutos = Hoje.getMinutes();
-                      if (Minutos < 10) {
-                        Minutos = "0" + Minutos;
-                      }
-                      var Segundos = Hoje.getSeconds();
-                      if (Segundos < 10) {
-                        Segundos = "0" + Segundos;
-                      }
-                      Elem.innerHTML = `${Horas}:${Minutos}:${Segundos}`;
-                    }
-                    window.setInterval("Horario()", 1000);
-                  </SCRIPT>
-                </p>
-                <H1 class="justify-content-center">Seja bem-vindo!</H1>
+                <span id="Clock"></span>
+                <h2 class="justify-content-center">Seja bem-vindo!</h2>
               </HEADER>
               <div ID="intro" class="justify-content-center">
                 <P CLASS="conteudo">ACESSIBILIDADEMUNDIAL16MB &#8211; Levando A Acessibilidade At&eacute;
@@ -260,8 +202,10 @@
       </div>
   </BODY>
   <!-- scripts -->
-  <script src="js/widgets.js" id="twitter-wjs"></script>
-  <script gapi_processed="true" src="js/platform.js" async="" type="text/javascript"></script>
+  <script src="./assets/scripts/data.js" ></script>
+  <script src="./assets/scripts/widgets.js" id="twitter-wjs"></script>
+
+
   <script src="js/copyNote.js"></script>
   <!-- scripts of the framework.-->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
