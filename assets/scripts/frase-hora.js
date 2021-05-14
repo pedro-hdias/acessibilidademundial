@@ -1,6 +1,7 @@
-var frase = document.getElementById("frase");
-
 function frases() {
+    var frase = document.getElementById("frase");
+
+
     var Digital = new Date();
     var hours = Digital.getHours();
     if (hours >= 5 && hours <= 11) {
@@ -20,6 +21,6 @@ function frases() {
     } else {
         var frase1 = 'Seja bem-vindo (A), estamos felizes em ter-te aqui pouco antes de ir para a cama, como podemos ajudar?';
     }
+    frase.innerHTML = frase1;
 }
-frase.innerHTML = frase1;
-window.setInterval("frases()", 60000);
+window.setInterval('frases()', 1000);
