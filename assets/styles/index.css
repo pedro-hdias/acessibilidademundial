@@ -6,7 +6,7 @@ VLINK: #191970;
 BACKGROUND: #D3D3D3;
 BGPROPERTIES: fixed;
 FONT-SIZE: 18pt;
-FONT-FAMILY: Times News Roman, Arial, Euvetica, Verdana;
+FONT-FAMILY: 'Noto Sans JP', Roboto, sans-serif;
 text-indent: 1cm;
 }
 
@@ -23,7 +23,7 @@ BGPROPERTIES: fixed;
 
 H1 {
 FONT-SIZE: 26pt;
-FONT-FAMILY: Lucida Calligraphy, Verdana, Euvetica, Arial;
+
 COLOR: ;
 ALIGN: Center;
 }
