@@ -1,104 +1,80 @@
+html {
+    scroll-behavior: smooth;
+}
+
 BODY {
-COLOR: #000000;
-LINK: #0000FF;
-ALINK: #BEBEBE;
-VLINK: #191970;
-BACKGROUND: #D3D3D3;
-BGPROPERTIES: fixed;
-FONT-SIZE: 18pt;
-FONT-FAMILY: 'Noto Sans JP', Roboto, sans-serif;
-text-indent: 1cm;
+    padding: 0%;
+    margin: 0%;
+    COLOR: #000;
+    BACKGROUND: #D3D3D3;
+    FONT-SIZE: larger;
+    font-family: Impact, Haettenschweiler, sans-serif;
+    text-indent: 1cm;
+}
+
+a {
+    text-decoration: unset;
 }
 
 #va UL {
-    padding:0px;
-    margin:0px;
-    list-style:none;
-float:right;
-width:30%;
-background-color: #FFFFFF;
-color: #00BFFF;
-BGPROPERTIES: fixed;
+    list-style: none;
+    background-color: #FFF;
+    color: rgb(40, 20, 10);
 }
 
-H1 {
-FONT-SIZE: 26pt;
+.topo {
+    font-size: medium;
+    font-family: Haettenschweiler, sans-serif;
+    text-align: center;
+}
 
-COLOR: ;
-ALIGN: Center;
+.cabecalho {
+    FONT-SIZE: larger;
+    font-family: Haettenschweiler, sans-serif;
+    COLOR: darkblue;
+}
+
+h1 {
+    font-size: 35pt;
+    font-family: Verdana, Tahoma, sans-serif, Impact, Haettenschweiler;
 }
 
 H2 {
-FONT-SIZE: 20pt;
-FONT-FAMILY: Arial, Euvetica, Times News Roman;
-COLOR: #8A2BE2;
-ALIGN: Center;
+    font-size: medium;
+    font-family: Impact, Haettenschweiler, sans-serif;
+    COLOR: #8A2BE2;
 }
 
-#menu UL {
-            padding:0px;
-    margin:0px;
-    background-color: #006400;
-color: #FFFFFF;
-    list-style: none;
-float: left;
-width: 150px;
-BGPROPERTIES: fixed;
+.menu {
+    display: flex;
+    justify-content: space-between;
 }
 
-#menu UL LI {
-position: relative;
-}
-
-li ul {
-        position: absolute;
-        left: 149px;
-        top: 0;
-        display: none;
-        }
-
-#menu UL LI A {
-    padding: 2px 10px;
-    display: block;
+.menu UL {
+    padding: 0px;
+    margin: 0px;
     background-color: #006400;
     color: #FFFFFF;
-    text-decoration: none;
-    border-bottom:3px solid #EDEDED;
+    list-style: none;
 }
 
 #menu UL LI A:HOVER {
     background-color: #006400;
-    color:  #FFFFFF;
-    border-bottom:3px solid #EA0000;<nav id="menu">
+    color: #FFFFFF;
+    border-bottom: 3px solid #EA0000;
 }
 
 UL {
-    padding:0px;
-    margin:0px;
-    list-style:none;
-float:left;
-width:100%;
-BGPROPERTIES: fixed;
-}
-
-#infotecsos DIV {
-text-align: right;
-text-indent: 2 cm;
-font-family: elvetica, sans-serif, arial, robots, time news roman;
-font-size: 12pt;
-background-color: #FFFFFF;
-color: #FF0000;
-BGPROPERTIES: fixed;
-}
-
-#lv UL {
     padding: 0px;
     margin: 0px;
     list-style: none;
-float: center;
-width: 100%;
-BGPROPERTIES: fixed;
 }
 
-IFRAME {
-Text-align: right;
+.buscar-google {
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    padding: 20%;
+}
